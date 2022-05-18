@@ -1,0 +1,1880 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Reaction Rates</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>cd7fe259-8430-427c-a270-6f1fa50dd962</md:uuid>
+</metadata>
+<content>
+<section id="id3470164">
+<title>Foundation</title>
+<para id="id3470172">We will assume an understanding of the
+postulates of the 
+<term>Kinetic Molecular Theory</term> and of the energetics of
+chemical reactions. We will also assume an understanding of phase
+equilibrium and reaction equilibrium, including the temperature
+dependence of equilibrium constants.</para>
+</section>
+
+<section id="id3470193">
+<title>Goals</title>
+<para id="id3470201">We have carefully examined the observation
+that chemical reactions come to equilibrium. Depending on the
+reaction, the equilibrium conditions can be such that there is a
+mixture of reactants and products, or virtually all products, or
+virtually all reactants. We have not considered the time scale for
+the reaction to achieve these conditions, however. In many cases,
+the speed of the reaction might be of more interest than the final
+equilibrium conditions of the reaction. Some reactions proceed so
+slowly towards equilibrium as to appear not to occur at all. For
+example, metallic iron will eventually oxidize in the presence of
+aqueous salt solutions, but the time is sufficiently long for this
+process that we can reasonably expect to build a boat out of iron.
+On the other hand, some reactions may be so rapid as to pose a
+hazard. For example, hydrogen gas will react with oxygen gas so
+rapidly as to cause an explosion. In addition, the time scale for a
+reaction can depend very strongly on the amounts of reactants and
+their temperature.</para>
+<para id="id3472450">In this concept development study, we seek an
+understanding of the rates of chemical reactions. We will define
+and measure reaction rates and develop a quantitative analysis of
+the dependence of the reaction rates on the conditions of the
+reaction, including concentration of reactants and temperature.
+This quantitative analysis will provide us insight into the process
+of a chemical reaction and thus lead us to develop a model to
+provide an understanding of the significance of reactant
+concentration and temperature.</para>
+<para id="id3472469">We will find that many reactions proceed quite
+simply, with reactant molecules colliding and exchanging atoms. In
+other cases, we will find that the process of reaction can be quite
+complicated, involving many molecular collisions and rearrangements
+leading from reactant molecules to product molecules. The rate of
+the chemical reaction is determined by these steps.</para>
+</section>
+
+<section id="obs1">
+<title>Observation 1: Reaction Rates</title>
+<para id="id3472494">We begin by considering a fairly simple
+reaction on a rather elegant molecule. One oxidized form of
+buckminsterfullerene
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub></m:mrow></m:math>
+is
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>,
+with a three oxygen bridge as shown in <link target-id="fig1"/>.</para>
+
+<figure id="fig1">
+<title>Oxidized Buckminsterfullerene</title>
+<media id="idp1488848" alt=""><image src="../../media/fig1-82ed.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1-274d.eps" mime-type="application/postscript"/></media>
+</figure>
+
+<para id="id3472551">
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+is prepared from
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub></m:mrow></m:math>
+dissolved in toluene solution at temperatures of
+<m:math><m:apply><m:times/><m:cn>0</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>
+or below. When the solution is warmed,
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+decomposes, releasing
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and creating
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:mi>O</m:mi></m:mrow></m:math>
+in a reaction which goes essentially to completion. We can actually
+watch this process happen in time by measuring the amount of light
+of a specific frequency absorbed by the
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+molecules, called the 
+<term>absorbance</term>. The absorbance is proportional to the
+concentration of the
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+in the toluene solution, so observing the absorbance as a function
+of time is essentially the same as observing the concentration as a
+function of time. One such set of data is given in <link target-id="table1"/>, and is shown in the graph in
+<link target-id="fig2"/>.</para>
+
+<table id="table1" summary="">
+<title>Oxidized Buckminsterfullerene Absorbance during Thermal Decomposition at 23°C</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>time (minutes)</entry>
+<entry><m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+absorbance</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>3</entry>
+<entry>0.04241</entry>
+</row>
+<row>
+<entry>9</entry>
+<entry>0.03634</entry>
+</row>
+<row>
+<entry>15</entry>
+<entry>0.03121</entry>
+</row>
+<row>
+<entry>21</entry>
+<entry>0.02680</entry>
+</row>
+<row>
+<entry>27</entry>
+<entry>0.02311</entry>
+</row>
+<row>
+<entry>33</entry>
+<entry>0.01992</entry>
+</row>
+<row>
+<entry>39</entry>
+<entry>0.01721</entry>
+</row>
+<row>
+<entry>45</entry>
+<entry>0.01484</entry>
+</row>
+<row>
+<entry>51</entry>
+<entry>0.01286</entry>
+</row>
+<row>
+<entry>57</entry>
+<entry>0.01106</entry>
+</row>
+<row>
+<entry>63</entry>
+<entry>0.00955</entry>
+</row>
+<row>
+<entry>69</entry>
+<entry>0.00827</entry>
+</row>
+<row>
+<entry>75</entry>
+<entry>0.00710</entry>
+</row>
+<row>
+<entry>81</entry>
+<entry>0.00616</entry>
+</row>
+<row>
+<entry>87</entry>
+<entry>0.00534</entry>
+</row>
+<row>
+<entry>93</entry>
+<entry>0.00461</entry>
+</row>
+<row>
+<entry>99</entry>
+<entry>0.00395</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure id="fig2">
+<title>Oxidized Buckminsterfullerene Absorbance</title>
+<media id="idp592240" alt=""><image src="../../media/fig2-abf4.png" mime-type="image/png"/><image for="pdf" src="../../media/fig2-768a.eps" mime-type="application/postscript"/></media>
+</figure>
+<para id="id3676231">The rate at which the decomposition reaction
+is occurring is clearly related to the rate of change of the
+concentration
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>,
+which is proportional to the slope of the graph in <link target-id="fig2"/>. Therefore, we define the rate of
+this reaction as
+
+<equation id="eqn1">
+<m:math><m:apply><m:approx/><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply>
+<m:minus/><m:apply><m:diff/><m:bvar><m:ci>t</m:ci></m:bvar>
+<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:apply>
+<m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>t</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>
+
+</equation>
+
+We want the rate of reaction to be positive,
+since the reaction is proceeding forward. However, because we are
+measuring the rate of disappearance of the reactant in this case,
+that rate is negative. We include a negative sign in this
+definition of rate so that the rate in <link target-id="eqn1"/> is a positive number. Note also that
+the slope of the graph in <link target-id="fig2"/>
+should be taken as the derivative of the graph, since the graph is
+not a straight line. We will approximate that derivative by
+estimating the slope at each time in the data, taking the change in
+the absorbance of the
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+divided by the change in time at each time step. The rate,
+calculated in this way, is plotted as a function of time in
+<link target-id="fig3"/>.</para>
+<figure id="fig3">
+<title>Rate of Decomposition</title>
+<media id="idm530256" alt=""><image src="../../media/fig3-a228.png" mime-type="image/png"/><image for="pdf" src="../../media/fig3-d6ec.eps" mime-type="application/postscript"/></media>
+</figure>
+<para id="id3479730">It is clear that the slope of the graph in
+<link target-id="fig2"/> changes over the course of
+time. Correspondingly, <link target-id="fig3"/>
+shows that the rate of the reaction decreases as the reaction
+proceeds. The reaction is at first very fast but then slows
+considerably as the reactant
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+is depleted.</para>
+<para id="id3479760">The shape of the graph for rate versus time
+(<link target-id="fig3"/>) is very similar to the
+shape of the graph for concentration versus time (<link target-id="fig2"/>). This suggests that the rate of the
+reaction is related to the concentration of
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+at each time. Therefore, in <link target-id="fig4"/>, we plot the rate of the reaction,
+defined in <link target-id="eqn1"/> and shown in
+<link target-id="fig3"/>, versus the absorbance of
+the
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>.</para>
+<figure id="fig4">
+<title>Rate versus Concentration</title>
+<media id="idm6385200" alt=""><image src="../../media/fig4-f5c5.png" mime-type="image/png"/><image for="pdf" src="../../media/fig4-b4d2.eps" mime-type="application/postscript"/></media>
+</figure>
+<para id="id3479826">We find that there is a very simple
+proportional relationship between the rate of the reaction and the
+concentration of the reactant. Therefore, we can write
+
+<equation id="eqn2">
+<m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:minus/>
+<m:apply><m:diff/><m:bvar><m:ci>t</m:ci></m:bvar><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply><m:apply><m:times/><m:ci>k</m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math>
+</equation>
+
+where
+<m:math><m:ci>k</m:ci></m:math> is a
+proportionality constant. This equation shows that, early in the
+reaction when
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+is large, the reaction proceeds rapidly, and that as
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+is consumed, the reaction slows down. <link target-id="eqn2"/> is an example of a 
+<term>rate law</term>, expressing the relationship between the rate
+of a reaction and the concentrations of the reactant or reactants.
+Rate laws are expressions of the relationship between
+experimentally observed rates and concentrations.</para>
+<para id="pdimer">As a second example of a reaction rate, we
+consider the dimerization reaction of butadiene gas,
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>=<m:math><m:mrow><m:mi>C</m:mi><m:mi>H</m:mi></m:mrow></m:math>-<m:math><m:mrow><m:mi>C</m:mi><m:mi>H</m:mi></m:mrow></m:math>=<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.
+Two butadiene molecules can combine to form vinylcyclohexene, shown
+in <link target-id="fig5"/>.</para>
+<figure id="fig5">
+<title> Dimerization of Butadiene to
+Vinylcyclohexene</title>
+<media id="idp3467808" alt=""><image src="../../media/fig5-a357.png" mime-type="image/png"/><image for="pdf" src="../../media/fig5-9008.eps" mime-type="application/postscript"/></media>
+</figure>
+<para id="id3676782"><link target-id="table2"/>
+provides experimental data on the gas phase concentration of
+butadiene
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+as a function of time at
+<m:math><m:apply><m:eq/><m:ci>T</m:ci><m:apply><m:times/><m:cn>250</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:apply></m:math>.</para>
+
+<table id="table2" summary="">
+<title>Dimerization of Butadiene at 250°C</title>
+<tgroup cols="5">
+<thead>
+<row>
+<entry>Time (s)</entry>
+<entry><m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math> (M)</entry>
+<entry>Rate (M/s)</entry>
+<entry><m:math><m:apply><m:divide/><m:ci>Rate</m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math></entry>
+<entry><m:math><m:apply><m:divide/><m:ci>Rate</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:apply></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0</entry>
+<entry>0.0917</entry>
+<entry><m:math><m:cn type="e-notation">9.48<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.03<m:sep/>-4</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.13<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>500</entry>
+<entry>0.0870</entry>
+<entry><m:math><m:cn type="e-notation">8.55<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">9.84<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.13<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>1000</entry>
+<entry>0.0827</entry>
+<entry><m:math><m:cn type="e-notation">7.75<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">9.37<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.13<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>1500</entry>
+<entry>0.0788</entry>
+<entry><m:math><m:cn type="e-notation">7.05<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">8.95<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.14<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>2000</entry>
+<entry>0.0753</entry>
+<entry><m:math><m:cn type="e-notation">6.45<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">8.57<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.14<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>2500</entry>
+<entry>0.0720</entry>
+<entry><m:math><m:cn type="e-notation">5.92<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">8.22<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.14<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>3000</entry>
+<entry>0.0691</entry>
+<entry><m:math><m:cn type="e-notation">5.45<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">7.90<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.14<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>3500</entry>
+<entry>0.0664</entry>
+<entry><m:math><m:cn type="e-notation">5.04<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">7.60<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.14<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>4000</entry>
+<entry>0.0638</entry>
+<entry><m:math><m:cn type="e-notation">4.67<m:sep/>-6</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">7.32<m:sep/>-5</m:cn></m:math></entry>
+<entry><m:math><m:cn type="e-notation">1.15<m:sep/>-3</m:cn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="id3563912">We can estimate the rate of reaction at each
+time step as in <link target-id="eqn1"/>, and these
+data are presented in <link target-id="table2"/> as
+well. Again we see that the rate of reaction decreases as the
+concentration of butadiene decreases. This suggests that the rate
+is given by an expression like <link target-id="eqn2"/>. To test this, we calculate
+<m:math><m:apply><m:divide/><m:ci>Rate</m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+in <link target-id="table2"/> for each time step. We
+note that this is 
+<emphasis>not</emphasis> a constant, so <link target-id="eqn2"/> does not describe the relationship
+between the rate of reaction and the concentration of butadiene.
+Instead we calculate
+<m:math><m:apply><m:divide/><m:ci>Rate</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:apply></m:math>
+in <link target-id="table2"/>. We discover that this
+ratio is a constant throughout the reaction. Therefore, the
+relationship between the rate of the reaction and the concentration
+of the reactant in this case is given by
+
+<equation id="eqn3">
+<m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:minus/>
+<m:apply><m:diff/><m:bvar><m:ci>t</m:ci></m:bvar><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>6</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:apply></m:apply></m:math>
+</equation>
+
+which is the rate law for the reaction in
+<link target-id="fig5"/>. This is a very interesting
+result when compared to <link target-id="eqn2"/>. In
+both cases, the results demonstrate that the rate of reaction
+depends on the concentration of the reactant. However, we now also
+know that the way in which the rate varies with the concentration
+depends on what the reaction is. Each reaction has its own rate
+law, observed experimentally.</para>
+</section>
+<section id="id3277694">
+<title>Observation 2: Rate Laws and the Order of Reaction</title>
+<para id="id3277703">We would like to understand what determines
+the specific dependence of the reaction rate on concentration in
+each reaction. In the first case considered above, the rate depends
+on the concentration of the reactant to the first power. We refer
+to this as a 
+<term>first order reaction</term>. In the second case above, the
+rate depends on the concentration of the reactant to the second
+power, so this is called a 
+<term>second order reaction</term>. There are also 
+<term>third order reactions</term>, and even 
+<term>zeroth order reactions</term> whose rates do not depend on the
+amount of the reactant. We need more observations of rate laws for
+different reactions.</para>
+<para id="id3277753">The approach used in the <link target-id="obs1">previous section</link> to
+determine a reaction's rate law is fairly clumsy and at this
+point difficult to apply. We consider here a more systematic
+approach. First, consider the decomposition of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+
+<m:math display="block"><m:mrow><m:mn>2</m:mn><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>4</m:mn>
+<m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+
+We can create an initial concentration of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+in a flask and measure the rate at which the
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+first decomposes. We can then create a different initial
+concentration of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+and measure the new rate at which the
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+decomposes. By comparing these rates, we can find the order of the
+decomposition reaction. The rate law for decomposition of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+is of the general form:
+
+	<equation id="eqn4">
+	  <m:math>
+	    <m:apply>
+                  <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+		  <m:ci>m</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+so we need to determine the exponent
+<m:math><m:ci>m</m:ci></m:math>. For
+example, at
+<m:math><m:apply><m:times/><m:cn>25</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>
+we observe that the rate of decomposition is
+<m:math><m:apply><m:times/><m:cn type="e-notation">1.4<m:sep/>-3</m:cn><m:apply><m:divide/><m:ci>M</m:ci><m:ci>s</m:ci></m:apply></m:apply></m:math>
+when the concentration of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+is
+<m:math><m:apply><m:times/><m:cn>0.020</m:cn><m:ci>M</m:ci></m:apply></m:math>.
+If instead we begin we
+<m:math><m:apply><m:eq/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:times/><m:cn>0.010</m:cn><m:ci>M</m:ci></m:apply></m:apply></m:math>,
+we observe that the rate of decomposition is
+<m:math><m:apply><m:times/><m:cn type="e-notation">7.0<m:sep/>-4</m:cn><m:apply><m:divide/><m:ci>M</m:ci><m:ci>s</m:ci></m:apply></m:apply></m:math>.
+We can compare the rate from the first measurement
+<m:math><m:apply><m:ci type="fn">Rate</m:ci><m:cn>1</m:cn></m:apply></m:math> to
+the rate from the second measurement
+<m:math><m:apply><m:ci type="fn">Rate</m:ci><m:cn>2</m:cn></m:apply></m:math>.
+From <link target-id="eqn4"/>, we can write
+that
+
+	<equation id="eqn5">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:ci type="fn">Rate</m:ci>
+		  <m:cn>1</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:ci type="fn">Rate</m:ci>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>1</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>2</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:cn type="e-notation">1.4<m:sep/>-3</m:cn>
+		  <m:apply>
+		    <m:divide/>
+		    <m:ci>M</m:ci>
+		    <m:ci>s</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:cn type="e-notation">7.0<m:sep/>-4</m:cn>
+		  <m:apply>
+		    <m:divide/>
+		    <m:ci>M</m:ci>
+		    <m:ci>s</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.020</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.010</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+This can be simplified on both sides of the
+equation to give
+
+<m:math display="block"><m:apply><m:eq/><m:cn>2.0</m:cn><m:apply><m:power/><m:cn>2.0</m:cn><m:ci>m</m:ci></m:apply></m:apply></m:math>
+
+Clearly, then
+<m:math><m:apply><m:eq/><m:ci>m</m:ci><m:cn>1</m:cn></m:apply></m:math>,
+and the decomposition is a first order reaction. We can also then
+find the first order rate constant
+<m:math><m:ci>k</m:ci></m:math> for this
+reaction by simply plugging in one of the initial rate measurements
+to <link target-id="eqn4"/>. We find that
+<m:math><m:apply><m:eq/><m:ci>k</m:ci><m:apply><m:times/><m:cn>0.070</m:cn><m:apply><m:power/><m:ci>s</m:ci><m:cn>-1</m:cn></m:apply></m:apply></m:apply></m:math>.</para>
+<para id="id3597565">This approach to finding reaction order is
+called the method of initial rates, since it relies on fixing the
+concentration at specific initial values and measuring the initial
+rate associated with each concentration.</para>
+<para id="id3597579">So far we have considered only reactions which
+have a single reactant. Consider a second example of the method of
+initial rates involving the reaction of hydrogen gas and iodine
+gas:
+
+<equation id="eqn6"><m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></equation>
+
+In this case, we expect to find that the rate
+of the reaction depends on the concentrations for both reactants.
+As such, we need more initial rate observations to determine the
+rate law. In <link target-id="table3"/>,
+observations are reported for the initial rate for three sets of
+initial concentrations of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and
+<m:math><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:math>.</para>
+
+<table id="table3" summary="">
+<title>Hydrogen Gas and Iodine Gas Initial Rate Data at 700K</title>
+<tgroup cols="4">
+<thead>
+<row>
+<entry>Experiment</entry>
+<entry><m:math><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:math>
+(M)</entry>
+<entry><m:math><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:math>
+(M)</entry>
+<entry>Rate (M/sec)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>0.10</entry>
+<entry>0.10</entry>
+<entry><m:math><m:cn type="e-notation">3.00<m:sep/>-4</m:cn></m:math></entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>0.20</entry>
+<entry>0.10</entry>
+<entry><m:math><m:cn type="e-notation">6.00<m:sep/>-4</m:cn></m:math></entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>0.20</entry>
+<entry>0.20</entry>
+<entry><m:math><m:cn type="e-notation">1.19<m:sep/>-3</m:cn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="id3598285">Following the same process we used in the
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>
+example, we write the general rate law for the reaction as
+
+	<equation id="eqn7">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow>
+		  </m:ci>
+		  <m:ci>n</m:ci>
+		</m:apply>
+		<m:apply>
+		  <m:power/>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow>
+		  </m:ci>
+		  <m:ci>m</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+By comparing experiment 1 to experiment 2, we
+can write
+
+	<equation id="eqn8">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:ci type="fn">Rate</m:ci>
+		  <m:cn>1</m:cn>
+		</m:apply>
+		<m:apply>
+		  <m:ci type="fn">Rate</m:ci>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>1</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>n</m:ci>
+		  </m:apply>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>1</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>2</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>n</m:ci>
+		  </m:apply>
+		  <m:apply>
+		    <m:power/>
+		    <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>2</m:mn>
+		      </m:msub></m:ci>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:cn type="e-notation">3.00<m:sep/>-4</m:cn>
+		  <m:apply>
+		    <m:divide/>
+		    <m:ci>M</m:ci>
+		    <m:ci>s</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:cn type="e-notation">6.00<m:sep/>-4</m:cn>
+		  <m:apply>
+		    <m:divide/>
+		    <m:ci>M</m:ci>
+		    <m:ci>s</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.10</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.10</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>n</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:times/> 
+		  <m:ci>k</m:ci>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.20</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>m</m:ci>
+		  </m:apply>
+		  <m:apply>
+		    <m:power/>
+		    <m:apply>
+		      <m:times/>
+		      <m:cn>0.10</m:cn>
+		      <m:ci>M</m:ci>
+		    </m:apply>
+		    <m:ci>n</m:ci>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+This simplifies to
+
+<m:math display="block"><m:apply><m:eq/><m:cn>0.50</m:cn><m:apply><m:times/><m:apply><m:power/><m:cn>0.50</m:cn><m:ci>m</m:ci></m:apply><m:apply><m:power/><m:cn>1.00</m:cn><m:ci>n</m:ci></m:apply></m:apply></m:apply></m:math>
+
+from which it is clear that
+<m:math><m:apply><m:eq/><m:ci>m</m:ci><m:cn>1</m:cn></m:apply></m:math>.
+Similarly, we can find that
+<m:math><m:apply><m:eq/><m:ci>n</m:ci><m:cn>1</m:cn></m:apply></m:math>.
+The reaction is therefore first order in each reactant and is
+second order overall.
+
+	<equation id="eqn9">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+Once we know the rate law, we can use any of
+the data from <link target-id="table3"/> to
+determine the rate constant, simply by plugging in concentrations
+and rate into <link target-id="eqn9"/>. We find that
+<m:math><m:apply><m:eq/><m:ci>k</m:ci><m:apply><m:times/><m:cn type="e-notation">3.00<m:sep/>-2</m:cn><m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:times/><m:ci>M</m:ci><m:ci>s</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>.</para>
+<para id="id3370616">This procedure can be applied to any number of
+reactions. The challenge is preparing the initial conditions and
+measuring the initial change in concentration precisely versus
+time. <link target-id="table4"/> provides an
+overview of the rate laws for several reactions. A variety of
+reaction orders are observed, and they cannot be easily correlated
+with the stoichiometry of the reaction.</para>
+
+<table id="table4" summary="">
+<title>Rate Laws for Various Reactions</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>Reaction</entry>
+<entry>Rate Law</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>4</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mi>F</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>aq</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>Br</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>Br</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>Br</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply></m:apply></m:apply></m:apply></m:math></entry>
+</row>
+<row>
+<entry><m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>Cl</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+
+<section id="id3471397">
+<title>Concentrations as a Function of Time and the Reaction
+Half-life</title>
+<para id="id3471406">Once we know the rate law for a reaction, we
+should be able to predict how fast a reaction will proceed. From
+this, we should also be able to predict how much reactant remains
+or how much product has been produced at any given time in the
+reaction. We will focus on the reactions with a single reactant to
+illustrate these ideas.</para>
+<para id="id3471426">Consider a first order reaction like
+<m:math><m:mrow><m:mi>A</m:mi><m:mo>→</m:mo><m:mi>products</m:mi></m:mrow></m:math>,
+for which the rate law must be
+
+	<equation id="eqn10">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:minus/>
+		<m:apply>
+		  <m:diff/>
+		  <m:bvar>
+		    <m:ci>t</m:ci>
+		  </m:bvar>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		    </m:mrow></m:ci>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		  </m:mrow></m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+From Calculus, it is possible to use <link target-id="eqn10"/> to find the function
+<m:math><m:apply><m:ci type="fn"><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:ci>t</m:ci></m:apply></m:math>
+which tells us the concentration
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+as a function of time. The result is
+
+	<equation id="eqn11">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		</m:mrow></m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn>
+		  </m:msub></m:ci>
+		<m:apply>
+		  <m:exp/>
+		  <m:apply>
+		    <m:minus/>
+		    <m:apply>
+		      <m:times/>
+		      <m:ci>k</m:ci>
+		      <m:ci>t</m:ci>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+or equivalently
+
+	<equation id="eqn12">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:ln/>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		  </m:mrow></m:ci>
+	      </m:apply>
+	      <m:apply>
+		<m:minus/>
+		<m:apply>
+		<m:ln/>
+		<m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn>
+		  </m:msub></m:ci></m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:ci>t</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+<link target-id="eqn12"/>
+reveals that, if a reaction is first order, we can plot
+<m:math><m:apply><m:ln/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+versus time and get a straight line with slope equal to
+<m:math><m:apply><m:minus/><m:ci>k</m:ci></m:apply></m:math>.
+Moreover, if we know the rate constant and the initial
+concentration, we can predict the concentration at any time during
+the reaction.</para>
+<para id="id3471573">An interesting point in the reaction is the
+time at which exactly half of the original concentration of
+<m:math><m:ci>A</m:ci></m:math> has been
+consumed. We call this time the 
+<term>half life</term> of the reaction and denote it as
+<m:math><m:msub><m:mi>t</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msub></m:math>.
+At that time,
+<m:math><m:apply><m:eq/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:times/><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>.
+From <link target-id="eqn12"/> and using the
+properties of logarithms, we find that, for a first order
+reaction
+
+	<equation id="eqn13">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci><m:msub><m:mi>t</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msub></m:ci>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:ln/>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:ci>k</m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+This equation tells us that the half-life of a
+first order reaction does not depend on how much material we start
+with. It takes exactly the same amount of time for the reaction to
+proceed from all of the starting material to half of the starting
+material as it does to proceed from half of the starting material
+to one-fourth of the starting material. In each case, we halve the
+remaining material in a time equal to the constant half-life in
+<link target-id="eqn13"/>.</para>
+<para id="id3479054">These conclusions are only valid for first
+order reactions. Consider then a second order reaction, such as the
+butadiene dimerization discussed <link target-id="pdimer">above</link>. The general
+second order reaction
+<m:math><m:mrow><m:mi>A</m:mi><m:mo>→</m:mo><m:mi>products</m:mi></m:mrow></m:math>
+has the rate law
+
+	<equation id="eqn14">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:minus/>
+		<m:apply>
+		  <m:diff/>
+		  <m:bvar>
+		    <m:ci>t</m:ci>
+		  </m:bvar>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		    </m:mrow></m:ci>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		    </m:mrow></m:ci>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+Again, we can use Calculus to find the
+function <m:math><m:apply><m:ci type="fn"><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:ci>t</m:ci></m:apply></m:math>
+from <link target-id="eqn14"/>. The result is most
+easily written as
+
+	<equation id="eqn15">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>1</m:cn>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo>
+		  </m:mrow></m:ci>
+	      </m:apply>
+	      <m:apply>
+		<m:plus/>
+		<m:apply>
+		  <m:divide/>
+		  <m:cn>1</m:cn>
+		  <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn>
+		    </m:msub></m:ci>
+		</m:apply>
+		<m:apply>
+		  <m:ci>k</m:ci>
+		  <m:ci>t</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+Note that, as
+<m:math><m:ci>t</m:ci></m:math> increases,
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+increases, so
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+decreases. <link target-id="eqn15"/> reveals that,
+for a reaction which is second order in the reactant
+<m:math><m:ci>A</m:ci></m:math>, we can
+plot
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+as a function of time to get a straight line with slope equal to
+<m:math><m:ci>k</m:ci></m:math>. Again, if
+we know the rate constant and the initial concentration, we can
+find the concentration
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+at any time of interest during the reaction.</para>
+<para id="id3479189">The half-life of a second order reaction
+differs from the half-life of a first order reaction. From <link target-id="eqn15"/>, if we take
+<m:math><m:apply><m:eq/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:times/><m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>,
+we get
+
+	<equation id="eqn16">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci><m:msub><m:mi>t</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msub></m:ci>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>1</m:cn>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>k</m:ci>
+		  <m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+This shows that, unlike a first order
+reaction, the half-life for a second order reaction depends on how
+much material we start with. From <link target-id="eqn16"/>, the more concentrated the reactant
+is, the shorter the half-life.</para>
+</section>
+<section id="id3598490">
+<title>Observation 3: Temperature Dependence of Reaction
+Rates</title>
+<para id="id3598499">It is a common observation that reactions tend
+to proceed more rapidly with increasing temperature. Similarly,
+cooling reactants can have the effect of slowing a reaction to a
+near halt. How is this change in rate reflected in the rate law
+equation, 
+<foreign>e.g.</foreign> <link target-id="eqn9"/>? One
+possibility is that there is a slight dependence on temperature of
+the concentrations, since volumes do vary with temperature.
+However, this is insufficient to account for the dramatic changes
+in rate typically observed. Therefore, the temperature dependence
+of reaction rate is primarily found in the rate constant,
+<m:math><m:ci>k</m:ci></m:math>.</para>
+<para id="id3598540">Consider for example the reaction of hydrogen
+gas with iodine gas at high temperatures, as given in <link target-id="eqn6"/>. The rate constant of this reaction
+at each temperature can be found using the method of initial rates,
+as discussed above, and we find in <link target-id="table5"/> that the rate constant increases
+dramatically as the temperature increases.</para>
+
+<table id="table5" summary="">
+<title>Rate Constant for Hydrogen Gas and Iodine Gas</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>T (K)</entry>
+<entry>k
+(<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:times/><m:ci>M</m:ci><m:ci>s</m:ci></m:apply></m:apply></m:math>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>667</entry>
+<entry><m:math><m:cn type="e-notation">6.80<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>675</entry>
+<entry><m:math><m:cn type="e-notation">9.87<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>700</entry>
+<entry><m:math><m:cn type="e-notation">3.00<m:sep/>-2</m:cn></m:math></entry>
+</row>
+<row>
+<entry>725</entry>
+<entry><m:math><m:cn type="e-notation">8.43<m:sep/>-2</m:cn></m:math></entry>
+</row>
+<row>
+<entry>750</entry>
+<entry><m:math><m:cn type="e-notation">2.21<m:sep/>-1</m:cn></m:math></entry>
+</row>
+<row>
+<entry>775</entry>
+<entry><m:math><m:cn type="e-notation">5.46<m:sep/>-1</m:cn></m:math></entry>
+</row>
+<row>
+<entry>800</entry>
+<entry>1.27</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="id3480799">As shown in <link target-id="fig6"/>, the rate constant appears to
+increase exponentially with temperature. After a little
+experimentation with the data, we find in <link target-id="fig7"/> that there is a simple linear
+relationship between
+<m:math><m:apply><m:ln/><m:ci>k</m:ci></m:apply></m:math>
+and
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>.</para>
+<figure id="fig6">
+<title>Rate Constant</title>
+<media id="idp809984" alt=""><image src="../../media/fig6-0953.png" mime-type="image/png"/><image for="pdf" src="../../media/fig6-232b.eps" mime-type="application/postscript"/></media>
+</figure>
+<figure id="fig7">
+<title>Rate Constant</title>
+<media id="idp3512672" alt=""><image src="../../media/fig7-1707.png" mime-type="image/png"/><image for="pdf" src="../../media/fig7-2017.eps" mime-type="application/postscript"/></media>
+</figure>
+<para id="id3473125">From <link target-id="fig7"/>,
+we can see that the data in <link target-id="table4"/> fit the equation
+
+	<equation id="eqn17">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:ln/>
+		<m:ci>k</m:ci>
+	      </m:apply>
+	      <m:apply>
+		<m:plus/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>a</m:ci>
+		  <m:apply>
+		    <m:divide/>
+		    <m:cn>1</m:cn>
+		    <m:ci>T</m:ci>
+		  </m:apply>
+		</m:apply>
+		<m:ci>b</m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+where
+<m:math><m:ci>a</m:ci></m:math> and
+<m:math><m:ci>b</m:ci></m:math> are
+constant for this reaction. It turns out that, for our purposes,
+all reactions have rate constants which fit <link target-id="eqn17"/>, but with different constants
+<m:math><m:ci>a</m:ci></m:math> and
+<m:math><m:ci>b</m:ci></m:math> for each
+reaction. <link target-id="fig7"/> is referred to as
+an 
+<term>Arrhenius plot</term>, after Svante Arrhenius.</para>
+<para id="lastp">It is very important to note that the form of
+<link target-id="eqn17"/> and the appearance of
+<link target-id="fig7"/> are both the same as the
+equations and graphs for the temperature dependence of the
+equilibrium constant for an endothermic reaction. This suggests a
+model to account for the temperature dependence of the rate
+constant, based on the energetics of the reaction. In particular,
+it appears that the reaction rate is related to the amount of
+energy required for the reaction to occur. We will develop this
+further in the next section.</para>
+</section>
+<section id="id3473224">
+<title>Collision Model for Reaction Rates</title>
+<para id="id3473232">At this point, we have only observed the
+dependence of reaction rates on concentration of reactants and on
+temperature, and we have fit these data to equations called rate
+laws. Although this is very convenient, it does not provide us
+insight into why a particular reaction has a specific rate law or
+why the temperature dependence should obey <link target-id="eqn17"/>. Nor does it provide any physical
+insights into the order of the reaction or the meaning of the
+constants <m:math><m:ci>a</m:ci></m:math>
+and <m:math><m:ci>b</m:ci></m:math> in
+<link target-id="eqn17"/>.</para>
+<para id="id3473255">We begin by asking why the reaction rate
+should depend on the concentration of the reactants. To answer
+this, we consider a simple reaction between two molecules in which
+atoms are transferred between the molecules during the reaction.
+For example, a reaction important in the decomposition of ozone
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math> by
+aerosols is
+
+	<m:math display="block">
+	  <m:mrow><m:msub><m:mi>O</m:mi><m:mn>3</m:mn>
+	    </m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo>
+	    <m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo>
+	    <m:mo>→</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn>
+	    </m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo>
+	    <m:mi>Cl</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi>
+	    <m:mo>)</m:mo>
+	  </m:mrow></m:math>
+
+What must happen for a reaction to occur
+between an
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecule and a
+<m:math><m:ci>Cl</m:ci></m:math> atom?
+Obviously, for these two particles to react, they must come into
+close proximity to one another so that an
+<m:math><m:ci>O</m:ci></m:math> atom can be
+transferred from one to the other. In general, two molecules cannot
+trade atoms to produce new product molecules unless they are close
+enough together for the atoms of the two molecules to interact.
+This requires a collision between molecules.</para>
+<para id="id3473335">The rate of collisions depends on the
+concentrations of the reactants, since the more molecules there are
+in a confined space, the more likely they are to run into each
+other. To write this relationship in an equation, we can think in
+terms of probability, and we consider the reaction above. The
+probability for an
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecule to be near a specific point increases with the number of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecules, and therefore increases with the concentration of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecules. The probability for a
+<m:math><m:ci>Cl</m:ci></m:math> atom to be
+near that specific point is also proportional to the concentration
+of <m:math><m:ci>Cl</m:ci></m:math> atoms.
+Therefore, the probability for an
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecule and a
+<m:math><m:ci>Cl</m:ci></m:math> atom to be
+in close proximity to the same specific point at the same time is
+proportional to the
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+times
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:math>.</para>
+<para id="id3473376">It is important to remember that not all
+collisions between
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecules and
+<m:math><m:ci>Cl</m:ci></m:math> atoms will
+result in a reaction. There are other factors to consider including
+how the molecules approach one another. The atoms may not be
+positioned properly to exchange between molecules, in which case
+the molecules will simply bounce off of one another without
+reacting. For example, if the
+<m:math><m:ci>Cl</m:ci></m:math> atom
+approaches the center
+<m:math><m:ci>O</m:ci></m:math> atom of the
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+molecule, that
+<m:math><m:ci>O</m:ci></m:math> atom will
+not transfer. Another factor is energy associated with the
+reaction. Clearly, though, a collision must occur for the reaction
+to occur, and therefore there rate of the reaction can be no faster
+than the rate of collisions between the reactant molecules.</para>
+<para id="id3466642">Therefore, we can say that, in a 
+<emphasis>bimolecular reaction</emphasis>, where two molecules
+collide and react, the rate of the reaction will be proportional to
+the product of the concentrations of the reactants. For the
+reaction of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:math>
+with <m:math><m:ci>Cl</m:ci></m:math>, the
+rate must therefore be proportional to
+<m:math><m:apply><m:times/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>,
+and we observe this in the experimental rate law in <link target-id="table4"/>. Thus, it appears that we can
+understand the rate law by understanding the collisions which must
+occur for the reaction to take place.</para>
+<para id="id3466682">We also need our model to account for the
+temperature dependence of the rate constant. As noted at the end of
+the <link target-id="lastp">last
+section</link>, the temperature dependence of the rate
+constant in <link target-id="eqn17"/> is the same as
+the temperature dependence of the equilibrium constant for an
+endothermic reaction. This suggests that the temperature dependence
+is due to an energetic factor required for the reaction to occur.
+However, we find experimentally that <link target-id="eqn17"/> describes the rate constant
+temperature dependence regardless of whether the reaction is
+endothermic or exothermic. Therefore, whatever the energetic factor
+is that is required for the reaction to occur, it is not just the
+endothermicity of the reaction. It must be that all reactions,
+regardless of the overall change in energy, require energy to
+occur.</para>
+<para id="id3466719">A model to account for this is the concept of 
+<term>activation energy</term>. For a reaction to occur, at least
+some bonds in the reactant molecule must be broken, so that atoms
+can rearrange and new bonds can be created. At the time of
+collision, bonds are stretched and broken as new bonds are made.
+Breaking these bonds and rearranging the atoms during the collision
+requires the input of energy. The minimum amount of energy required
+for the reaction to occur is called the activation energy,
+<m:math><m:msub><m:mi>E</m:mi><m:mi>a</m:mi></m:msub></m:math>.
+This is illustrated in <link target-id="fig8"/>,
+showing conceptually how the energy of the reactants varies as the
+reaction proceeds. In <link target-id="fig8a"/>, the
+energy is low early in the reaction, when the molecules are still
+arranged as reactants. As the molecules approach and begin to
+rearrange, the energy rises sharply, rising to a maximum in the
+middle of the reaction. This sharp rise in energy is the activation
+energy, as illustrated. After the middle of the reaction has passed
+and the molecules are arranged more as products than reactants, the
+energy begins to fall again. However, the energy does not fall to
+its original value, so this is an endothermic reaction.</para>
+<para id="id3466782"><link target-id="fig8b"/> shows
+the analogous situation for an exothermic reaction. Again, as the
+reactants approach one another, the energy rises as the atoms begin
+to rearrange. At the middle of the collision, the energy maximizes
+and then falls as the product molecules form. In an exothermic
+reaction, the product energy is lower than the reactant
+energy.</para>
+<para id="id3466802"><link target-id="fig8"/> thus
+shows that an energy barrier must be surmounted for the reaction to
+occur, regardless of whether the energy of the products is greater
+than (<link target-id="fig8a"/>) or less than
+(<link target-id="fig8b"/>) the energy of the
+reactants. This barrier accounts for the temperature dependence of
+the reaction rate. We know from the kinetic molecular theory that
+as temperature increases the average energy of the molecules in a
+sample increases. Therefore, as temperature increases, the fraction
+of molecules with sufficient energy to surmount the reaction
+activation barrier increases.</para>
+<figure id="fig8" orient="vertical">
+<title>Reaction Energy</title>
+<subfigure id="fig8a">
+<title>Endothermic Reaction</title>
+<media id="idm6538448" alt=""><image src="../../media/fig8a.png" mime-type="image/png"/><image for="pdf" src="../../media/fig8a.eps" mime-type="application/postscript"/></media>
+</subfigure>
+<subfigure id="fig8b">
+<title>Exothermic Reaction</title>
+<media id="idm309296" alt=""><image src="../../media/fig8b.png" mime-type="image/png"/><image for="pdf" src="../../media/fig8b.eps" mime-type="application/postscript"/></media>
+</subfigure>
+</figure>
+<para id="id3466894">Although we will not show it here, kinetic
+molecular theory shows that the fraction of molecules with energy
+greater than
+<m:math><m:msub><m:mi>E</m:mi><m:mi>a</m:mi></m:msub></m:math>
+at temperature
+<m:math><m:ci>T</m:ci></m:math> is
+proportional to
+<m:math><m:apply><m:exp/><m:apply><m:minus/><m:apply><m:divide/><m:ci><m:msub><m:mi>E</m:mi><m:mi>a</m:mi></m:msub></m:ci><m:apply><m:times/><m:ci type="constant">R</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>.
+This means that the reaction rate and therefore also the rate
+constant must be proportional to
+<m:math><m:apply><m:exp/><m:apply><m:minus/><m:apply><m:divide/><m:ci><m:msub><m:mi>E</m:mi><m:mi>a</m:mi></m:msub></m:ci><m:apply><m:times/><m:ci type="constant">R</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>.
+Therefore we can write
+
+	<equation id="eqn18">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:ci type="fn">k</m:ci>
+		<m:ci>T</m:ci>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:ci>A</m:ci>
+		<m:apply>
+		  <m:exp/>
+		  <m:apply>
+		    <m:minus/>
+		    <m:apply>
+		      <m:divide/>
+		      <m:ci><m:msub><m:mi>E</m:mi><m:mi>a</m:mi>
+			</m:msub></m:ci>
+		      <m:apply>
+			<m:times/>
+			<m:ci type="constant">R</m:ci>
+			<m:ci>T</m:ci>
+		      </m:apply>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+
+where
+<m:math><m:ci>A</m:ci></m:math> is a
+proportionality constant. If we take the logarithm of both sides of
+<link target-id="eqn18"/>, we find that
+
+	<equation id="eqn19">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:apply>
+		<m:ln/>
+		<m:apply>
+		  <m:ci type="fn">k</m:ci>
+		  <m:ci>T</m:ci>
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:plus/>
+		<m:apply>
+		  <m:minus/>
+		  <m:apply>
+		    <m:divide/>
+		    <m:ci><m:msub><m:mi>E</m:mi><m:mi>a</m:mi>
+		      </m:msub></m:ci>
+		    <m:apply>
+		      <m:times/>
+		      <m:ci type="constant">R</m:ci>
+		      <m:ci>T</m:ci>
+		    </m:apply>
+		  </m:apply>
+		</m:apply>
+		<m:apply>
+		  <m:ln/>
+		  <m:ci>A</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+	</equation>
+		  
+
+This equation matches the experimentally
+observed <link target-id="eqn17"/>. We recall that a
+graph of
+<m:math><m:apply><m:ln/><m:ci>k</m:ci></m:apply></m:math>
+versus
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>
+is observed to be linear. Now we can see that the slope of that
+graph is equal to
+<m:math><m:apply><m:minus/><m:apply><m:divide/><m:ci><m:msub><m:mi>E</m:mi><m:mi>a</m:mi></m:msub></m:ci><m:ci>R</m:ci></m:apply></m:apply></m:math>.</para>
+<para id="id3472236">As a final note on <link target-id="eqn19"/>, the constant
+<m:math><m:ci>A</m:ci></m:math> must have
+some physical significant. We have accounted for the probability of
+collision between two molecules and we have accounted for the
+energetic requirement for a successful reactive collision. We have
+not accounted for the probability that a collision will have the
+appropriate orientation of reactant molecules during the collision.
+Moreover, not every collision which occurs with proper orientation
+and sufficient energy will actually result in a reaction. There are
+other random factors relating to the internal structure of each
+molecule at the instant of collision. The factor
+<m:math><m:ci>A</m:ci></m:math> takes
+account for all of these factors, and is essentially the
+probability that a collision with sufficient energy for reaction
+will indeed lead to reaction.
+<m:math><m:ci>A</m:ci></m:math> is commonly
+called the 
+<term>frequency factor</term>.</para>
+</section>
+<section id="id3472287">
+<title>Observation 4: Rate Laws for More Complicated Reaction
+Processes</title>
+<para id="id3472296">Our collision model in the previous section
+accounts for the concentration and temperature dependence of the
+reaction rate, as expressed by the rate law. The concentration
+dependence arises from calculating the probability of the reactant
+molecules being in the same vicinity at the same instant.
+Therefore, we should be able to predict the rate law for any
+reaction by simply multiplying together the concentrations of all
+reactant molecules in the balanced stoichiometric equation. The
+order of the reaction should therefore be simply related to the
+stoichiometric coefficients in the reaction. However, <link target-id="table4"/> shows that this is incorrect for
+many reactions.</para>
+<para id="id3472321">Consider for example the apparently simple
+reaction
+
+	<equation id="eqn20">
+	  <m:math><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+	</equation>
+
+
+Based on the collision model, we would assume
+that the reaction occurs by
+<m:math><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi><m:mi>Cl</m:mi></m:mrow></m:math>
+molecules colliding with a single <m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math> molecule. The probability for
+such a collision should be proportional to
+<m:math><m:apply><m:times/><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>.
+However, experimentally we observe (see <link target-id="table4"/>) that the rate law for this
+reaction is
+
+<equation id="eqn21"><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci> <m:ci><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mi>Cl</m:mi><m:mo>]</m:mo></m:mrow></m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math></equation>
+
+As a second example, consider the
+reaction
+
+	<equation id="eqn22">
+	  <m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+	</equation>
+
+It would seem reasonable to assume that this
+reaction occurs as a single collision in which an oxygen atom is
+exchanged between the two molecules. However, the experimentally
+observed rate law for this reaction is
+
+<equation id="eqn23"><m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:apply></m:apply></m:math></equation>
+
+In this case, the
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+concentration does not affect the rate of the reaction at all, and
+the
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+concentration is squared. These examples demonstrate that the rate
+law for a reaction cannot be predicted from the stoichiometric
+coefficients and therefore that the collision model does not
+account for the rate of the reaction. There must be something
+seriously incomplete with the collision model.</para>
+<para id="id3661292">The key assumption of the collision model is
+that the reaction occurs by a single collision. Since this
+assumption leads to incorrect predictions of rate laws in some
+cases, the assumption must be invalid in at least those cases. It
+may well be that reactions require more than a single collision to
+occur, even in reactions involving just two types of molecules as
+in <link target-id="eqn22"/>. Moreover, if more than
+two molecules are involved as in <link target-id="eqn20"/>, the chance of a single collision
+involving all of the reactive molecules becomes very small. We
+conclude that many reactions, including those in <link target-id="eqn20"/> and <link target-id="eqn22"/>, must occur as a result of several
+collisions occurring in sequence, rather than a single collision.
+The rate of the chemical reaction must be determined by the rates
+of the individual steps in the reaction.</para>
+<para id="id3661332">Each step in a complex reaction is a single
+collision, often referred to as an 
+<term>elementary process</term>. In single collision process step,
+our collision model should correctly predict the rate of that step.
+The sequence of such elementary processes leading to the overall
+reaction is referred to as the 
+<term>reaction mechanism</term>. Determining the mechanism for a
+reaction can require gaining substantially more information than
+simply the rate data we have considered here. However, we can gain
+some progress just from the rate law.</para>
+<para id="id3661369">Consider for example the reaction in <link target-id="eqn22"/> described by the rate law in
+<link target-id="eqn23"/>. Since the rate law
+involved
+<m:math><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:math>,
+one step in the reaction mechanism must involve the collision of
+two
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+molecules. Furthermore, this step must determine the rate of the
+overall reaction. Why would that be? In any multi-step process, if
+one step is considerably slower than all of the other steps, the
+rate of the multi-step process is determined entirely by that
+slowest step, because the overall process cannot go any faster than
+the slowest step. It does not matter how rapidly the rapid steps
+occur. Therefore, the slowest step in a multi-step process is thus
+called the 
+<term>rate determining</term> or 
+<term>rate limiting</term> step.</para>
+<para id="id3661426">This argument suggests that the reaction in
+<link target-id="eqn22"/> proceeds via a slow step
+in which two
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+molecules collide, followed by at least one other rapid step
+leading to the products. A possible mechanism is therefore
+
+<equation id="eqn24">
+<title>Step 1</title>
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>→</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mi>N</m:mi><m:mi>O</m:mi>
+</m:mrow></m:math>
+</equation>
+
+<equation id="eqn25">
+<title>Step 2</title> 
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>+</m:mo><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>→</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub>
+</m:mrow></m:math>
+</equation>
+
+If <link target-id="eqn24">Step
+1</link> is much slower than <link target-id="eqn25">Step 2</link>, the rate of the
+reaction is entirely determined by the rate of <link target-id="eqn24">Step 1</link>. From our
+collision model, the rate law for <link target-id="eqn24">Step 1</link> must be
+<m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:power/><m:ci><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:cn>2</m:cn></m:apply></m:apply></m:apply></m:math>,
+which is consistent with the experimentally observed rate law for
+the overall reaction. This suggests that the mechanism in <link target-id="eqn24"/> and <link target-id="eqn25"/> is the correct description of the
+reaction process for <link target-id="eqn22"/>, with
+the first step as the rate determining step.</para>
+<para id="id3597811">There are a few important notes about the
+mechanism. First, one product of the reaction is produced in the
+first step, and the other is produced in the second step.
+Therefore, the mechanism does lead to the overall reaction,
+consuming the correct amount of reactant and producing the correct
+amount of reactant. Second, the first reaction produces a new
+molecule,
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>,
+which is neither a reactant nor a product. The second step then
+consumes that molecule, and
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+therefore does not appear in the overall reaction, <link target-id="eqn22"/>. As such,
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+is called a 
+<term>reaction intermediate</term>. Intermediates play important
+roles in the rates of many reactions.</para>
+<para id="id3597859">If the first step in a mechanism is rate
+determining as in this case, it is easy to find the rate law for
+the overall expression from the mechanism. If the second step or
+later steps are rate determining, determining the rate law is
+slightly more involved. The process for finding the rate law in
+such a case is illustrated in <link target-id="ex11"/>.</para>
+</section>
+
+<section id="id3597877">
+<title>Review and Discussion Questions</title>
+<exercise id="ex1"><problem id="idp1165344"><para id="id3597890">When
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+in toluene solution decomposes,
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+is released leaving
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+in solution.</para>
+<section id="ex1a"><para id="ex1ap">Based on the data in <link target-id="fig2"/>
+and <link target-id="fig3"/>, plot the concentration
+of
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:mi>O</m:mi></m:mrow></m:math>
+as a function of time.</para></section>
+<section id="ex1b"><para id="ex1bp">How would you define the rate of the reaction in terms of the
+slope of the graph from <link target-id="ex1a">above</link>? How is the rate
+of appearance of
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:mi>O</m:mi></m:mrow></m:math>
+related to the rate of disappearance of
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>?
+Based on this, plot the rate of appearance of
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>60</m:mn></m:msub><m:mi>O</m:mi></m:mrow></m:math>
+as a function of time.</para></section>
+</problem></exercise>
+<exercise id="ex2"><problem id="idm6339968"><para id="id3597945">The reaction <m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>4</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math> was found in this
+study to have rate law given by
+<m:math><m:apply><m:eq/><m:ci>Rate</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:apply></m:math>
+with
+<m:math><m:apply><m:eq/><m:ci>k</m:ci><m:apply><m:times/><m:cn>0.070</m:cn><m:apply><m:power/><m:ci>s</m:ci><m:cn>-1</m:cn></m:apply></m:apply></m:apply></m:math>.</para>
+<section id="ex2a"><para id="ex2ap">How is the rate of appearance of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+related to the rate of disappearance of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub></m:mrow></m:math>?
+Which rate is larger?</para></section>
+<section id="ex2b"><para id="ex2bp">Based on the rate law and rate constant, sketch a plot of
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>5</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>,
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>,
+and
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+versus time all on the same graph.</para></section></problem></exercise>
+<exercise id="ex3"><problem id="idp1087728"><para id="id3598042">For which of the reactions listed in
+<link target-id="table4"/> can you be certain that
+the reaction does not occur as a single step collision? Explain
+your reasoning.</para></problem></exercise>
+<exercise id="ex4"><problem id="idm6077824"><para id="id3598059">Consider two decomposition reactions for
+two hypothetical materials, A and B. The decomposition of A is
+found to be first order, and the decomposition of B is found to be
+second order.</para>
+<section id="ex4a"><para id="ex4ap">Assuming that the two reactions have the same rate constant
+at the same temperature, sketch
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+and
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>B</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+versus time on the same graph for the same initial conditions, 
+<foreign>i.e.</foreign> <m:math><m:apply><m:eq/><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>A</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:mi>B</m:mi><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci></m:apply></m:math>.</para></section>
+<section id="ex4b"><para id="ex4bp">Compare the half-lives of the two reactions. Under what
+conditions will the half-life of B be less than the half-life of A?
+Under what conditions will the half-life of B be greater than the
+half-life of A?</para></section>
+</problem></exercise>
+<exercise id="ex5"><problem id="idm6557584"><para id="id3470574">A graph of the logarithm of the equilibrium
+constant for a reaction versus
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>
+is linear but can have either a negative slope or a positive slope,
+depending on the reaction, as was observed <link document="m12597">here</link>. However, the
+graph of the logarithm of the rate constant for a reaction versus
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>
+has a negative slope for essentially every reaction. Using
+equilibrium arguments, explain why the graph for the rate constant
+must have a negative slope.</para></problem></exercise>
+<exercise id="ex6"><problem id="idp449136"><para id="id3470606">Using <link target-id="eqn18"/> and the data in <link target-id="table5"/>, determine the activation energy for the reaction <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para></problem></exercise>
+
+<exercise id="ex7"><problem id="idm5610736"><para id="id3470646">We found that the rate law for the reaction <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>. Therefore, the
+reaction is 
+<emphasis>second order</emphasis> overall but 
+<emphasis>first order</emphasis> in
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>.
+Imagine that we start with
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci><m:ci><m:msub><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msub></m:ci></m:apply></m:math>
+and we measure
+<m:math><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:math>
+versus time. Will a graph of
+<m:math><m:apply><m:ln/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+versus time be linear or will a graph of
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci></m:apply></m:math>
+versus time be linear? Explain your reasoning.</para></problem></exercise>
+<exercise id="ex8"><problem id="idp6976720"><para id="id3470753">As a rough estimate, chemists often assume
+a 
+<emphasis>rule of thumb</emphasis> that the rate of any reaction
+will double when the temperature is increased by
+<m:math><m:apply><m:times/><m:cn>10</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>.</para>
+<section id="ex8a"><para id="ex8ap">What does this suggest about the activation energies of
+reactions?</para></section>
+<section id="ex8b"><para id="ex8bp">Using <link target-id="eqn18"/>, calculate the activation energy of a
+reaction whose rate doubles when the temperature is raised from
+<m:math><m:apply><m:times/><m:cn>25</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>
+to
+<m:math><m:apply><m:times/><m:cn>35</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>.</para></section>
+<section id="ex8c"><para id="ex8cp">Does this rule of thumb estimate depend on the temperature
+range? To find out, calculate the factor by which the rate constant
+increases when the temperature is raised from
+<m:math><m:apply><m:times/><m:cn>100</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>
+to
+<m:math><m:apply><m:times/><m:cn>110</m:cn><m:ci><m:mrow><m:mi>°</m:mi><m:mi>C</m:mi></m:mrow></m:ci></m:apply></m:math>,
+assuming the same activation energy you found <link target-id="ex8b">above</link>. Does the rate
+double in this case?</para></section>
+</problem></exercise>
+<exercise id="ex9"><problem id="idp7209504"><para id="id3470862">Consider a very simple hypothetical
+reaction <m:math>
+<m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo>↔</m:mo><m:mn>2</m:mn><m:mi>C</m:mi>
+</m:mrow></m:math> which comes to
+equilibrium.</para>
+<section id="ex9a"><para id="ex9ap">At equilibrium, what must be the relationship between the
+rate of the forward reaction, <m:math>
+<m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>C</m:mi>
+</m:mrow></m:math> and the reverse
+reaction <m:math>
+<m:mrow><m:mn>2</m:mn><m:mi>C</m:mi><m:mo>→</m:mo><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi>
+</m:mrow></m:math>?</para></section>
+<section id="ex9b"><para id="ex9bp">Assume that both the forward and reverse reactions are
+elementary processes occurring by a single collision. What is the
+rate law for the forward reaction? What is the rate law for the
+reverse reaction?</para></section>
+<section id="ex9c"><para id="ex9cp">Using the previous results from <link target-id="ex9a">here</link> and <link target-id="ex9b">here</link>, show that the
+equilibrium constant for this reaction can be calculated from 
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>K</m:mi><m:mi>c</m:mi></m:msub></m:ci><m:apply><m:divide/><m:ci><m:msub><m:mi>k</m:mi><m:mi>f</m:mi></m:msub></m:ci><m:ci><m:msub><m:mi>k</m:mi><m:mi>r</m:mi></m:msub></m:ci></m:apply></m:apply></m:math>, where <m:math><m:msub><m:mi>k</m:mi><m:mi>f</m:mi></m:msub></m:math> is the
+rate constant for the forward reaction and <m:math><m:msub><m:mi>k</m:mi><m:mi>r</m:mi></m:msub></m:math> is the rate constant
+for the reverse reaction.</para></section>
+</problem></exercise>
+<exercise id="ex10"><problem id="idm457264"><para id="id3673543">Consider a very simple hypothetical
+reaction <m:math>
+<m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo>↔</m:mo><m:mi>C</m:mi><m:mo>+</m:mo><m:mi>D</m:mi>
+</m:mrow></m:math>. By examining
+<link target-id="fig8"/>, provide and explain the
+relationship between the activation energy in the forward
+direction, <m:math><m:msub><m:mi>E</m:mi><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>f</m:mi></m:mrow></m:msub></m:math>, and in the reverse direction, <m:math><m:msub><m:mi>E</m:mi><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>r</m:mi></m:mrow></m:msub></m:math> . Does this
+relationship depend on whether the reaction is endothermic
+(<link target-id="fig8a"/>) or exothermic (<link target-id="fig8b"/>)? Explain.</para></problem></exercise>
+
+<exercise id="ex11"><problem id="idp1314880"><para id="id3673626">For the reaction <m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the rate law is <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>Rate</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:ci>k</m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+		<m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>. Although this
+suggests that the reaction is a one-step elementary process, there
+is evidence that the reaction occurs in two steps, and the second
+step is the rate determining step:
+
+
+<equation id="ex11stp1">
+<title>Step 1</title>
+<m:math>
+<m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>↔</m:mo><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow>
+</m:math>
+</equation>
+
+<equation id="ex11stp2">
+<title>Step 2</title>
+<m:math>
+<m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>I</m:mi><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi></m:mrow>
+</m:math>
+</equation>
+
+Where <link target-id="ex11stp1">Step 1</link> is fast and
+<link target-id="ex11stp2">Step2</link> is
+slow.</para>
+<section id="ex11a"><para id="ex11ap">If the both the forward and reverse reactions in <link target-id="ex11stp1">Step 1</link> are much
+faster than <link target-id="ex11stp2">Step2</link>, explain why
+<link target-id="ex11stp1">Step 1</link> can
+be considered to be at equilibrium.</para></section>
+<section id="ex11b"><para id="ex11bp">What is the rate law for the rate determining step?</para></section>
+<section id="ex11c"><para id="ex11cp">Since the rate law <link target-id="ex11b">above</link> depends on the
+concentration of an intermediate
+<m:math><m:ci>I</m:ci></m:math>, we need to
+find that intermediate. Calculate
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+from <link target-id="ex11stp1">Step 1</link>,
+assuming that <link target-id="ex11stp1">Step1</link> is at equilibrium.</para></section>
+<section id="ex11d"><para id="ex11dp">Substitute
+<m:math><m:mrow><m:mo>[</m:mo><m:mi>I</m:mi><m:mo>]</m:mo></m:mrow></m:math>
+from <link target-id="ex11c">above</link> into
+the rate law found <link target-id="ex11b">previously</link> to find the overall rate law for the
+reaction. Is this result consistent with the experimental
+observation?</para></section></problem></exercise>
+</section>
+</content>
+</document>

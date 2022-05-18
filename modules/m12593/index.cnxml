@@ -1,0 +1,1152 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Equilibrium and the Second Law of Thermodynamics</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m12593</md:content-id>
+  <md:title>Equilibrium and the Second Law of Thermodynamics</md:title>
+  <md:abstract/>
+  <md:uuid>5ec1d3e3-ce5a-4964-97ee-f1ad26bb3140</md:uuid>
+</metadata>
+
+ <content>
+<section id="id6835996">
+<title>Foundation</title>
+<para id="id6836003">We have observed and defined phase transitions
+and phase equilibrium. We have also observed equilibrium in a
+variety of reaction systems. We will assume an understanding of the
+postulates of the 
+<term>Kinetic Molecular Theory</term> and of the energetics of
+chemical reactions.</para>
+</section>
+<section id="id6836025">
+<title>Goals</title>
+<para id="id6836032">We have developed an understanding of the
+concept of equilibrium, both for phase equilibrium and reaction
+equilibrium. As an illustration, at normal atmospheric pressure, we
+expect to find
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi></m:mrow></m:math>
+in solid form below 0°C, in liquid form below 100°C,
+and in gaseous form above 100°C. What changes as we move
+from low temperature to high temperature cause these transitions in
+which phase is observed? Viewed differently, if a sample of gaseous
+water at 120°C is cooled to below 100°C, virtually
+all of the water vapor spontaneously condenses to form the
+liquid:<m:math display="block"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo><m:mtext> spontaneous
+below
+100°C</m:mtext></m:mrow></m:math>
+By contrast, very little of liquid water at
+80°C spontaneously converts to gaseous water: <m:math display="block"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mtext> not
+spontaneous below
+100°C</m:mtext></m:mrow></m:math>
+We can thus rephrase our question as, what
+determines which processes are spontaneous and which are not? What
+factors determine what phase is "stable"?</para>
+<para id="id7055846">As we know, at certain temperatures and
+pressures, more than one phase can be stable. For example, at 1 atm
+pressure and 0°C,
+<m:math display="block"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo><m:mo>↔</m:mo><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo><m:mtext>equilibrium
+at 0°C</m:mtext></m:mrow></m:math> Small variations in the amount of heat applied
+or extracted to the liquid-solid equilibrium cause shifts towards
+liquid or solid without changing the temperature of the two phases
+at equilibrium. Therefore, when the two phases are at equilibrium,
+neither direction of the phase transition is spontaneous at
+0°C. We therefore need to understand what factors determine
+when two or more phases can co-exist at equilibrium.</para>
+<para id="id7055915">This analysis leaves unanswered a series of
+questions regarding the differences between liquids and gases. The
+concept of a gas phase or a liquid phase is not a characteristic of
+an individual molecule. In fact, it does not make any sense to
+refer to the "phase" of an individual molecule. The
+phase is a collective property of large numbers of molecules.
+Although we can discuss the importance of molecular properties
+regarding liquid and gas phases, we have not discussed the factors
+which determine whether the gas phase or the liquid phase is most
+stable at a given temperature and pressure.</para>
+<para id="id7055947">These same questions can be applied to
+reaction equilibrium. When a mixture of reactants and products is
+not at equilibrium, the reaction will occur spontaneously in one
+direction or the other until the reaction achieves equilibrium.
+What determines the direction of spontaneity? What is the driving
+force towards equilibrium? How does the system 
+<emphasis>know</emphasis> that equilibrium has been achieved? Our
+goal will be to understand the driving forces behind spontaneous
+processes and the determination of the equilibrium point, both for
+phase equilibrium and reaction equilibrium.</para>
+</section>
+<section id="id7055980">
+<title>Observation 1: Spontaneous Mixing</title>
+<para id="id7055990">We begin by examining common characteristics
+of spontaneous processes, and for simplicity, we focus on processes
+not involving phase transitions or chemical reactions. A very clear
+example of such a process is mixing. Imagine putting a drop of blue
+ink in a glass of water. At first, the blue dye in the ink is
+highly concentrated. Therefore, the molecules of the dye are
+closely congregated. Slowly but steadily, the dye begins to diffuse
+throughout the entire glass of water, so that eventually the water
+appears as a uniform blue color. This occurs more readily with
+agitation or stirring but occurs spontaneously even without such
+effort. Careful measurements show that this process occurs without
+a change in temperature, so there is no energy input or released
+during the mixing.</para>
+<para id="id7056034">We conclude that, although there is no
+energetic advantage to the dye molecules dispersing themselves,
+they do so spontaneously. Furthermore, this process is 
+<term>irreversible</term> in the sense that, without considerable
+effort on our part, the dye molecules will never return to form a
+single localized drop. We now seek an understanding of how and why
+this mixing occurs.</para>
+<para id="id7056060">Consider the following rather abstract model
+for the dye molecules in the water. For the glass, we take a row of
+ten small boxes, each one of which represents a possible location
+for a molecule, either of water or of dye. For the molecules, we
+take marbles, clear for water and blue for ink. Each box will
+accommodate only a single marble, since two molecules cannot be in
+the same place as the same time. Since we see a drop of dye when
+the molecules are congregated, we model a "drop" as three blue
+marbles in consecutive boxes. Notice that there are only eight ways
+to have a "drop" of dye, assuming that the three dye "molecules"
+are indistinguishable from one another. Two possibilities are shown
+in <link target-id="fig1a"/> and <link target-id="fig1b"/>. It is not difficult to find the
+other six.</para>
+
+<figure id="fig1" orient="vertical">
+	<title>Arrangement of Three Ink Molecules</title>
+	<subfigure id="fig1a">
+  	 <media id="id1167077468636" alt=""><image src="../../media/fig1a.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1a.eps" mime-type="application/postscript"/></media>
+	 <caption>An unmixed state.</caption>
+ 	</subfigure>
+	<subfigure id="fig1b">
+  	 <media id="id5799045" alt=""><image src="../../media/fig1b.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1b.eps" mime-type="application/postscript"/></media>
+	 <caption>Another unmixed state.</caption>
+ 	</subfigure>
+	<subfigure id="fig1c">
+  	 <media id="id6919280" alt=""><image src="../../media/fig1c.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1c.eps" mime-type="application/postscript"/></media>
+	 <caption>A mixed state.</caption>
+ 	</subfigure>
+	<subfigure id="fig1d">
+  	 <media id="id1167097943396" alt=""><image src="../../media/fig1d.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1d.eps" mime-type="application/postscript"/></media>
+	 <caption>Another mixed state.</caption>
+ 	</subfigure>
+      </figure>
+
+<para id="id7382446">By contrast, there are many more ways to
+arrange the dye molecules so that they do not form a drop, 
+<foreign>i.e.</foreign>, so that the three molecules are not
+together. Two possibilities are shown in <link target-id="fig1c"/> and <link target-id="fig1d"/>. The total number of such
+possibilities is 112. (The total number of all possible
+arrangements can be calculated as follows: there are 10 possible
+locations for the first blue marble, 9 for the second, and 8 for
+the third. This gives 720 possible arrangements, but many of these
+are identical, since the marbles are indistinguishable. The number
+of duplicates for each arrangement is 6, calculated from three
+choices for the first marble, two for the second, and one for the
+third. The total number of non-identical arrangements of the
+molecules is
+<m:math><m:apply><m:eq/><m:apply><m:divide/><m:cn>720</m:cn><m:cn>6</m:cn></m:apply><m:cn>120</m:cn></m:apply></m:math>.)
+We conclude that, if we randomly place the 3 marbles in the tray of
+10 boxes, the chances are only 8 out of 120 (or 1 out of 15) of
+observing a drop of ink.</para>
+<para id="id7382514">Now, in a real experiment, there are many,
+many times more ink molecules and many, many times more possible
+positions for each molecule. To see how this comes into play,
+consider a row of 500 boxes and 5 blue marbles. (The 
+<term>mole fraction</term> of ink is thus 0.01.) The total number of
+distinct configurations of the blue marbles in these boxes is
+approximately <m:math><m:cn type="e-notation">2<m:sep/>11</m:cn></m:math>.
+The number of these configurations which have all five ink marbles
+together in a drop is 496. If the arrangements are sampled
+randomly, the chances of observing a drop of ink with all five
+molecules together are thus about one in 500 million. The
+possibilities are remote even for observing a partial "droplet"
+consisting of fewer than all five dye molecules. The chance for
+four of the molecules to be found together is about one in 800,000.
+Even if we define a droplet to be only three molecules together,
+the chances of observing one are less than one in 1600.</para>
+<para id="id7382568">We could, with some difficulty, calculate the
+probability for observing a drop of ink when there are
+<m:math><m:apply><m:power/><m:cn>10</m:cn><m:cn>23</m:cn></m:apply></m:math>
+molecules. However, it is reasonably deduced from our small
+calculations that the probability is essentially zero for the ink
+molecules, randomly distributed into the water molecules, to be
+found together. We conclude from this that the reason why we
+observe ink to disperse in water is that the probability is
+infinitesimally small for randomly distributed dye molecules to be
+congregated in a drop.</para>
+<para id="id7382594">Interestingly, however, when we set up the
+real ink and water experiment, we did not randomly distribute the
+ink molecules. Rather, we began initially with a drop of ink in
+which the dye molecules were already congregated. We know that,
+according to our kinetic theory, the molecules are in constant
+random motion. Therefore, they must be constantly rearranging
+themselves. Since these random motions do not energetically favor
+any one arrangement over any other one arrangement, we can assume
+that all possible arrangements are equally probable. Since most of
+the arrangements do not correspond to a drop of ink, then 
+<emphasis>most of the time</emphasis> we will not observe a drop. In
+the case above with five blue marbles in 500 boxes, we expect to
+see a drop only once in every 500 million times we look at the
+"glass". In a real glass of water with a real drop of ink, the
+chances are very much smaller than this.</para>
+<para id="id7382642">We draw two very important conclusions from
+our model. First, the random motions of molecules make every
+possible arrangement of these molecules equally probable. Second,
+mixing occurs spontaneously simply because there are vastly many
+more arrangements which are mixed than which are not. The first
+conclusion tells us "how" mixing occurs, and the second tells us
+"why." On the basis of these observations, we deduce the following
+preliminary generalization: a spontaneous process occurs because it
+produces the most probable final state.</para>
+</section>
+<section id="id7382670">
+<title>Probability and Entropy</title>
+<para id="id7382678">There is a subtlety in our conclusion to be
+considered in more detail. We have concluded that all possible
+arrangements of molecules are equally probable. We have further
+concluded that mixing occurs because the final mixed state is
+overwhelmingly probable. Placed together, these statements appear
+to be openly contradictory. To see why they are not, we must
+analyze the statements carefully. By an "arrangement" of the
+molecules, we mean a specification of the location of each and
+every molecule. We have assumed that, due to random molecular
+motion, each such arrangement is equally probable. In what sense,
+then, is the final state "overwhelmingly probable"?</para>
+<para id="id7382715">Recall the system illustrated in <link target-id="fig1"/>, where we placed three identical
+blue marbles into ten spaces. We calculated before that there are
+120 unique ways to do this. If we ask for the probability of the
+arrangement in <link target-id="fig1a"/>, the answer
+is thus
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:cn>120</m:cn></m:apply></m:math>.
+This is also the probability for each of the other possible
+arrangements, according to our model. However, if we now ask
+instead for the probability of observing a "mixed" state (with no
+drop), the answer is
+<m:math><m:apply><m:divide/><m:cn>112</m:cn><m:cn>120</m:cn></m:apply></m:math>,
+whereas the probability of observing an "unmixed" state (with a
+drop) is only
+<m:math><m:apply><m:divide/><m:cn>8</m:cn><m:cn>120</m:cn></m:apply></m:math>.
+Clearly, the probabilities are not the same when considering the
+less specific characteristics "mixed" and "unmixed".</para>
+<para id="id7046912">In chemistry we are virtually never concerned
+with 
+<term>microscopic</term> details, such as the locations of specific
+individual molecules. Rather, we are interested in more general
+characteristics, such as whether a system is mixed or not, or what
+the temperature or pressure is. These properties of interest to us
+are 
+<term>macroscopic</term>. As such, we refer to a specific
+arrangement of the molecules as a 
+<term>microstate</term>, and each general state (mixed or unmixed,
+for example) as a 
+<term>macrostate</term>. All microstates have the same probability
+of occurring, according to our model. As such, the macrostates have
+widely differing probabilities.</para>
+<para id="id7046968">We come to an important result: the
+probability of observing a particular macrostate (<foreign>e.g.</foreign>, a mixed state) is proportional to the
+number of microstates with that macroscopic property. For example,
+from <link target-id="fig1"/>, there are 112
+arrangements (microstates) with the "mixed" macroscopic property.
+As we have discussed, the probability of observing a mixed state is
+<m:math><m:apply><m:divide/><m:cn>112</m:cn><m:cn>120</m:cn></m:apply></m:math>,
+which is obviously proportional to 112. Thus, one way to measure
+the relative probability of a particular macrostate is by the
+number of microstates
+<m:math><m:ci>W</m:ci></m:math>
+corresponding to that macrostate.
+<m:math><m:ci>W</m:ci></m:math> stands for
+"ways", 
+<foreign>i.e.</foreign>, there are 112 "ways" to get a mixed state
+in <link target-id="fig1"/>.</para>
+<para id="id7047023">Now we recall our conclusion that a
+spontaneous process always produces the outcome with greatest
+probability. Since
+<m:math><m:ci>W</m:ci></m:math> measures
+this probability for any substance or system of interest, we could
+predict, using
+<m:math><m:ci>W</m:ci></m:math>, whether
+the process leading from a given initial state to a given final
+state was spontaneous by simply comparing probabilities for the
+initial and final states. For reasons described below, we instead
+define a function of
+<m:math><m:ci>W</m:ci></m:math>,</para>
+<equation id="eqn1">
+<m:math><m:apply><m:eq/><m:apply><m:ci type="fn">S</m:ci><m:ci>W</m:ci></m:apply><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:ln/><m:ci>W</m:ci></m:apply></m:apply></m:apply></m:math></equation>
+<para id="id7047062">called the 
+<term>entropy</term>, which can be used to make such predictions
+about spontaneity. (The
+<m:math><m:ci>k</m:ci></m:math> is a
+proportionality constant which gives
+<m:math><m:ci>S</m:ci></m:math> appropriate
+units for our calculations.) Notice that the more microstates there
+are, the greater the entropy is. Therefore, a macrostate with a
+high probability (<foreign>e.g.</foreign> a mixed state) has a large entropy. We now
+modify our previous deduction to say that a spontaneous process
+produces the final state of greatest entropy. (Following
+modifications added below, this statement forms the 
+<term>Second Law of Thermodynamics</term>.)</para>
+<para id="id7047116">It would seem that we could use
+<m:math><m:ci>W</m:ci></m:math> for our
+calculations and that the definition of the new function
+<m:math><m:ci>S</m:ci></m:math> is
+unnecessary. However, the following reasoning shows that
+<m:math><m:ci>W</m:ci></m:math> is not a
+convenient function for calculations. We consider two identical
+glasses of water at the same temperature. We expect that the value
+of any physical property for the water in two glasses is twice the
+value of that property for a single glass. For example, if the
+enthalpy of the water in each glass is
+<m:math><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub></m:math>,
+then it follows that the total enthalpy of the water in the two
+glasses together is
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>H</m:mi><m:mi>total</m:mi></m:msub></m:ci><m:apply><m:times/><m:cn>2</m:cn><m:ci><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>.
+Thus, the enthalpy of a system is proportional to the quantity of
+material in the system: if we double the amount of water, we double
+the enthalpy. In direct contrast, we consider the calculation
+involving <m:math><m:ci>W</m:ci></m:math>
+for these two glasses of water. The number of microstates of the
+macroscopic state of one glass of water is
+<m:math><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:math>,
+and likewise the number of microstates in the second glass of water
+is
+<m:math><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:math>.
+However, if we combine the two glasses of water, the number of
+microstates of the total system is found from the product
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>W</m:mi><m:mi>total</m:mi></m:msub></m:ci><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>,
+which does not equal
+<m:math><m:apply><m:times/><m:cn>2</m:cn><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:math>.
+In other words,
+<m:math><m:ci>W</m:ci></m:math> is not
+proportional to the quantity of material in the system. This is
+inconvenient, since the value of
+<m:math><m:ci>W</m:ci></m:math> thus
+depends on whether the two systems are combined or not. (If it is
+not clear that we should multiply the
+<m:math><m:ci>W</m:ci></m:math> values,
+consider the simple example of rolling dice. The number of states
+for a single die is 6, but for two dice the number is
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:cn>6</m:cn><m:cn>6</m:cn></m:apply><m:cn>36</m:cn></m:apply></m:math>,
+not
+<m:math><m:apply><m:eq/><m:apply><m:plus/><m:cn>6</m:cn><m:cn>6</m:cn></m:apply><m:cn>12</m:cn></m:apply></m:math>.)</para>
+<para id="id7053276">We therefore need a new function
+<m:math><m:apply><m:ci>S</m:ci><m:ci>W</m:ci></m:apply></m:math>,
+so that, when we combine the two glasses of water, <m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>S</m:mi><m:mi>total</m:mi></m:msub></m:ci>
+<m:apply><m:plus/>
+<m:ci><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+<m:ci><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+</m:apply></m:apply></m:math>. Since <m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>S</m:mi><m:mi>total</m:mi></m:msub></m:ci>
+<m:apply><m:ci type="fn">S</m:ci>
+<m:ci><m:msub><m:mi>W</m:mi><m:mi>total</m:mi></m:msub></m:ci>
+</m:apply></m:apply></m:math>, <m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>S</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:apply><m:ci>S</m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>,
+and
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>W</m:mi><m:mi>total</m:mi></m:msub></m:ci><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:math>,
+then our new function
+<m:math><m:ci>S</m:ci></m:math> must
+satisfy the equation <m:math display="block"><m:apply><m:eq/><m:apply><m:ci type="fn">S</m:ci><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply><m:apply><m:plus/><m:apply><m:ci>S</m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply><m:apply><m:ci>S</m:ci><m:ci><m:msub><m:mi>W</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:apply></m:math> The only function
+<m:math><m:ci>S</m:ci></m:math> which will
+satisfy this equation is the logarithm function, which has the
+property that
+<m:math><m:apply><m:eq/><m:apply><m:ln/><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>x</m:ci><m:ci>y</m:ci></m:apply></m:apply><m:apply><m:plus/><m:apply><m:ln/><m:ci>x</m:ci></m:apply><m:apply><m:ln/><m:ci>y</m:ci></m:apply></m:apply></m:apply></m:math>.
+We conclude that an appropriate state function which measures the
+number of microstates in a particular macrostate is <link target-id="eqn1"/>.</para>
+</section>
+<section id="id7053417">
+<title>Observation 2: Absolute Entropies</title>
+<para id="id7053425">It is possible, though exceedingly difficult,
+to calculate the entropy of any system under any conditions of
+interest from the equation
+<m:math><m:apply><m:eq/><m:ci>S</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:ln/><m:ci>W</m:ci></m:apply></m:apply></m:apply></m:math>.
+It is also possible, using more advanced theoretical
+thermodynamics, to determine
+<m:math><m:ci>S</m:ci></m:math>
+experimentally by measuring heat capacities and enthalpies of phase
+transitions. Values of
+<m:math><m:ci>S</m:ci></m:math> determined
+experimentally, often referred to as "absolute" entropies, have
+been tabulated for many materials at many temperatures, and a few
+examples are given in <link target-id="table1"/>. We
+treat these values as observations and attempt to understand these
+in the context of <link target-id="eqn1"/>.</para>
+<table id="table1" summary="">
+<title>Absolute Entropies of Specific Substances</title>
+<tgroup cols="3">
+<thead>
+<row>
+<entry/>
+<entry>T (°C )</entry>
+<entry>S
+(<m:math><m:apply><m:divide/><m:ci>J</m:ci><m:apply><m:times/><m:ci>mol</m:ci><m:ci>°C</m:ci></m:apply></m:apply></m:math>
+)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>188.8</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>69.9</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>0</entry>
+<entry>63.3</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>0</entry>
+<entry>41.3</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>192.4</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>H</m:mi><m:msub><m:mi>N</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>140.6</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>H</m:mi><m:msub><m:mi>N</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>239.0</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>205.1</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>50</entry>
+<entry>207.4</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>100</entry>
+<entry>211.7</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>197.7</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>50</entry>
+<entry>200.0</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>24</entry>
+<entry>213.7</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>50</entry>
+<entry>216.9</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>Br</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>l</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>152.2</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>Br</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>245.5</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>116.1</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>260.7</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>Ca</m:mi><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>68.9</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>Ca</m:mi><m:msub><m:mi>Cl</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>104.6</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:mi>Ca</m:mi><m:msub><m:mi>Br</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>130</entry>
+</row>
+<row>
+<entry>
+<m:math><m:mrow><m:msub><m:mi>C</m:mi><m:mn>8</m:mn></m:msub><m:msub><m:mi>H</m:mi><m:mn>18</m:mn></m:msub><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+<entry>25</entry>
+<entry>361.1</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="id7384551">There are several interesting generalities
+observed in <link target-id="table1"/>. First, in
+comparing the entropy of the gaseous form of a substance to either
+its liquid or solid form at the same temperature, we find that the
+gas always has a substantially greater entropy. This is easy to
+understand from <link target-id="eqn1"/>: the
+molecules in the gas phase occupy a very much larger volume. There
+are very many more possible locations for each gas molecule and
+thus very many more arrangements of the molecules in the gas. It is
+intuitively clear that
+<m:math><m:ci>W</m:ci></m:math> should be
+larger for a gas, and therefore the entropy of a gas is greater
+than that of the corresponding liquid or solid.</para>
+<para id="id7384590">Second, we observe that the entropy of a
+liquid is always greater than that of the corresponding solid. This
+is understandable from our kinetic molecular view of liquids and
+solids. Although the molecules in the liquid occupy a comparable
+volume to that of the molecules in the solid, each molecule in the
+liquid is free to move throughout this entire volume. The molecules
+in the solid are relatively fixed in location. Therefore, the
+number of arrangements of molecules in the liquid is significantly
+greater than that in the solid, so the liquid has greater entropy
+by <link target-id="eqn1"/>.</para>
+<para id="id7384620">Third, the entropy of a substance increases
+with increasing temperature. The temperature is, of course, a
+measure of the average kinetic energy of the molecules. In a solid
+or liquid, then, increasing the temperature increases the total
+kinetic energy available to the molecules. The greater the energy,
+the more ways there are to distribute this energy amongst the
+molecules. Although we have previously only referred to the range
+of positions for a molecule as affecting
+<m:math><m:ci>W</m:ci></m:math>, the range
+of energies available for each molecule similarly affects
+<m:math><m:ci>W</m:ci></m:math>. As a
+result, as we increase the total energy of a substance, we increase
+<m:math><m:ci>W</m:ci></m:math> and thus
+the entropy.</para>
+<para id="id7006581">Fourth, the entropy of a substance whose
+molecules contain many atoms is greater than that of a substance
+composed of smaller molecules. The more atoms there are in a
+molecule, the more ways there are to arrange those atoms. With
+greater internal flexibility,
+<m:math><m:ci>W</m:ci></m:math> is larger
+when there are more atoms, so the entropy is greater.</para>
+<para id="id7006604">Fifth, the entropy of a substance with a high
+molecular weight is greater than that of substance with a low
+molecular weight. This result is a harder to understand, as it
+arises from the distribution of the momenta of the molecules rather
+than the positions and energies of the molecules. It is intuitively
+clear that the number of arrangements of the molecules is 
+<emphasis>not</emphasis> affected by the mass of the molecules.
+However, even at the same temperature, the range of momenta
+available for a heavier molecule is greater than for a lighter one.
+To see why, recall that the momentum of a molecule is
+<m:math><m:apply><m:eq/><m:ci>p</m:ci><m:apply><m:times/><m:ci>m</m:ci><m:ci>v</m:ci></m:apply></m:apply></m:math>
+and the kinetic energy is
+<m:math><m:apply><m:eq/><m:ci>KE</m:ci><m:apply><m:divide/><m:apply><m:times/><m:ci>m</m:ci><m:apply><m:power/><m:ci>v</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:cn>2</m:cn></m:apply><m:apply><m:divide/><m:apply><m:power/><m:ci>p</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:times/><m:cn>2</m:cn><m:ci>m</m:ci></m:apply></m:apply></m:apply></m:math>.
+Therefore, the maximum momentum available at a fixed total kinetic
+energy <m:math><m:ci>KE</m:ci></m:math> is
+<m:math><m:apply><m:eq/><m:ci>p</m:ci><m:apply><m:root/><m:apply><m:times/><m:cn>2m</m:cn><m:ci>KE</m:ci></m:apply></m:apply></m:apply></m:math>.
+Since this is larger for larger mass molecules, the range of
+momenta is greater for heavier particles, thus increasing
+<m:math><m:ci>W</m:ci></m:math> and the
+entropy.</para>
+</section>
+<section id="id7006664">
+<title>Observation 3: Condensation and Freezing</title>
+<para id="id7006672">We have concluded from our observations of
+spontaneous mixing that a spontaneous process always produces the
+final state of greatest probability. A few simple observations
+reveal that our deduction needs some thoughtful refinement. For
+example, we have observed that the entropy of liquid water is
+greater than that of solid water. This makes sense in the context
+of <link target-id="eqn1"/>, since the kinetic
+theory indicates that liquid water has a greater value of
+<m:math><m:ci>W</m:ci></m:math>.
+Nevertheless, we observe that liquid water spontaneously freezes at
+temperatures below 0°C. This process clearly displays a
+decrease in entropy and therefore evidently a shift from a more
+probable state to a less probable state. This appears to contradict
+directly our conclusion.</para>
+<para id="id7006719">Similarly, we expect to find condensation of
+water droplets from steam when steam is cooled. On days of high
+humidity, water spontaneously liquefies from the air on cold
+surfaces such as the outside of a glass of ice water or the window
+of an air conditioned building. In these cases, the transition from
+gas to liquid is clearly from a higher entropy phase to a lower
+entropy phase, which does not seem to follow our reasoning thus
+far.</para>
+<para id="id7006741">Our previous conclusions concerning entropy
+and probability increases were compelling, however, and we should
+be reluctant to abandon them. What we have failed to take into
+consideration is that these phase transitions involve changes of
+energy and thus heat flow. Condensation of gas to liquid and
+freezing of liquid to solid both involve evolution of heat. This
+heat flow is of consequence because our observations also revealed
+that the entropy of a substance can be increased significantly by
+heating. One way to preserve our conclusions about spontaneity and
+entropy is to place a condition on their validity: a spontaneous
+process produces the final state of greatest probability and
+entropy 
+<emphasis>provided that</emphasis> the process does not involve
+evolution of heat. This is an unsatisfying result, however, since
+most physical and chemical processes involve heat transfer. As an
+alternative, we can force the process not to evolve heat by 
+<emphasis>isolating</emphasis> the system undergoing the process: no
+heat can be released if there is no sink to receive the heat, and
+no heat can be absorbed if there is no source of heat. Therefore,
+we conclude from our observations that a spontaneous process 
+<emphasis>in an isolated system</emphasis> produces the final state
+of greatest probability and entropy. This is one statement of the 
+<term>Second Law of Thermodynamics</term>.</para>
+</section>
+<section id="id7006811">
+<title>Free Energy</title>
+<para id="id7006819">How can the Second Law be applied to a process
+in a system that is not isolated? One way to view the lessons of
+the previous observations is as follows: in analyzing a process to
+understand why it is or is not spontaneous, we must consider both
+the change in entropy of the system undergoing the process 
+<emphasis>and</emphasis> the effect of the heat released or absorbed
+during the process on the entropy of the surroundings. Although we
+cannot prove it here, the entropy increase of a substance due to
+heat <m:math><m:ci>q</m:ci></m:math> at
+temperature <m:math><m:ci>T</m:ci></m:math>
+is given by
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply><m:apply><m:divide/><m:ci>q</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:math>.
+From <link document="m12592">another study</link>, we can calculate
+the heat transfer for a process occurring under constant pressure
+from the enthalpy change,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply></m:math>.
+By conservation of energy, the heat flow into the surroundings must
+be
+<m:math><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply></m:apply></m:math>.
+Therefore, the increase in the entropy of the surroundings due to
+heat transfer must be
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply><m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:ci>T</m:ci></m:apply></m:apply></m:apply></m:math>.
+Notice that, if the reaction is exothermic,
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+so
+<m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.</para>
+<para id="id7057601">According to our statement of the Second Law,
+a spontaneous process in an isolated system is always accompanied
+by an increase in the entropy of the system. If we want to apply
+this statement to a non-isolated system, we must include the
+surroundings in our entropy calculation. We can say then that, for
+a spontaneous process, <m:math display="block"><m:apply><m:gt/><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>total</m:mi></m:msub></m:ci></m:apply><m:apply><m:plus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>sys</m:mi></m:msub></m:ci></m:apply><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math> Since
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply><m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:ci>T</m:ci></m:apply></m:apply></m:apply></m:math>,
+then we can write that
+<m:math><m:apply><m:gt/><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:ci>T</m:ci></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+This is easily rewritten to state that, for a spontaneous
+process:</para>
+<equation id="eqn2"><m:math><m:apply><m:lt/><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math></equation>
+<para id="id7057733"><link target-id="eqn2"/> is
+really just a different form of the Second Law of Thermodynamics.
+However, this form has the advantage that it takes into account the
+effects on both the system undergoing the process and the
+surroundings. Thus, this new form can be applied to non-isolated
+systems.</para>
+<para id="id7057757"><link target-id="eqn2"/>
+reveals why the temperature affects the spontaneity of processes.
+Recall that the condensation of water vapor occurs spontaneously at
+temperature below 100°C but not above. Condensation is an
+exothermic process; to see this, consider that the reverse process,
+evaporation, obviously requires heat input. Therefore
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+for condensation. However, condensation clearly results in a
+decrease in entropy, therefore
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+also. Examining <link target-id="eqn2"/>, we can
+conclude that
+<m:math><m:apply><m:lt/><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>
+will be less than zero for condensation only if the temperature is
+not too high. At high temperature, the term
+<m:math><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:math>,
+which is positive, becomes larger than <m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply></m:math>, so
+<m:math><m:apply><m:gt/><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>
+for condensation at high temperature. Therefore, condensation only
+occurs at lower temperatures.</para>
+<para id="id6671261">Because of the considerable practical utility
+of <link target-id="eqn2"/> in predicting the
+spontaneity of physical and chemical processes, it is desirable to
+simplify the calculation of the quantity on the left side of the
+inequality. One way to do this is to define a new quantity
+<m:math><m:apply><m:eq/><m:ci>G</m:ci><m:apply><m:minus/><m:ci>H</m:ci><m:apply><m:times/><m:ci>T</m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:math>,
+called the 
+<term>free energy</term>. If we calculate from this definition the
+change in the free energy which occurs during a process at constant
+temperature, we get <m:math display="block"><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:ci><m:msub><m:mi>G</m:mi><m:mi>final</m:mi></m:msub></m:ci><m:ci><m:msub><m:mi>G</m:mi><m:mi>initial</m:mi></m:msub></m:ci></m:apply><m:apply><m:minus/><m:apply><m:minus/><m:ci><m:msub><m:mi>H</m:mi><m:mi>final</m:mi></m:msub></m:ci><m:apply><m:times/><m:ci>T</m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>final</m:mi></m:msub></m:ci></m:apply></m:apply><m:apply><m:minus/><m:ci><m:msub><m:mi>H</m:mi><m:mi>initial</m:mi></m:msub></m:ci><m:apply><m:times/><m:ci>T</m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>initial</m:mi></m:msub></m:ci></m:apply></m:apply></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>
+and therefore a simplified statement of the
+Second Law of Thermodynamics in <link target-id="eqn2"/> is that</para>
+<equation id="eqn3"><m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math></equation>
+<para id="id6671362">for any spontaneous process. Thus, in any
+spontaneous process, the free energy of the system decreases. Note
+that <m:math><m:ci>G</m:ci></m:math> is a
+state function, since it is defined in terms of
+<m:math><m:ci>H</m:ci></m:math>,
+<m:math><m:ci>T</m:ci></m:math>, and
+<m:math><m:ci>S</m:ci></m:math>, all of
+which are state functions. Since
+<m:math><m:ci>G</m:ci></m:math> is a state
+function, then
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>
+can be calculated along any convenient path. As such, the methods
+used to calculate
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply></m:math>
+in <link document="m12592">another study</link> can be used just as
+well to calculate
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>.</para>
+</section>
+<section id="id6671421">
+<title>Thermodynamic Description of Phase Equilibrium</title>
+<para id="id6671429">As we recall, the entropy of vapor is much
+greater than the entropy of the corresponding amount of liquid. A
+look back at <link target-id="table1"/> shows that,
+at 25°C, the entropy of one mole of liquid water is
+<m:math><m:apply><m:times/><m:cn>69.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>,
+whereas the entropy of one mole of water vapor is
+<m:math><m:apply><m:times/><m:cn>188.8</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>.
+Our first thought, based on our understanding of spontaneous
+processes and entropy, might well be that a mole of liquid water at
+25°C should spontaneously convert into a mole of water
+vapor, since this process would greatly increase the entropy of the
+water. We know, however, that this does not happen. Liquid water
+will exist in a closed container at 25°C without
+spontaneously converting entirely to vapor. What have we left
+out?</para>
+<para id="id6671488">The answer, based on our discussion of free
+energy, is the energy associated with evaporation. The conversion
+of one mole of liquid water into one mole of water vapor results in
+absorption of
+<m:math><m:apply><m:times/><m:cn>44.0</m:cn><m:ci>kJ</m:ci></m:apply></m:math>
+of energy from the surroundings. Recall that this loss of energy
+from the surroundings results in a significant decrease in entropy
+of the surroundings. We can calculate the amount of entropy
+decrease in the surroundings from
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply><m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:ci>T</m:ci></m:apply></m:apply></m:apply></m:math>.
+At 25°C, this gives
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msub><m:mi>S</m:mi><m:mi>surr</m:mi></m:msub></m:ci></m:apply><m:apply><m:divide/><m:apply><m:times/><m:cn>-44.0</m:cn><m:ci>kJ</m:ci></m:apply><m:apply><m:times/><m:cn>298.15</m:cn><m:ci>K</m:ci></m:apply></m:apply><m:apply><m:times/><m:cn>-147.57</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:math>
+for a single mole. This entropy decrease is greater than the
+entropy increase of the water,
+<m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:times/><m:cn>188.8</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply><m:apply><m:times/><m:cn>69.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply><m:apply><m:times/><m:cn>118.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:math>.
+Therefore, the entropy of the universe 
+<emphasis>decreases</emphasis> when one mole of liquid water
+converts to one mole of water vapor at 25°C.</para>
+<para id="id7394123">We can repeat this calculation in terms of the
+free energy change: <m:math display="block"><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:apply></m:math> <m:math display="block"><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:times/><m:cn>44000</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>mol</m:ci></m:apply></m:apply><m:apply><m:times/><m:apply><m:times/><m:cn>298.15</m:cn><m:ci>K</m:ci></m:apply><m:apply><m:times/><m:cn>118.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:apply><m:times/><m:ci>K</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:apply></m:apply></m:apply></m:math> <m:math display="block"><m:apply><m:gt/><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:times/><m:cn>8.55</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>
+Since the free energy increases in the
+transformation of one mole of liquid water to one mole of water
+vapor, we predict that the transformation will not occur
+spontaneously. This is something of a relief, because we have
+correctly predicted that the mole of liquid water is stable at
+25°C relative to the mole of water vapor.</para>
+<para id="id7394229">We are still faced with our perplexing
+question, however. Why does any water evaporate at 25°C? How
+can this be a spontaneous process?</para>
+<para id="id7394252">The answer is that we have to be careful about
+interpreting our prediction. The entropy of one mole of water vapor
+at 25°C 
+<emphasis>and 1.00 atm pressure</emphasis> is
+<m:math><m:apply><m:times/><m:cn>188.8</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>. We should clarify our prediction to say that one mole of
+liquid water will not spontaneously evaporate to form one mole of
+water vapor at 25°C and 1.00 atm pressure. This prediction
+is in agreement with our observation, because we have found that
+the water vapor formed spontaneously above liquid water at
+25°C has pressure 23.8 torr, well below 1.00 atm.</para>
+<para id="id7394306">Assuming that our reasoning is correct, then
+the spontaneous evaporation of water at 25°C when 
+<emphasis>no</emphasis> water vapor is present initially must have
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+And, indeed, as water vapor forms and the pressure of the water
+vapor increases, evaporation must continue as long as
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+Eventually, evaporation stops in a closed system when we reach the
+vapor pressure, so we must reach a point where
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>
+is no longer less than zero, that is, evaporation stops when
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+This is the point where we have equilibrium between liquid and
+vapor.</para>
+<para id="id7394381">We can actually determine the conditions under
+which this is true. Since
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>,
+then when
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:math>.
+We already know that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:cn>44.0</m:cn><m:ci>kJ</m:ci></m:apply></m:apply></m:math>
+for the evaporation of one mole of water. Therefore, the pressure
+of water vapor at which
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+at 25°C is the pressure at which
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:ci>T</m:ci></m:apply><m:apply><m:times/><m:cn>147.6</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:math>
+for a single mole of water evaporating. This is larger than the
+value of
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+for one mole and 1.00 atm pressure of water vapor, which as we
+calculated was
+<m:math><m:apply><m:times/><m:cn>118.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>.
+Evidently,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+for evaporation changes as the pressure of the water vapor changes.
+We therefore need to understand why the entropy of the water vapor
+depends on the pressure of the water vapor.</para>
+<para id="id7061665">Recall that 1 mole of water vapor occupies a
+much smaller volume at 1.00 atm of pressure than it does at the
+considerably lower vapor pressure of 23.8 torr. In the larger
+volume at lower pressure, the water molecules have a much larger
+space to move in, and therefore the number of microstates for the
+water molecules must be larger in a larger volume. Therefore, the
+entropy of one mole of water vapor is larger in a larger volume at
+lower pressure. The entropy change for evaporation of one mole of
+water is thus greater when the evaporation occurs to a lower
+pressure. With a greater entropy change to offset the entropy loss
+of the surroundings, it is possible for the evaporation to be
+spontaneous at lower pressure. And this is exactly what we
+observe.</para>
+<para id="id7061699">To find out how much the entropy of a gas
+changes as we decrease the pressure, we assume that the number of
+microstates <m:math><m:ci>W</m:ci></m:math>
+for the gas molecule is proportional to the volume
+<m:math><m:ci>V</m:ci></m:math>. This would
+make sense, because the larger the volume, the more places there
+are for the molecules to be. Since the entropy is given by
+<m:math><m:apply><m:eq/><m:ci>S</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:apply><m:ln/><m:ci>W</m:ci></m:apply></m:apply></m:apply></m:math>,
+then <m:math><m:ci>S</m:ci></m:math> must
+also be proportional to
+<m:math><m:apply><m:ln/><m:ci>V</m:ci></m:apply></m:math>.
+Therefore, we can say that</para>
+<equation id="eqn4"><m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:ci type="fn">S</m:ci><m:ci><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:ci></m:apply><m:apply><m:ci type="fn">S</m:ci><m:ci><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply><m:apply><m:minus/><m:apply><m:times/><m:ci type="constant">R</m:ci><m:apply><m:ln/><m:ci><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:ci></m:apply></m:apply><m:apply><m:times/><m:ci type="constant">R</m:ci><m:apply><m:ln/><m:ci><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:apply><m:apply><m:times/><m:ci type="constant">R</m:ci><m:apply><m:ln/><m:apply><m:divide/><m:ci><m:msub><m:mi>V</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>V</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:apply></m:apply></m:math></equation>
+<para id="id7061751">We are interested in the variation of
+<m:math><m:ci>S</m:ci></m:math> with
+pressure, and we remember from Boyle's law that, for a fixed
+temperature, volume is inversely related to pressure. Thus, we find
+that</para>
+<equation id="eqn5"><m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:ci type="fn">S</m:ci><m:ci><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:ci></m:apply><m:apply><m:ci type="fn">S</m:ci><m:ci><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply><m:apply><m:times/><m:ci type="constant">R</m:ci><m:apply><m:ln/><m:apply><m:divide/><m:ci><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:ci></m:apply></m:apply></m:apply>
+<m:apply><m:minus/><m:apply><m:times/><m:ci type="constant">R</m:ci><m:apply><m:ln/><m:apply><m:divide/><m:ci><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:ci></m:apply></m:apply></m:apply></m:apply></m:apply></m:math></equation>
+<para id="id7061786">For water vapor, we know that the entropy at
+1.00 atm pressure is
+<m:math><m:apply><m:times/><m:cn>188.8</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>
+for one mole. We can use this and the equation above to determine
+the entropy at any other pressure. For a pressure of
+<m:math><m:apply><m:eq/><m:apply><m:times/><m:cn>23.8</m:cn><m:ci>torr</m:ci></m:apply><m:apply><m:times/><m:cn>0.0313</m:cn><m:ci>atm</m:ci></m:apply></m:apply></m:math>,
+this equation gives that <m:math><m:apply><m:ci type="fn">S</m:ci><m:apply><m:times/><m:cn>23.8</m:cn><m:ci>torr</m:ci></m:apply></m:apply></m:math>)
+is
+<m:math><m:apply><m:times/><m:cn>217.6</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:math>
+for one mole of water vapor. Therefore, at this pressure, the
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math> for evaporation of one mole of water vapor is
+<m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:times/><m:cn>217.6</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply><m:apply><m:times/><m:cn>69.9</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply><m:apply><m:times/><m:cn>147.6</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:math>.
+We can use this to calculate that for evaporation of one mole of
+water at 25°C and water vapor pressure of 23.8 torr is
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:apply><m:minus/><m:apply><m:times/><m:cn>44.0</m:cn><m:ci>kJ</m:ci></m:apply><m:apply><m:times/><m:apply><m:times/><m:cn>298.15</m:cn><m:ci>K</m:ci></m:apply><m:apply><m:times/><m:cn>147.6</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:apply><m:apply><m:times/><m:cn>0.00</m:cn><m:ci>kJ</m:ci></m:apply></m:apply></m:math>.
+This is the condition we expected for equilibrium.</para>
+<para id="id7061892"/>
+<para id="id7061898">We can conclude that the evaporation of water
+when no vapor is present initially is a spontaneous process with
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+and the evaporation continues until the water vapor has reached its
+the equilibrium vapor pressure, at which point
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.</para>
+</section>
+<section id="id6624000">
+<title>Thermodynamic description of reaction equilibrium</title>
+<para id="id6624008">Having developed a thermodynamic understanding
+of phase equilibrium, it proves to be even more useful to examine
+the thermodynamic description of reaction equilibrium to understand
+why the reactants and products come to equilibrium at the specific
+values that are observed.</para>
+<para id="id6624025">Recall that
+<m:math><m:apply><m:lt/><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>
+for a spontaneous process, and
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>
+at equilibrium. From these relations, we would predict that most
+(but not all) exothermic processes with
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+are spontaneous, because all such processes increase the entropy of
+the surroundings when they occur. Similarly, we would predict that
+most (but not all) processes with
+<m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+are spontaneous.</para>
+<para id="id6624099">We try applying these conclusions to synthesis
+of ammonia</para>
+<equation id="eqn6"><m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></equation>
+<para id="id6624127">at 298K, for which we find that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>-198</m:cn><m:apply><m:divide/><m:ci>J</m:ci><m:apply><m:times/><m:ci>mol</m:ci><m:ci>K</m:ci></m:apply></m:apply></m:apply></m:apply></m:math>.
+Note that
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+because the reaction reduces the total number of gas molecules
+during ammonia synthesis, thus reducing
+<m:math><m:ci>W</m:ci></m:math>, the number
+of ways of arranging the atoms in these molecules.
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+suggests that <link target-id="eqn6"/> should not
+occur at all. However,
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>-92.2</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:math>.
+Overall, we find that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>-33.0</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:math>
+at 298K, which according to <link target-id="eqn3"/>
+suggests that <link target-id="eqn6"/> is
+spontaneous.</para>
+<para id="id6624194">Given this analysis, we are now pressed to
+ask, if <link target-id="eqn6"/> is predicted to be
+spontaneous, why does the reaction come to equilibrium without
+fully consuming all of the reactants? The answer lies in a more
+careful examination of the values given:
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+and
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+are the values for this reaction 
+<emphasis>at standard conditions</emphasis>, which means that all
+of the gases in the reactants and products are taken to be at 1 atm
+pressure. Thus, the fact that
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+for <link target-id="eqn6"/> at standard conditions
+means that, if all three gases are present at 1 atm pressure, the
+reaction will spontaneously produce an increase in the amount of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>.
+Note that this will reduce the pressure of the
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+and
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+and increase the pressure of the
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>.
+This changes the value of
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+and thus of
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>,
+because as we already know the entropies of all three gases depend
+on their pressures. As the pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+increases, its entropy decreases, and as the pressures of the
+reactants gases decrease, their entropies increase. The result is
+that
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+becomes increasingly negative. The reaction creates more
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+until the value of
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+is sufficiently negative that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:minus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>H</m:ci></m:apply><m:apply><m:times/><m:ci>T</m:ci><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>.</para>
+<para id="id6624307">From this analysis, we can say by looking at
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+and
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+that, since
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+for <link target-id="eqn6"/>, reaction equilibrium
+results in production of more product and less reactant than at
+standard conditions. Moreover, the more negative
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+is, the more strongly favored are the products over the reactants
+at equilibrium. By contrast, the more positive
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+is, the more strongly favored are the reactants over the products
+at equilibrium.</para>
+</section>
+<section id="id6624346">
+<title>Thermodynamic Description of the Equilibrium Constant</title>
+<para id="id7382873">Thermodynamics can also provide a quantitative
+understanding of the equilibrium constant. Recall that the
+condition for equilibrium is that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+As noted before,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>
+depends on the pressures of the gases in the reaction mixture,
+because
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>S</m:ci></m:apply></m:math>
+depends on these pressures. Though we will not prove it here, it
+can be shown by application of <link target-id="eqn5"/> to a reaction that the relationship
+between
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply></m:math>
+and the pressures of the gases is given by the following
+equation:</para>
+<equation id="eqn7"><m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:apply><m:plus/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:ci type="constant">R</m:ci><m:ci>T</m:ci><m:apply><m:ln/><m:ci>Q</m:ci></m:apply></m:apply></m:apply></m:apply></m:math></equation>
+<para id="id7382923">(Recall again that the superscript °
+refers to standard pressure of 1 atm.
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+is the difference between the free energies of the products and
+reactants when all gases are at 1 atm pressure.) In this equation,
+<m:math><m:ci>Q</m:ci></m:math> is a
+quotient of partial pressures of the gases in the reaction mixture.
+In this quotient, each product gas appears in the numerator with an
+exponent equal to its stoichiometic coefficient, and each reactant
+gas appears in the denominator also with its corresponding
+exponent. For example, for the reaction</para>
+<equation id="eqn8"><m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></equation>
+<equation id="eqn9">
+<m:math>
+<m:apply><m:eq/>
+<m:ci>Q</m:ci>
+<m:apply><m:divide/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:mi>H</m:mi><m:mi>I</m:mi></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>P</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+<m:ci><m:msub><m:mi>P</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+</m:apply></m:apply></m:apply>
+</m:math>
+</equation>
+<para id="id7383028">It is important to note that the partial
+pressures in
+<m:math><m:ci>Q</m:ci></m:math> need not be
+the equilibrium partial pressures. However, if the pressures in
+<m:math><m:ci>Q</m:ci></m:math> are the
+equilibrium partial pressures, then
+<m:math><m:ci>Q</m:ci></m:math> has the
+same value as
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>,
+the equilibrium constant, by definition. Moreover, if the pressures
+are at equilibrium, we know that
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci>G</m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+If we look back at <link target-id="eqn7"/>, we can
+conclude that</para>
+<equation id="eqn10"><m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:minus/><m:apply><m:times/><m:ci type="constant">R</m:ci><m:ci>T</m:ci><m:apply><m:ln/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci></m:apply></m:apply></m:apply></m:apply></m:math></equation>
+<para id="id7383082">This is an exceptionally important
+relationship, because it relates two very different observations.
+To understand this significance, consider first the case where
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>.
+We have previously reasoned that, in this case, the reaction
+equilibrium will favor the products. From <link target-id="eqn10"/> we can note that, if
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+it must be that
+<m:math><m:apply><m:gt/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci><m:cn>1</m:cn></m:apply></m:math>.
+Furthermore, if
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+is a large negative number,
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+is a very large number. By contrast, if
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+is a large positive number,
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+will be a very small (though positive) number much less than 1. In
+this case, the reactants will be strongly favored at
+equilibrium.</para>
+<para id="id7383142">Note that the thermodynamic description of
+equilibrium and the dynamic description of equilibrium are
+complementary. Both predict the same equilibrium. In general, the
+thermodynamic arguments give us an understanding of the conditions
+under which equilibrium occurs, and the dynamic arguments help us
+understand how the equilibrium conditions are achieved.</para>
+</section>
+<section id="id7383160">
+<title>Review and Discussion Questions</title>
+<exercise id="ex1"><problem id="id8758195"><para id="id7383168">Each possible sequence of the 52 cards in a
+deck is equally probable. However, when you shuffle a deck and then
+examine the sequence, the deck is never ordered. Explain why in
+terms of microstates, macrostates, and entropy.</para></problem></exercise>
+<exercise id="ex2"><problem id="id1167078702196">
+<para id="id7383189">Assess the validity of the statement, "In all
+spontaneous processes, the system moves toward a state of lowest
+energy." Correct any errors you identify.</para></problem></exercise>
+<exercise id="ex3"><problem id="id1167104570108">
+<para id="id7383209">In each case, determine whether spontaneity is
+expected at low temperature, high temperature, any temperature, or
+no temperature:</para>
+<section id="ex3a"><para id="p3a"><m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math></para></section>
+
+<section id="ex3b"><para id="p3b"><m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math></para></section>
+
+<section id="ex3c"><para id="p3c">
+<m:math><m:apply><m:gt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math></para></section>
+
+<section id="ex3d"><para id="p3d">
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math></para></section>
+</problem></exercise>
+
+<exercise id="ex4"><problem id="id1167103470820">
+<para id="id7173796">Using thermodynamic equilibrium arguments,
+explain why a substance with weaker intermolecular forces has a
+greater vapor pressure than one with stronger intermolecular
+forces.</para></problem></exercise>
+
+<exercise id="ex5"><problem id="id2306894">
+<para id="id7173808">Why does the entropy of a gas increase as the
+volume of the gas increases? Why does the entropy decrease as the
+pressure increases?</para></problem></exercise>
+
+<exercise id="ex6"><problem id="id1167104705499">
+<para id="id7173822">For each of the following reactions, calculate
+the values of
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>,
+and
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>G</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+at
+<m:math><m:apply><m:eq/><m:ci>T</m:ci><m:apply><m:times/><m:cn>298</m:cn><m:ci>K</m:ci></m:apply></m:apply></m:math>
+and use these to predict whether equilibrium will favor products or
+reactants at
+<m:math><m:apply><m:eq/><m:ci>T</m:ci><m:apply><m:times/><m:cn>298</m:cn><m:ci>K</m:ci></m:apply></m:apply></m:math>.
+Also calculate
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>.</para>
+
+<section id="ex6a"><para id="p6a"><m:math><m:mrow><m:mn>2</m:mn><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section>
+
+<section id="ex6b"><para id="p6b"><m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section>
+
+<section id="ex6c"><para id="p6c"><m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>3</m:mn><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section></problem></exercise>
+
+<exercise id="ex7"><problem id="id1167103975556"><para id="newpara">Predict the sign of the entropy for the reaction
+<m:math display="block"><m:mrow><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+Give an explanation, based on entropy and the
+Second Law, of why this reaction occurs spontaneously.</para></problem></exercise>
+
+<exercise id="ex8"><problem id="id1167082481118">
+<para id="p8">For the reaction
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>,
+predict the sign of both
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+and <m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>.
+Should this reaction be spontaneous at high temperature or at low
+temperature? Explain.</para></problem></exercise>
+
+<exercise id="ex9"><problem id="id8459772"><para id="id7174074">For each of the reactions in <link target-id="ex6"/>, predict whether increases in
+temperature will shift the reaction equilibrium more towards
+products or more towards reactants.</para></problem></exercise>
+
+<exercise id="ex10"><problem id="id1167096498788">
+<para id="id7174090">Using <link target-id="eqn7"/>
+and <link target-id="eqn9"/>, show that for a given
+set of initial partial pressures where
+<m:math><m:ci>Q</m:ci></m:math> is larger
+than
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>,
+the reaction will spontaneously create more reactants. Also show
+that if <m:math><m:ci>Q</m:ci></m:math> is
+smaller than
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>,
+the reaction will spontaneously create more products.</para></problem></exercise>
+</section>
+</content>
+</document>

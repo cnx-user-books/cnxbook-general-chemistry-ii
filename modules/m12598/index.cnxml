@@ -1,0 +1,986 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Ideal Gas Law</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f78565b0-fa1a-4f38-b1f6-16024f9d5b66</md:uuid>
+</metadata>
+<content>
+<section id="id4411840">
+<title>Foundation</title>
+<para id="id4411848">We assume as our starting point the atomic
+molecular theory. That is, we assume that all matter is composed of
+discrete particles. The elements consist of identical atoms, and
+compounds consist of identical molecules, which are particles
+containing small whole number ratios of atoms. We also assume that
+we have determined a complete set of relative atomic weights,
+allowing us to determine the molecular formula for any
+compound.</para>
+</section>
+<section id="id4411872">
+<title>Goals</title>
+<para id="id4411879">The individual molecules of different
+compounds have characteristic properties, such as mass, structure,
+geometry, bond lengths, bond angles, polarity, diamagnetism or
+paramagnetism. We have not yet considered the properties of mass
+quantities of matter, such as density, phase (solid, liquid or gas)
+at room temperature, boiling and melting points, reactivity, and so
+forth. These are properties which are not exhibited by individual
+molecules. It makes no sense to ask what the boiling point of one
+molecule is, nor does an individual molecule exist as a gas, solid,
+or liquid. However, we do expect that these material or bulk
+properties are related to the properties of the individual
+molecules. Our ultimate goal is to relate the properties of the
+atoms and molecules to the properties of the materials which they
+comprise.</para>
+<para id="id4357762">Achieving this goal will require considerable
+analysis. In this Concept Development Study, we begin at a somewhat
+more fundamental level, with our goal to know more about the nature
+of gases, liquids and solids. We need to study the relationships
+between the physical properties of materials, such as density and
+temperature. We begin our study by examining these properties in
+gases.</para>
+</section>
+<section id="id4357783">
+<title>Observation 1: Pressure-Volume Measurements on Gases</title>
+<para id="id4357791">It is an elementary observation that air has a
+"spring" to it: if you squeeze a balloon, the balloon rebounds to
+its original shape. As you pump air into a bicycle tire, the air
+pushes back against the piston of the pump. Furthermore, this
+resistance of the air against the piston clearly increases as the
+piston is pushed farther in. The "spring" of the air is
+measured as a pressure, where the pressure
+<m:math><m:ci>P</m:ci></m:math> is
+defined</para>
+<equation id="eqn1">
+<m:math>
+<m:apply><m:eq/>
+<m:ci>P</m:ci>
+<m:apply>
+<m:divide/><m:ci>F</m:ci><m:ci>A</m:ci></m:apply>
+</m:apply></m:math></equation>
+<para id="id4357822">
+<m:math><m:ci>F</m:ci></m:math> is the
+force exerted by the air on the surface of the piston head and
+<m:math><m:ci>A</m:ci></m:math> is the
+surface area of the piston head.</para>
+<para id="id4357840">For our purposes, a simple pressure gauge is
+sufficient. We trap a small quantity of air in a syringe (a piston
+inside a cylinder) connected to the pressure gauge, and measure
+both the volume of air trapped inside the syringe and the pressure
+reading on the gauge. In one such sample measurement, we might find
+that, at atmospheric pressure (760 torr), the volume of gas trapped
+inside the syringe is 29.0 ml. We then compress the syringe
+slightly, so that the volume is now 23.0 ml. We feel the increased
+spring of the air, and this is registered on the gauge as an
+increase in pressure to 960 torr. It is simple to make many
+measurements in this manner. A sample set of data appears in
+<link target-id="table1"/>. We note that, in
+agreement with our experience with gases, the pressure increases as
+the volume decreases. These data are plotted <link target-id="fig1">here</link>.</para>
+<table id="table1" summary="">
+<title>Sample Data from Pressure-Volume Measurement</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>Pressure (torr)</entry>
+<entry>Volume (ml)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>760</entry>
+<entry>29.0</entry>
+</row>
+<row>
+<entry>960</entry>
+<entry>23.0</entry>
+</row>
+<row>
+<entry>1160</entry>
+<entry>19.0</entry>
+</row>
+<row>
+<entry>1360</entry>
+<entry>16.2</entry>
+</row>
+<row>
+<entry>1500</entry>
+<entry>14.7</entry>
+</row>
+<row>
+<entry>1650</entry>
+<entry>13.3</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<figure id="fig1">
+<title>Measurements on Spring of the Air</title>
+<media id="idm35312" alt=""><image src="../../media/fig1-6773.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1-2db3.eps" mime-type="application/postscript"/></media>
+</figure>
+
+<para id="id4153966">An initial question is whether there is a
+quantitative relationship between the pressure measurements and the
+volume measurements. To explore this possibility, we try to plot
+the data in such a way that both quantities increase together. This
+can be accomplished by plotting the pressure versus the inverse of
+the volume, rather than versus the volume. The data are given in
+<link target-id="table2"/> and plotted <link target-id="fig2">here</link>.</para>
+
+<table id="table2" summary="">
+<title>Analysis of Sample Data</title>
+<tgroup cols="4">
+<thead>
+<row>
+<entry>Pressure (torr)</entry>
+<entry>Volume (ml)</entry>
+<entry>1/Volume (1/ml)</entry>
+<entry>Pressure × Volume</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>760</entry>
+<entry>29.0</entry>
+<entry>0.0345</entry>
+<entry>22040</entry>
+</row>
+<row>
+<entry>960</entry>
+<entry>23.0</entry>
+<entry>0.0435</entry>
+<entry>22080</entry>
+</row>
+<row>
+<entry>1160</entry>
+<entry>19.0</entry>
+<entry>0.0526</entry>
+<entry>22040</entry>
+</row>
+<row>
+<entry>1360</entry>
+<entry>16.2</entry>
+<entry>0.0617</entry>
+<entry>22032</entry>
+</row>
+<row>
+<entry>1500</entry>
+<entry>14.7</entry>
+<entry>0.0680</entry>
+<entry>22050</entry>
+</row>
+<row>
+<entry>1650</entry>
+<entry>13.3</entry>
+<entry>0.0752</entry>
+<entry>21945</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<figure id="fig2">
+<title>Analysis of Measurements on Spring of the Air</title>
+<media id="idp1792464" alt=""><image src="../../media/fig2-67af.png" mime-type="image/png"/><image for="pdf" src="../../media/fig2-e5c3.eps" mime-type="application/postscript"/></media>
+</figure>
+
+
+
+<para id="id4153991">Notice also that, with elegant simplicity, the
+data points form a straight line. Furthermore, the straight line
+seems to connect to the origin
+<m:math><m:set><m:cn>0</m:cn><m:cn>0</m:cn></m:set></m:math>.
+This means that the pressure must simply be a constant multiplied
+by
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>V</m:ci></m:apply></m:math>:</para>
+<equation id="eqn2">
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>P</m:ci>
+<m:apply>
+<m:ci><m:mo>×</m:mo></m:ci>
+<m:ci>k</m:ci>
+<m:apply><m:divide/><m:cn>1</m:cn><m:ci>V</m:ci>
+</m:apply>
+</m:apply></m:apply></m:math></equation>
+
+<para id="id4154025">If we multiply both sides of this equation by
+<m:math><m:ci>V</m:ci></m:math>, then we
+notice that</para>
+<equation id="eqn3">
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:ci>k</m:ci></m:apply></m:math></equation>
+
+<para id="id4154043">In other words, if we go back and multiply the
+pressure and the volume together for each experiment, we should get
+the same number each time. These results are shown in the last
+column of <link target-id="table2"/>, and we see
+that, within the error of our data, all of the data points give the
+same value of the product of pressure and volume. (The volume
+measurements are given to three decimal places and hence are
+accurate to a little better than 1%. The values of
+<m:math><m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>Pressure</m:ci><m:ci>Volume</m:ci></m:apply></m:math>
+are all within 1% of each other, so the fluctuations are not
+meaningful.)</para>
+<para id="id4276881">We should wonder what significance, if any,
+can be assigned to the number
+<m:math><m:apply><m:times/><m:ci>22040</m:ci><m:apply><m:times/><m:ci>torr</m:ci><m:ci>ml</m:ci></m:apply></m:apply></m:math>
+we have observed. It is easy to demonstrate that this
+"constant" is not so constant. We can easily trap any
+amount of air in the syringe at atmospheric pressure. This will
+give us any volume of air we wish at 760 torr pressure. Hence, the
+value
+<m:math><m:apply><m:times/><m:ci>22040</m:ci><m:apply><m:times/><m:ci>torr</m:ci><m:ci>ml</m:ci></m:apply></m:apply></m:math>
+is only observed for the particular amount of air we happened to
+choose in our sample measurement. Furthermore, if we heat the
+syringe with a fixed amount of air, we observe that the volume
+increases, thus changing the value of the
+<m:math><m:apply><m:times/><m:ci>22040</m:ci><m:apply><m:times/><m:ci>torr</m:ci><m:ci>ml</m:ci></m:apply></m:apply></m:math>.
+Thus, we should be careful to note that the <emphasis>product
+of pressure and volume is a constant for a given amount of air at a
+fixed temperature</emphasis>. This observation is referred to
+as <term>Boyle's Law</term>, dating to
+1662.</para>
+
+
+<para id="id4299410">The data given in <link target-id="table1"/> assumed that we used air for the
+gas sample. (That, of course, was the only gas with which Boyle was
+familiar.) We now experiment with varying the composition of the
+gas sample. For example, we can put oxygen, hydrogen, nitrogen,
+helium, argon, carbon dioxide, water vapor, nitrogen dioxide, or
+methane into the cylinder. In each case we start with 29.0 ml of
+gas at 760 torr and 25°C. We then vary the volumes as in
+<link target-id="table1"/> and measure the
+pressures. Remarkably, we find that the pressure of each gas is
+exactly the same as every other gas at each volume given. For
+example, if we press the syringe to a volume of 16.2 ml, we observe
+a pressure of 1360 torr, no matter which gas is in the
+cylinder. This result also applies equally well to mixtures of
+different gases, the most familiar example being air, of
+course.</para>
+<para id="id4299474">We conclude that the pressure of a gas sample
+depends on the volume of the gas and the temperature, but not on
+the composition of the gas sample. We now add to this result a
+conclusion from a <link document="m12431">previous study</link>. Specifically, we
+recall the <link document="m12431" target-id="combvol">Law of Combining
+Volumes</link>, which states that, when gases combine during
+a chemical reaction at a fixed pressure and temperature, the ratios
+of their volumes are simple whole number ratios. We further recall
+that this result can be explained in the context of the atomic
+molecular theory by hypothesizing that equal volumes of gas contain
+equal numbers of gas particles, independent of the type of gas, a
+conclusion we call <term>Avogadro's
+Hypothesis</term>. Combining this result with Boyle's
+law reveals that the <emphasis>pressure</emphasis> of a
+gas depends on the <emphasis>number</emphasis> of gas
+particles, the <emphasis>volume</emphasis> in which
+they are contained, and the
+<emphasis>temperature</emphasis> of the sample. The
+pressure does <emphasis>not</emphasis> depend on the
+type of gas particles in the sample or whether they are even all
+the same.</para>
+<para id="id4281205">We can express this result in terms of
+Boyle's law by noting that, in the equation
+<m:math><m:apply><m:eq/><m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply><m:ci>k</m:ci></m:apply></m:math>,
+the "constant"
+<m:math><m:ci>k</m:ci></m:math> is actually
+a function which varies with both number of gas particles in the
+sample and the temperature of the sample. Thus, we can more
+accurately write</para>
+
+<equation id="eqn4">
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:ci type="fn">k</m:ci><m:ci>N</m:ci><m:ci>t</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4281241">explicitly showing that the product of
+pressure and volume depends on
+<m:math><m:ci>N</m:ci></m:math>, the number
+of particles in the gas sample, and
+<m:math><m:ci>t</m:ci></m:math>,the
+temperature.</para>
+<para id="id4281266">It is interesting to note that, in 1738,
+Bernoulli showed that the inverse relationship between pressure and
+volume could be proven by assuming that a gas consists of
+individual particles colliding with the walls of the container.
+However, this early evidence for the existence of atoms was ignored
+for roughly 120 years, and the atomic molecular theory was not to
+be developed for another 70 years, based on mass measurements
+rather than pressure measurements.</para>
+</section>
+<section id="id4281283">
+<title>Observation 2: Volume-Temperature Measurements on
+Gases</title>
+<para id="id4281292">We have already noted the dependence of
+Boyle's Law on temperature. To observe a constant product of
+pressure and volume, the temperature must be held fixed. We next
+analyze what happens to the gas when the temperature is allowed to
+vary. An interesting first problem that might not have been
+expected is the question of how to measure temperature. In fact,
+for most purposes, we think of temperature only in the rather
+non-quantitative manner of "how hot or cold" something is, but then
+we measure temperature by examining the length of mercury in a
+tube, or by the electrical potential across a thermocouple in an
+electronic thermometer. We then briefly consider the complicated
+question of just what we are measuring when we measure the
+temperature.</para>
+<para id="id3990884">Imagine that you are given a cup of water and
+asked to describe it as "hot" or "cold." Even without a calibrated
+thermometer, the experiment is simple: you put your finger in it.
+Only a qualitative question was asked, so there is no need for a
+quantitative measurement of "how hot" or "how cold." The experiment
+is only slightly more involved if you are given two cups of water
+and asked which one is hotter or colder. A simple solution is to
+put one finger in each cup and to directly compare the sensation.
+You still don't need a calibrated thermometer or even a temperature
+scale at all.</para>
+<para id="id3990920">Finally, imagine that you are given a cup of
+water each day for a week at the same time and are asked to
+determine which day's cup contained the hottest or coldest water.
+Since you can no longer trust your sensory memory from day to day,
+you have no choice but to define a temperature scale. To do this,
+we make a physical measurement on the water by bringing it into
+contact with something else whose properties depend on the
+"hotness" of the water in some unspecified way. (For example, the
+volume of mercury in a glass tube expands when placed in hot water;
+certain strips of metal expand or contract when heated; some liquid
+crystals change color when heated; <foreign>etc.</foreign>) We assume that this
+property will have the same value when it is placed in contact with
+two objects which have the same "hotness" or
+temperature. Somewhat obliquely, this defines the temperature
+measurement.</para>
+<para id="id3990965">For simplicity, we illustrate with a
+mercury-filled glass tube thermometer. We observe quite easily that
+when the tube is inserted in water we consider "hot," the volume of
+mercury is larger than when we insert the tube in water that we
+consider "cold." Therefore, the volume of mercury is a measure of
+how hot something is. Furthermore, we observe that, when two very
+different objects appear to have the same "hotness," they also give
+the same volume of mercury in the glass tube. This allows us to
+make quantitative comparisons of "hotness" or temperature based on
+the volume of mercury in a tube.</para>
+<para id="id4371213">All that remains is to make up some numbers
+that define the scale for the temperature, and we can literally do
+this in any way that we please. This arbitrariness is what allows
+us to have two different, but perfectly acceptable, temperature
+scales, such as Fahrenheit and Centigrade. The latter scale simply
+assigns zero to be the temperature at which water freezes at
+atmospheric pressure. We then insert our mercury thermometer into
+freezing water, and mark the level of the mercury as "0". Another
+point on our scale assigns 100 to be the boiling point of water at
+atmospheric pressure. We insert our mercury thermometer into
+boiling water and mark the level of mercury as "100." Finally, we
+just mark off in increments of
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:cn>100</m:cn></m:apply></m:math>
+of the distance between the "0" and the "100" marks, and we have a
+working thermometer. Given the arbitrariness of this way of
+measuring temperature, it would be remarkable to find a
+quantitative relationship between temperature and any other
+physical property.</para>
+<para id="id4371263">Yet that is what we now observe. We take the
+same syringe used in the previous section and trap in it a small
+sample of air at room temperature and atmospheric pressure. (From
+our observations above, it should be clear that the type of gas we
+use is irrelevant.) The experiment consists of measuring the volume
+of the gas sample in the syringe as we vary the temperature of the
+gas sample. In each measurement, the pressure of the gas is held
+fixed by allowing the piston in the syringe to move freely against
+atmospheric pressure. A sample set of data is shown in <link target-id="table3"/> and plotted <link target-id="fig3">here</link>.</para>
+<table id="table3" summary="">
+<title>Sample Data from Volume-Temperature Measurement</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>Temperature (°C)</entry>
+<entry>Volume (ml)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>11</entry>
+<entry>95.3</entry>
+</row>
+<row>
+<entry>25</entry>
+<entry>100.0</entry>
+</row>
+<row>
+<entry>47</entry>
+<entry>107.4</entry>
+</row>
+<row>
+<entry>73</entry>
+<entry>116.1</entry>
+</row>
+<row>
+<entry>159</entry>
+<entry>145.0</entry>
+</row>
+<row>
+<entry>233</entry>
+<entry>169.8</entry>
+</row>
+<row>
+<entry>258</entry>
+<entry>178.1</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+<figure id="fig3">
+<title>Volume vs. Temperature of a Gas</title>
+<media id="idp349424" alt=""><image src="../../media/fig3-1914.png" mime-type="image/png"/><image for="pdf" src="../../media/fig3-643e.eps" mime-type="application/postscript"/></media>
+</figure>
+
+
+<para id="id4432209">We find that there is a simple linear
+(straight line) relationship between the volume of a gas and its
+temperature as measured by a mercury thermometer. We can express
+this in the form of an equation for a line:</para>
+
+<equation id="eqn5">
+<m:math><m:apply><m:eq/><m:ci>V</m:ci>
+<m:apply><m:plus/>
+<m:apply><m:times/><m:ci>α</m:ci><m:ci>t</m:ci></m:apply>
+<m:ci>β</m:ci></m:apply></m:apply></m:math>
+</equation>
+
+<para id="id4432248">where
+<m:math><m:ci>V</m:ci></m:math> is the
+volume and <m:math><m:ci>t</m:ci></m:math>
+is the temperature in °C.
+<m:math><m:ci>α</m:ci></m:math> and
+<m:math><m:ci>β</m:ci></m:math> are
+the slope and intercept of the line, and in this
+case, <m:math><m:apply><m:eq/><m:ci>α</m:ci><m:cn>0.335</m:cn></m:apply></m:math>
+and, <m:math><m:apply><m:eq/><m:ci>β</m:ci><m:cn>91.7</m:cn></m:apply></m:math>.
+We can rewrite this equation in a slightly different form:</para>
+
+<equation id="eqn6">
+<m:math><m:apply><m:eq/>
+<m:ci>V</m:ci>
+<m:apply><m:times/><m:ci>α</m:ci>
+<m:apply><m:plus/><m:ci>t</m:ci>
+<m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply>
+</m:apply></m:apply></m:apply></m:math></equation>
+
+<para id="id4302680">This is the same equation, except that it
+reveals that the quantity
+<m:math><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:math> must
+be a temperature, since we can add it to a temperature. This is a
+particularly important quantity: if we were to set the temperature
+of the gas equal to
+<m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:apply><m:apply>
+<m:times/><m:cn>-273</m:cn><m:ci>°C</m:ci></m:apply></m:apply></m:math>,
+we would find that the volume of the gas would be exactly 0! (This
+assumes that this equation can be extrapolated to that temperature.
+This is quite an optimistic extrapolation, since we haven't
+made any measurements near to <m:math><m:apply><m:times/><m:cn>-273</m:cn>  <m:ci>°C</m:ci></m:apply></m:math>.
+In fact, our gas sample would condense to a liquid or solid before
+we ever reached that low temperature.)</para>
+<para id="id4353554">Since the volume depends on the pressure and
+the amount of gas (Boyle's Law), then the values of
+<m:math><m:ci>α</m:ci></m:math> and
+<m:math><m:ci>β</m:ci></m:math>
+also depend on the pressure and amount of gas and carry no
+particular significance. However, when we repeat our observations
+for many values of the amount of gas and the fixed pressure, we
+find that the <emphasis>ratio</emphasis>
+<m:math><m:apply><m:eq/><m:apply><m:minus/><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:apply><m:apply>
+<m:times/><m:cn>-273</m:cn><m:ci>°C</m:ci></m:apply></m:apply></m:math>
+does not vary from one sample to the next. Although we do not know
+the physical significance of this temperature at this point, we can
+assert that it is a true constant, independent of any choice of the
+conditions of the experiment. We refer to this temperature as
+<term>absolute zero</term>, since a temperature below
+this value would be predicted to produce a negative gas volume.
+Evidently, then, we cannot expect to lower the temperature of any
+gas below this temperature.</para>
+<para id="id4342187">This provides us an "absolute
+temperature scale" with a zero which is not arbitrarily
+defined. This we define by adding 273 (the value of
+<m:math><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:math>) to temperatures measured in °C,
+and we define this scale to be in units of degrees Kelvin (K). The
+data in <link target-id="table3"/> are now
+recalibrated to the absolute temperature scale in <link target-id="table4"/> and plotted <link target-id="fig4">here</link>.</para>
+<table id="table4" summary="">
+<title>Analysis of Volume-Temperature Data</title>
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Temperature (°C)</entry>
+<entry>Temperature (K)</entry>
+<entry>Volume (ml)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>11</entry>
+<entry>284</entry>
+<entry>95.3</entry>
+</row>
+<row>
+<entry>25</entry>
+<entry>298</entry>
+<entry>100.0</entry>
+</row>
+<row>
+<entry>47</entry>
+<entry>320</entry>
+<entry>107.4</entry>
+</row>
+<row>
+<entry>73</entry>
+<entry>350</entry>
+<entry>116.1</entry>
+</row>
+<row>
+<entry>159</entry>
+<entry>432</entry>
+<entry>145.0</entry>
+</row>
+<row>
+<entry>233</entry>
+<entry>506</entry>
+<entry>169.8</entry>
+</row>
+<row>
+<entry>258</entry>
+<entry>531</entry>
+<entry>178.1</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+<figure id="fig4">
+<title>Volume vs. Absolute Temperature of a Gas</title>
+<media id="idm821136" alt=""><image src="../../media/fig4-7e27.png" mime-type="image/png"/><image for="pdf" src="../../media/fig4-fb85.eps" mime-type="application/postscript"/></media>
+</figure>
+
+
+<para id="id4278106">Note that <emphasis>the volume is
+proportional to the absolute temperature</emphasis> in
+degrees Kelvin,</para>
+
+<equation id="eqn7">
+<m:math><m:apply><m:eq/><m:ci>V</m:ci><m:apply><m:times/><m:ci>k</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:math></equation>
+
+<para id="id4462254">provided that the pressure and amount of gas
+are held constant. This result is known as
+<term>Charles' Law</term>, dating to 1787.</para>
+<para id="id4462270">As with Boyle's Law, we must now note
+that the "constant"
+<m:math><m:ci>k</m:ci></m:math> is not
+really constant, since the volume also depends on the pressure and
+quantity of gas. Also as with Boyle's Law, we note that
+Charles' Law does not depend on the
+<emphasis>type</emphasis> of gas on which we make the
+measurements, but rather depends only the number of particles of
+gas. Therefore, we slightly rewrite Charles' Law to explicit
+indicate the dependence of k on the pressure and number of
+particles of gas</para>
+
+<equation id="eqn8">
+<m:math><m:apply><m:eq/><m:ci>V</m:ci>
+<m:apply><m:times/><m:apply><m:ci type="fn">k</m:ci>
+<m:ci>N</m:ci><m:ci>P</m:ci></m:apply><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+</section>
+<section id="id4462308">
+<title>The Ideal Gas Law</title>
+<para id="id4462316">We have been measuring four properties of
+gases: pressure, volume, temperature, and "amount",
+which we have assumed above to be the number of particles. The
+results of three observations relate these four properties
+pairwise. Boyle's Law relates the pressure and volume at
+constant temperature and amount of gas:</para>
+
+
+<equation id="eqn9">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci><m:ci>N</m:ci><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4462355">Charles' Law relates the volume and
+temperature at constant pressure and amount of gas:</para>
+
+<equation id="eqn10">
+<m:math><m:apply><m:eq/>
+<m:ci>V</m:ci>
+<m:apply><m:times/><m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci><m:ci>P</m:ci></m:apply><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4417576">The Law of Combining Volumes leads to
+Avogadro's Hypothesis that the volume of a gas is
+proportional to the number of particles
+(<m:math><m:ci>N</m:ci></m:math>) provided
+that the temperature and pressure are held constant. We can express
+this as</para>
+
+<equation id="eqn11">
+<m:math><m:apply><m:eq/>
+<m:ci>V</m:ci>
+<m:apply><m:times/><m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>3</m:mn></m:msub></m:ci>
+<m:ci>P</m:ci><m:ci>T</m:ci></m:apply><m:ci>N</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4417601">We will demonstrate below that these three
+relationships can be combined into a single equation relating
+<m:math><m:ci>P</m:ci></m:math>,
+<m:math><m:ci>V</m:ci></m:math>,
+<m:math><m:ci>T</m:ci></m:math>, and
+<m:math><m:ci>N</m:ci></m:math>. Jumping to
+the conclusion, however, we can more easily show that these three
+relationships can be considered as special cases of the more
+general equation known as the <term>Ideal Gas Law</term>:</para>
+
+<equation id="eqn12">
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:times/><m:ci>n</m:ci><m:ci type="const">R</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:math></equation>
+
+<para id="id4417626">where <m:math><m:ci type="constant">R</m:ci></m:math> is a
+constant, <m:math><m:ci>n</m:ci></m:math>
+is the number of moles of gas, related to the number of particles
+<m:math><m:ci>N</m:ci></m:math> by
+Avogadro's number,
+<m:math><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub></m:math></para>
+
+<equation id="eqn13">
+<m:math><m:apply><m:eq/><m:ci>n</m:ci><m:apply><m:divide/><m:ci>N</m:ci><m:ci type="const"><m:msub><m:mi>N</m:mi><m:mi>A</m:mi></m:msub>
+</m:ci></m:apply></m:apply></m:math></equation>
+
+<para id="id4417665">In Boyle's Law, we examine the
+relationship of
+<m:math><m:ci>P</m:ci></m:math> and
+<m:math><m:ci>V</m:ci></m:math> when
+<m:math><m:ci>n</m:ci></m:math> (or
+<m:math><m:ci>N</m:ci></m:math>) and
+<m:math><m:ci>T</m:ci></m:math> are fixed.
+In the Ideal Gas Law, when
+<m:math><m:ci>n</m:ci></m:math> and
+<m:math><m:ci>T</m:ci></m:math> are
+constant,
+<m:math><m:apply><m:times/><m:ci>n</m:ci><m:ci type="constant">R</m:ci><m:ci>T</m:ci></m:apply></m:math>
+is constant, so the product
+<m:math><m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply></m:math>
+is also constant. Therefore, Boyle's Law is a special case of
+the Ideal Gas Law. If
+<m:math><m:ci>n</m:ci></m:math> and
+<m:math><m:ci>P</m:ci></m:math> are fixed
+in the Ideal Gas Law, then
+<m:math><m:apply><m:eq/><m:ci>V</m:ci><m:apply><m:times/><m:apply><m:divide/><m:apply><m:times/><m:ci>n</m:ci>
+<m:ci type="constant">R</m:ci></m:apply><m:ci>P</m:ci></m:apply><m:ci>T</m:ci></m:apply></m:apply></m:math>
+and
+<m:math><m:apply><m:divide/><m:apply><m:times/><m:ci>n</m:ci><m:ci type="constant">R</m:ci></m:apply><m:ci>P</m:ci></m:apply></m:math>
+is a constant. Therefore, Charles' Law is also a special case
+of the Ideal Gas Law. Finally, if
+<m:math><m:ci>P</m:ci></m:math> and
+<m:math><m:ci>T</m:ci></m:math> are
+constant, then in the Ideal Gas Law,
+<m:math><m:apply><m:eq/><m:ci>V</m:ci><m:apply><m:times/><m:apply><m:divide/><m:apply><m:times/><m:ci type="constant">R</m:ci><m:ci type="constant">T</m:ci></m:apply><m:ci>P</m:ci></m:apply><m:ci>n</m:ci></m:apply></m:apply></m:math>
+and the volume is proportional the number of moles or particles.
+Hence, Avogadro's hypothesis is a special case of the Ideal
+Gas Law.</para>
+<para id="id4002949">We have now shown that the each of our
+experimental observations is consistent with the Ideal Gas Law. We
+might ask, though, how did we get the Ideal Gas Law? We would like
+to derive the Ideal Gas Law from the three experiemental
+observations. To do so, we need to learn about the functions
+<m:math>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci><m:ci>T</m:ci></m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci><m:ci>P</m:ci></m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>3</m:mn></m:msub></m:ci>
+<m:ci>P</m:ci><m:ci>T</m:ci></m:apply>
+</m:math>.</para>
+<para id="id4002994">We begin by examining Boyle's Law in
+more detail: if we hold
+<m:math><m:ci>N</m:ci></m:math> and
+<m:math><m:ci>P</m:ci></m:math> fixed in
+Boyle's Law and allow
+<m:math><m:ci>T</m:ci></m:math> to vary,
+the volume must increase with the temperature in agreement with
+Charles' Law. In other words, with
+<m:math><m:ci>N</m:ci></m:math> and
+<m:math><m:ci>P</m:ci></m:math> fixed, the
+volume must be proportional to
+<m:math><m:ci>T</m:ci></m:math>. Therefore,
+<m:math><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:math>
+in Boyle's Law must be proportional to
+<m:math><m:ci>T</m:ci></m:math>:</para>
+
+<equation id="eqn14">
+<m:math><m:apply><m:eq/><m:apply>
+<m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci><m:ci>T</m:ci></m:apply>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>4</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci></m:apply><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4113818">where
+<m:math><m:msub><m:mi>k</m:mi><m:mn>4</m:mn></m:msub></m:math>
+is a new function which depends only on
+<m:math><m:ci>N</m:ci></m:math>. <link target-id="eqn9"/> then becomes</para>
+
+<equation id="eqn15">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:times/><m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>4</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci></m:apply><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4113850">Avogadro's Hypothesis tells us that, at
+constant pressure and temperature, the volume is proportional to
+the number of particles. Therefore
+<m:math><m:msub><m:mi>k</m:mi><m:mn>4</m:mn></m:msub></m:math>
+must also increase proportionally with the number of
+particles:</para>
+
+<equation id="eqn16">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>4</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci></m:apply>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci type="constant">k</m:ci><m:ci>N</m:ci></m:apply></m:apply>
+</m:math></equation>
+
+<para id="id4113882">where <m:math><m:ci type="constant">k</m:ci></m:math> is yet
+another new constant. In this case, however, there are no variables
+left, and <m:math><m:ci type="constant">k</m:ci></m:math> is
+truly a constant. Combining <link target-id="eqn15"/> and <link target-id="eqn16"/> gives</para>
+
+<equation id="eqn17">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci type="constant">k</m:ci><m:ci>N</m:ci><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4113925">This is very close to the Ideal Gas Law,
+except that we have the number of particles,
+<m:math><m:ci>N</m:ci></m:math>, instead of
+the number of the number of moles,
+<m:math><m:ci>n</m:ci></m:math>. We put
+this result in the more familiar form by expressing the number of
+particles in terms of the number of moles,
+<m:math><m:ci>n</m:ci></m:math>, by
+dividing the number of particles by Avogadro's number,
+<m:math><m:msub><m:mi>N</m:mi><m:mn>A</m:mn></m:msub></m:math>, from 
+<link target-id="eqn13"/>. Then, from <link target-id="eqn17"/>,</para>
+
+<equation id="eqn18">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci type="constant">k</m:ci><m:ci type="constant"><m:msub><m:mi>N</m:mi><m:mn>A</m:mn></m:msub></m:ci><m:ci>n</m:ci><m:ci>T</m:ci></m:apply>
+</m:apply></m:math></equation>
+
+<para id="id4196466">The two constants, <m:math><m:ci type="constant">k</m:ci></m:math> and
+<m:math><m:msub><m:mi>N</m:mi><m:mn>A</m:mn></m:msub></m:math>,
+can be combined into a single constant, which is commonly called
+<m:math><m:ci type="constant">R</m:ci></m:math>, the
+gas constant. This produces the familiar conclusion of <link target-id="eqn12"/>.</para>
+</section>
+<section id="id4196496">
+<title>Observation 3: Partial Pressures</title>
+<para id="id4196504">We referred briefly above to the pressure of
+mixtures of gases, noting in our measurements leading to
+Boyle's Law that the total pressure of the mixture depends
+only on the number of moles of gas, regardless of the types and
+amounts of gases in the mixture. The Ideal Gas Law reveals that the
+pressure exerted by a mole of molecules does not depend on what
+those molecules are, and our earlier observation about gas mixtures
+is consistent with that conclusion.</para>
+<para id="id4370323">We now examine the actual process of mixing
+two gases together and measuring the total pressure. Consider a
+container of fixed volume 25.0L. We inject into that container 0.78
+moles of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+gas at 298K. From the Ideal Gas Law, we can easily calculate the
+measured pressure of the nitrogen gas to be 0.763 atm. We now take
+an identical container of fixed volume 25.0L, and we inject into
+that container 0.22 moles of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+gas at 298K. The measured pressure of the oxygen gas is 0.215 atm.
+As a third measurement, we inject 0.22 moles of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+gas at 298K into the <emphasis>first</emphasis>
+container which already has 0.78 moles of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>.
+(Note that the mixture of gases we have prepared is very similar to
+that of air.) The measured pressure in this container is now found
+to be 0.975 atm.</para>
+<para id="id4370375">We note now that the
+<emphasis>total</emphasis> pressure of the mixture of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+in the container is equal to the sum of the pressures of the
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+samples taken separately. We now define the <term>partial
+pressure</term> of each gas in the mixture to be the pressure
+of each gas as if it were the only gas present. Our measurements
+tell us that the partial pressure of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>,
+<m:math><m:msub><m:mi>P</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math>,
+is 0.763 atm, and the partial pressure of
+<m:math><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>,
+<m:math><m:msub><m:mi>P</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math>,
+is 0.215 atm.</para>
+<para id="id4370417">With this definition, we can now summarize our
+observation by saying that the total pressure of the mixture of
+oxygen and nitrogen is equal to the sum of the partial pressures of
+the two gases. This is a general result: <term>Dalton's
+Law of Partial Pressures</term>.</para>
+<rule type="law" id="dalton"><title>Dalton's Law of Partial
+Pressures</title><statement id="idm6300128">
+<para id="id4031353">The total pressure of a mixture of gases is
+the sum of the partial pressures of the component gases in the
+mixture</para></statement></rule>
+</section>
+
+<section id="id4031366">
+<title>Review and Discussion Questions</title>
+<exercise id="ex1"><problem id="idm6552432"><para id="id4031374">Sketch a graph with two curves showing
+Pressure vs. Volume for two different values of the number of moles
+of gas, with
+<m:math><m:apply><m:gt/><m:ci><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>n</m:mi><m:mn>1</m:mn>
+</m:msub></m:ci></m:apply></m:math>,
+both at the same temperature. Explain the comparison of the two
+curves.</para></problem></exercise>
+<exercise id="ex2"><problem id="idp435648"><para id="id4031396">Sketch a graph with two curves showing
+Pressure vs. 1/Volume for two different values of the number of
+moles of gas, with
+<m:math><m:apply><m:gt/><m:ci><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>n</m:mi><m:mn>1</m:mn>
+</m:msub></m:ci></m:apply></m:math>,
+both at the same temperature. Explain the comparison of the two
+curves.</para></problem></exercise>
+<exercise id="ex3"><problem id="idp784368"><para id="id4031422">Sketch a graph with two curves showing
+Volume vs. Temperature for two different values of the number of
+moles of gas, with
+<m:math><m:apply><m:gt/><m:ci><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>n</m:mi><m:mn>1</m:mn>
+</m:msub></m:ci></m:apply></m:math>,
+both at the same pressure. Explain the comparison of the two
+curves.</para></problem></exercise>
+<exercise id="ex4"><problem id="idp1729232"><para id="id4031444">Sketch a graph with two curves showing
+Volume vs Temperature for two different values of the pressure of
+the gas, with
+<m:math><m:apply><m:gt/><m:ci><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:ci><m:ci><m:msub><m:mi>P</m:mi><m:mn>1</m:mn>
+</m:msub></m:ci></m:apply></m:math>,
+both for the same number of moles. Explain the comparison of the
+two curves.</para></problem></exercise>
+<exercise id="ex5"><problem id="idp2974784"><para id="id4031466">Explain the significance of the fact that,
+in the volume-temperature experiments,
+<m:math><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:math>
+is observed to have the same value, independent of the quantity of
+gas studied and the type of gas studied. What is the significance
+of the quantity
+<m:math><m:apply><m:divide/><m:ci>β</m:ci><m:ci>α</m:ci></m:apply></m:math>?
+Why is it more significant than either
+<m:math><m:ci>β</m:ci></m:math> or <m:math><m:ci>α</m:ci></m:math>?</para>
+</problem></exercise>
+<exercise id="ex6"><problem id="idm195568"><para id="id4284888"><term>Amonton's
+Law</term> says that the pressure of a gas is proportional to
+the absolute temperature for a fixed quantity of gas in a fixed
+volume. Thus, 
+<m:math><m:apply><m:eq/><m:ci>P</m:ci>
+<m:apply><m:times/>
+<m:apply><m:ci type="fn">k</m:ci><m:ci>N</m:ci><m:ci>V</m:ci></m:apply>
+<m:ci>T</m:ci></m:apply></m:apply></m:math>. Demonstrate that Amonton's Law can
+be derived by combining Boyle's Law and Charles'
+Law.</para></problem></exercise>
+<exercise id="ex7"><problem id="idm6827680"><para id="id4284914">Using Boyle's Law in your reasoning,
+demonstrate that the "constant" in Charles' Law,
+<foreign>i.e.</foreign> 
+<m:math>
+<m:apply><m:ci type="fn"><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci>
+<m:ci>N</m:ci><m:ci>P</m:ci></m:apply></m:math>, is inversely
+proportional to
+<m:math><m:ci>P</m:ci></m:math>.</para></problem></exercise>
+<exercise id="ex8"><problem id="idp6386016"><para id="id4215942">Explain how Boyle's Law and Charles' Law may
+be combined to the general result that, for constant quantity of
+gas, <m:math><m:apply><m:eq/>
+<m:apply><m:ci><m:mo>×</m:mo></m:ci><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:apply><m:times/><m:ci type="constant">k</m:ci><m:ci>T</m:ci></m:apply>
+</m:apply></m:math>.</para></problem></exercise>
+<exercise id="ex9"><problem id="idm8149856"><para id="id4215963">Using Dalton's Law and the Ideal Gas
+Law, show that the partial pressure of a component of a gas mixture
+can be calculated from</para>
+
+<equation id="eqn19">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>P</m:mi><m:mi>i</m:mi></m:msub></m:ci>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci><m:msub><m:mi>X</m:mi><m:mi>i</m:mi></m:msub></m:ci>
+</m:apply></m:apply></m:math></equation>
+
+<para id="id4215995">Where <m:math><m:ci>P</m:ci></m:math> is the total pressure of the gas
+mixture and <m:math><m:msub><m:mi>X</m:mi><m:mi>i</m:mi></m:msub></m:math> is the <term>mole fraction</term> of component <m:math><m:ci>i</m:ci></m:math>,
+defined by</para>
+
+<equation id="eqn20">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>X</m:mi><m:mi>i</m:mi></m:msub></m:ci>
+<m:apply><m:divide/>
+<m:ci><m:msub><m:mi>n</m:mi><m:mi>i</m:mi></m:msub></m:ci>
+<m:ci><m:msub><m:mi>n</m:mi><m:mi>total</m:mi></m:msub></m:ci>
+</m:apply></m:apply></m:math></equation>
+</problem></exercise>
+
+<exercise id="ex10"><problem id="idp2377792"><para id="id4216038">Dry air is 78.084% nitrogen, 20.946%
+oxygen, 0.934% argon, and 0.033% carbon dioxide. Determine the mole
+fractions and partial pressures of the components of dry air at
+standard pressure.</para></problem></exercise>
+<exercise id="ex11"><problem id="idp1607296"><para id="id4152217">Assess the accuracy of the following
+statement:</para>
+<para id="id4152226"><quote display="inline" class="no-marks">Boyle's Law states that 
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+</m:apply></m:math>, where <m:math><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:math>
+is a constant. Charles' Law states that 
+<m:math><m:apply><m:eq/>
+<m:ci>V</m:ci>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci>
+<m:ci>T</m:ci></m:apply>
+</m:apply></m:math>, where <m:math><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:math> is a
+constant. Inserting <m:math><m:ci>V</m:ci></m:math> from Charles' Law into Boyle's
+Law results in 
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci>
+<m:ci>T</m:ci></m:apply>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+</m:apply></m:math>. We can rearrange this to read 
+
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci>P</m:ci><m:ci>T</m:ci></m:apply>
+<m:apply><m:divide/>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>1</m:mn></m:msub></m:ci>
+<m:ci><m:msub><m:mi>k</m:mi><m:mn>2</m:mn></m:msub></m:ci></m:apply>
+<m:ci><m:mtext>a constant</m:mtext></m:ci>
+</m:apply></m:math>. Therefore, the pressure of a gas is inversely
+proportional to the temperature of the gas.</quote></para>
+<para id="id4152334">In your assessment, you must determine what
+information is correct or incorrect, provide the correct
+information where needed, explain whether the reasoning is logical
+or not, and provide logical reasoning where needed.</para>
+</problem></exercise>
+</section>
+</content>
+</document>

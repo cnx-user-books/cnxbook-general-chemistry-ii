@@ -1,0 +1,1518 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+<title>The Kinetic Molecular Theory</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>13d79bb4-7599-4ff3-9a31-0832aa5188e5</md:uuid>
+</metadata>
+<content>
+<section id="id2542444">
+<title>Foundation</title>
+<para id="id2542734">We assume an understanding of the atomic
+molecular theory postulates, including that all matter is composed
+of discrete particles. The elements consist of identical atoms, and
+compounds consist of identical molecules, which are particles
+containing small whole number ratios of atoms. We also assume that
+we have determined a complete set of relative atomic weights,
+allowing us to determine the molecular formula for any compound. 
+Finally, we assume a knowledge of the <term>Ideal Gas Law</term>, and the
+observations from which it is derived.</para>
+</section>
+<section id="id2548011">
+<title>Goals</title>
+<para id="id2548017">Our continuing goal is to relate the
+properties of the atoms and molecules to the properties of the
+materials which they comprise. As simple examples, we compare the
+substances water, carbon dioxide, and nitrogen. Each of these is
+composed of molecules with few (two or three) atoms and low
+molecular weight. However, the physical properties of these
+substances are very different. Carbon dioxide and nitrogen are
+gases at room temperature, but it is well known that water is a
+liquid up to 100°C. To liquefy nitrogen, we must cool it to
+-196°C, so the boiling temperatures of water and
+nitrogen differ by about 300°C. Water is a liquid over a
+rather large temperature range, freezing at 0°C. In contrast,
+nitrogen is a liquid for a very narrow range of temperatures,
+freezing at -210°C. Carbon dioxide poses yet another
+very different set of properties. At atmospheric pressure, carbon
+dioxide gas cannot be liquefied at all: cooling the gas to
+-60°C converts it directly to solid "dry
+ice." As is commonly observed, warming dry ice does not
+produce any liquid, as the solid sublimes directly to gas.</para>
+<para id="id2548825">Why should these materials, whose molecules do
+not seem all that different, behave so differently? What are the
+important characteristics of these molecules which produce these
+physical properties? It is important to keep in mind that these are
+properties of the bulk materials. At this point, it is not even
+clear that the concept of a molecule is useful in answering these
+questions about melting or boiling.</para>
+<para id="id2548953">There are at least two principal questions
+that arise about the <term>Ideal Gas Law</term>. First, it is interesting to ask
+whether this law always holds true, or whether there are conditions
+under which the pressure of the gas cannot be calculated from
+<m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+<m:ci>V</m:ci>
+</m:apply>
+</m:math>. We thus begin by considering the limitations of the validity of the <term>Ideal Gas
+Law</term>. We shall find that the ideal gas law is only approximately
+accurate and that there are variations which do depend upon the
+nature of the gas. Second, then, it is interesting to ask why the
+ideal gas law should ever hold true. In other words, why are the
+variations not the rule rather than the exception?</para>
+<para id="id2549306">To answer these questions, we need a model
+which will allow us to relate the properties of bulk materials to
+the characteristics of individual molecules. We seek to know what
+happens to a gas when it is compressed into a smaller volume, and
+why it generates a greater resisting pressure when compressed.
+Perhaps most fundamentally of all, we seek to know what happens to
+a substance when it is heated. What property of a gas is measured
+by the temperature?</para>
+</section>
+<section id="sec3">
+<title>Observation 1: Limitations of the Validity of the Ideal
+Gas Law</title>
+<para id="id2549768">To design a systematic test for the validity
+of the <term>Ideal Gas Law</term>, we note that the value of 
+<m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math>, calculated from the observed values of 
+<m:math><m:ci>P</m:ci></m:math>, <m:math><m:ci>V</m:ci></m:math>,
+<m:math><m:ci>n</m:ci></m:math>, and <m:math><m:ci>T</m:ci></m:math>, should always be equal to 1, exactly. Deviation of 
+<m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math> from 1 indicates a violation of the <term>Ideal Gas
+Law</term>. We thus measure the pressure for several gases under a variety
+of conditions by varying <m:math><m:ci>n</m:ci></m:math>,
+<m:math><m:ci>V</m:ci></m:math>, and <m:math><m:ci>T</m:ci></m:math>, and we calculate the ratio
+<m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math> for these conditions.</para>
+<para id="id2549908"><link target-id="fig1">Here</link>, the value of this ratio is plotted
+for several gases as a function of the "particle
+density" of the gas in moles, <m:math>
+<m:apply>
+<m:divide/>
+<m:ci>n</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+</m:math>. To make the analysis of
+this plot more convenient, the particle density is given in terms
+of the particle density of an ideal gas at room temperature and
+atmospheric pressure (<foreign>i.e.</foreign> the density of air), which is <m:math>
+<m:apply>
+<m:times/>
+<m:cn>0.04087</m:cn>
+<m:apply>
+<m:divide/>
+<m:ci>mol</m:ci>
+<m:ci>L</m:ci>
+</m:apply>
+</m:apply>
+</m:math>. In <link target-id="fig1">this figure</link>, a particle density of 10 means that the particle
+density of the gas is 10 times the particle density of air at room
+temperature. The x-axis in <link target-id="fig1">the figure</link> is thus unitless.</para>
+
+ <figure id="fig1">
+	<title>Validity of the Ideal Gas Law</title>
+	<media id="idp110624" alt=""><image src="../../media/fig1-1412.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1-9027.eps" mime-type="application/postscript"/></media>
+      </figure>
+
+<para id="id2550006">Note that <m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math> on the y-axis is also
+unitless and has value exactly 1 for an ideal gas. We observe in
+the data in <link target-id="fig1">this figure</link> that
+<m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math> is extremely close to 1 for particle densities
+which are close to that of normal air. Therefore, deviations from
+the <term>Ideal Gas Law</term> are not expected under "normal"
+conditions. This is not surprising, since <term>Boyle's Law</term>, <term>Charles' Law</term>, and the <term>Law of Combining
+Volumes</term> were all observed under normal conditions. <link target-id="fig1">This figure</link> also
+shows that, as the particle density increases above the normal
+range, the value of <m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math> starts to vary from 1, and the variation
+depends on the type of gas we are analyzing. However, even for
+particle densities 10 times greater than that of air at atmospheric
+pressure, the <term>Ideal Gas Law</term> is accurate to a few percent.</para>
+<para id="id2550398">Thus, to observe any significant deviations
+from 
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math>, we need to push the gas conditions to somewhat more
+extreme values.  The results for such extreme conditions are
+shown <link target-id="fig2">here</link>. Note that the densities considered are large
+numbers corresponding to very high pressures. Under these
+conditions, we find substantial deviations from the <term>Ideal Gas Law</term>.
+In addition, we see that the pressure of the gas (and thus <m:math>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:times/>
+<m:ci>P</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+<m:ci>R</m:ci>
+<m:ci>T</m:ci>
+</m:apply>
+</m:apply>
+</m:math>)
+does depend strongly on which type of gas we are examining.
+Finally, <link target-id="fig2">this figure</link> shows that deviations from the <term>Ideal Gas Law</term> can
+generate pressures either greater than or less than that predicted
+by the <term>Ideal Gas Law</term>.</para>
+
+ <figure id="fig2">
+	<title>Deviations from the Ideal Gas Law</title>
+	<media id="idm708432" alt=""><image src="../../media/fig2-d0f8.png" mime-type="image/png"/><image for="pdf" src="../../media/fig2-5258.eps" mime-type="application/postscript"/></media>
+      </figure>
+</section>
+<section id="id2550720">
+<title>Observation 2: Density and Compressibility of Gas</title>
+<para id="id2550749">For low densities for which the <term>Ideal Gas Law</term>
+is valid, the pressure of a gas is independent of the nature of the
+gas, and is therefore independent of the characteristics of the
+particles of that gas. We can build on this observation by
+considering the significance of a low particle density. Even at the
+high particle densities considered in <link target-id="fig2">this
+	  figure</link>, all gases have low
+density in comparison to the densities of liquids. To illustrate,
+we note that 1 gram of liquid water at its boiling point has a volume
+very close to 1 milliliter. In comparison, this same 1 gram of water, once
+evaporated into steam, has a volume of over 1700 milliliters. How does this
+expansion by a factor of 1700 occur? It is not credible that the
+individual water molecules suddenly increase in size by this
+factor. The only plausible conclusion is that the distance between
+gas molecules has increased dramatically.</para>
+<para id="id2550869">Therefore, it is a characteristic of a gas
+that the molecules are far apart from one another. In addition, the
+lower the density of the gas the farther apart the molecules must
+be, since the same number of molecules occupies a larger volume at
+lower density.</para>
+<para id="id2551004">We reinforce this conclusion by noting that
+liquids and solids are virtually incompressible, whereas gases are
+easily compressed. This is easily understood if the molecules in a
+gas are very far apart from one another, in contrast to the liquid
+and solid where the molecules are so close as to be in contact with
+one another.</para>
+<para id="id2551100">We add this conclusion to the observations in
+<link target-id="fig1"/> and <link target-id="fig2"/>
+ that the pressure exerted by a gas depends only on
+the number of particles in the gas and is independent of the type
+of particles in the gas, provided that the density is low enough.
+This requires that the gas particles be far enough apart. We
+conclude that the <term>Ideal Gas Law</term> holds true because there is
+sufficient distance between the gas particles that the identity of
+the gas particles becomes irrelevant.</para>
+<para id="id2551162">Why should this large distance be required? If
+gas particle A were far enough away from gas particle B that they
+experience no electrical or magnetic interaction, then it would not
+matter what types of particles A and B were. Nor would it matter
+what the sizes of particles A and B were. Finally, then, we
+conclude from this reasoning that the validity of the ideal gas law
+rests of the presumption that there are no interactions of any type
+between gas particles.</para>
+</section>
+<section id="id2555784">
+<title>Postulates of the Kinetic Molecular Theory</title>
+<para id="id2555850">We recall at this point our purpose in these
+observations. Our primary concern in this study is attempting to
+relate the properties of individual atoms or molecules to the
+properties of mass quantities of the materials composed of these
+atoms or molecules. We now have extensive quantitative observations
+on some specific properties of gases, and we proceed with the task
+of relating these to the particles of these gases.</para>
+<para id="id2555990">By taking an atomic molecular view of a gas,
+we can postulate that the pressure observed is a consequence of the
+collisions of the individual particles of the gas with the walls of
+the container. This presumes that the gas particles are in constant
+motion. The pressure is, by definition, the force applied per area,
+and there can be no other origin for a force on the walls of the
+container than that provided by the particles themselves.
+Furthermore, we observe easily that the pressure exerted by the gas
+is the same in all directions. Therefore, the gas particles must be
+moving equally in all directions, implying quite plausibly that the
+motions of the particles are random.</para>
+<para id="id2556073">To calculate the force generated by these
+collisions, we must know something about the motions of the gas
+particles so that we know, for example, each particle’s
+velocity upon impact with the wall. This is too much to ask: there
+are perhaps <m:math><m:apply><m:power/>
+<m:cn>10</m:cn><m:cn>20</m:cn></m:apply></m:math>
+	particles or more, and following the path of each
+particle is out of the question. Therefore, we seek a model which
+permits calculation of the pressure without this
+information.</para>
+<para id="id2556235">Based on our observations and deductions, we
+take as the postulates of our model:</para>
+<list list-type="bulleted" id="id2556242">
+<item>A gas consists of individual particles in constant and random
+motion.</item>
+<item>The individual particles have negligible volume.</item>
+<item>The individual particles do not attract or repel one another
+in any way.</item>
+<item>The pressure of the gas is due entirely to the force of the
+collisions of the gas particles with the walls of the
+container.</item>
+</list>
+<para id="id2556321">This model is the <term>Kinetic Molecular Theory of
+Gases</term>. We now look to see where this model leads.</para>
+</section>
+<section id="id2556374">
+<title>Derivation of Boyle's Law from the Kinetic
+Molecular Theory</title>
+<para id="id2556416">To calculate the pressure generated by a gas
+of <m:math><m:ci>N</m:ci></m:math> particles contained in a volume  <m:math><m:ci>V</m:ci></m:math>, we must calculate the force
+ <m:math><m:ci>F</m:ci></m:math> generated per area  <m:math><m:ci>A</m:ci></m:math> by collisions against the walls. To do so,
+we begin by determining the number of collisions of particles with
+the walls. The number of collisions we observe depends on how long
+we wait. Let's measure the pressure for a period of time
+<m:math><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math> and calculate how many collisions occur in that time
+period. For a particle to collide with the wall within the time
+<m:math><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math>, it must start close enough to the wall to impact it in
+that period of time. If the particle is travelling with speed <m:math><m:ci>v</m:ci></m:math>,
+then the particle must be within a distance <m:math><m:apply><m:times/><m:ci>v</m:ci><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:apply>
+</m:math> of the wall
+to hit it. Also, if we are measuring the force exerted on the area
+<m:math><m:ci>A</m:ci></m:math>, the particle must hit that area to contribute to our pressure
+measurement.</para>
+<para id="id2569063">For simplicity, we can view the situation
+pictorially <link target-id="fig3">here</link>. We assume that the particles are moving
+perpendicularly to the walls. (This is clearly not true. However,
+very importantly, this assumption is only made to simplify the
+mathematics of our derivation. It is not necessary to make this
+assumption, and the result is not affected by the assumption.) In
+order for a particle to hit the area <m:math><m:ci>A</m:ci></m:math> marked on the wall, it must
+lie within the cylinder shown, which is of length <m:math><m:apply><m:times/><m:ci>v</m:ci><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:apply>
+</m:math> and
+cross-sectional area <m:math><m:ci>A</m:ci></m:math>. The volume of this cylinder is <m:math><m:apply><m:times/><m:ci>A</m:ci><m:ci>v</m:ci><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:apply>
+</m:math>,
+so the number of particles contained in the cylinder is
+<m:math>
+<m:apply>
+<m:ci><m:mo>×</m:mo></m:ci>
+<m:apply><m:apply>
+<m:times/><m:ci>A</m:ci><m:ci>v</m:ci><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:apply>
+<m:divide/>
+<m:ci>N</m:ci>
+<m:ci>V</m:ci>
+</m:apply>
+</m:apply>
+</m:math>.</para>
+
+
+ <figure id="fig3">
+	<title>Collision of a Particle with a Wall within time Δt</title>
+	<media id="idm8570640" alt=""><image src="../../media/fig3-2786.png" mime-type="image/png"/><image for="pdf" src="../../media/fig3-0856.eps" mime-type="application/postscript"/></media>
+      </figure>
+
+<para id="id2577269">Not all of these particles collide with the
+wall during <m:math>
+<m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math>, though, since most of them are not
+traveling in the correct direction. There are six directions for a
+particle to go, corresponding to plus or minus direction in x, y,
+or z. Therefore, on average, the fraction of particles moving in
+the correct direction should be <m:math><m:apply><m:divide/><m:cn>1</m:cn><m:cn>6</m:cn></m:apply></m:math>, assuming as we have that
+the motions are all random. Therefore, the number
+of particles which impact the wall in time <m:math>
+<m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math> is
+<m:math>
+<m:apply>
+<m:ci><m:mo>×</m:mo></m:ci>
+<m:apply><m:apply>
+<m:times/><m:ci>A</m:ci><m:ci>v</m:ci><m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:apply>
+<m:divide/>
+<m:ci>N</m:ci>
+<m:apply>
+<m:times/>
+<m:cn>6</m:cn>
+<m:ci>V</m:ci>
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math>.</para>
+<para id="id2457093">The force generated by these collisions is
+calculated from Newton’s equation, <m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>F</m:ci>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>m</m:ci>
+	      <m:ci>a</m:ci></m:apply></m:apply></m:math>, where 
+	<m:math><m:ci>a</m:ci></m:math> is the
+acceleration due to the collisions. Consider first a single
+particle moving directly perpendicular to a wall with velocity <m:math><m:ci>v</m:ci></m:math> as
+in <link target-id="fig3"/>. We note that, when the particle collides with the wall,
+the wall does not move, so the collision must generally conserve
+the energy of the particle. Then the particle’s velocity
+after the collision must be <m:math><m:apply><m:minus/><m:ci>v</m:ci></m:apply></m:math>, since it is now travelling in the
+opposite direction. Thus, the change in velocity of the particle in
+this one collision is <m:math><m:apply><m:times/><m:cn>2</m:cn><m:ci>v</m:ci></m:apply></m:math>. Multiplying by the number of collisions
+in <m:math>
+<m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math> and dividing by the time <m:math>
+<m:apply>
+<m:ci><m:mo>Δ</m:mo></m:ci>
+<m:ci>t</m:ci>
+</m:apply>
+</m:math>, we find that the
+total acceleration (change in velocity per time) is
+<m:math display="inline">
+	  <m:apply>
+	    <m:divide/>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn>2</m:cn>
+	      <m:ci>A</m:ci>
+	      <m:ci>N</m:ci>
+	      <m:apply>
+		<m:power/>
+		<m:ci>v</m:ci>
+		<m:cn>2</m:cn>  
+	      </m:apply>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:cn>6</m:cn>
+	      <m:ci>V</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math>, and
+the force imparted on the wall due collisions is found by
+multiplying by the mass of the particles:</para>
+      <equation id="id2582172">	
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>F</m:ci>
+	    <m:apply>
+	      <m:divide/>
+	      <m:apply>
+		<m:times/>
+		<m:cn>2</m:cn>
+		<m:ci>A</m:ci>
+		<m:ci>N</m:ci>
+		<m:ci>m</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci>v</m:ci>
+		  <m:cn>2</m:cn>  
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:cn>6</m:cn>
+		<m:ci>V</m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+<para id="id2584617">To calculate the pressure, we divide by the
+area <m:math><m:ci>A</m:ci></m:math>, to find that</para>
+      <equation id="id2584623a">	
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:ci>P</m:ci>
+	    <m:apply>
+	      <m:divide/>
+	      <m:apply>
+		<m:times/>
+		<m:ci>N</m:ci>
+		<m:ci>m</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci>v</m:ci>
+		  <m:cn>2</m:cn>  
+		</m:apply>
+	      </m:apply>
+	      <m:apply>
+		<m:times/>
+		<m:cn>3</m:cn>
+		<m:ci>V</m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+<para id="id2570885">or, rearranged for comparison to <term>Boyle's
+Law</term>,</para>
+ <equation id="id2584623">	
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>P</m:ci>
+	      <m:ci>V</m:ci></m:apply>
+	    <m:apply>
+	      <m:divide/>
+	      <m:apply>
+		<m:times/>
+		<m:ci>N</m:ci>
+		<m:ci>m</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci>v</m:ci>
+		  <m:cn>2</m:cn>  
+		</m:apply>
+	      </m:apply>
+	      <m:cn>3</m:cn>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+<para id="id2584098">Since we have assumed that the particles
+	travel with constant speed <m:math><m:ci>v</m:ci></m:math>, then the right side of this equation
+is a constant. Therefore the product of pressure times volume, 
+<m:math><m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply></m:math>,
+is a constant, in agreement with <term>Boyle's Law</term>. Furthermore,
+the product <m:math><m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply></m:math> is proportional to the number of particles, also in
+agreement with the <term>Law of Combining Volumes</term>. Therefore, the model
+we have developed to describe an ideal gas is consistent with our
+experimental observations.</para>
+<para id="id2398314">We can draw two very important conclusions
+from this derivation. First, the inverse relationship observed
+between pressure and volume and the independence of this
+relationship on the type of gas analyzed are both due to the lack
+of interactions between gas particles. Second, the lack of
+interactions is in turn due to the great distances between gas
+particles, a fact which will be true provided that the density of
+the gas is low.</para>
+    </section>
+    <section id="id2398324">
+      <title>Interpretation of Temperature</title>
+<para id="id2577378">The absence of temperature in the above
+derivation is notable. The other gas properties have all been
+incorporated, yet we have derived an equation which omits
+temperature all together. The problem is that, as we discussed at
+length above, the temperature was somewhat arbitrarily defined. In
+fact, it is not precisely clear what has been measured by the
+temperature. We defined the temperature of a gas in terms of the
+volume of mercury in a glass tube in contact with the gas. It is
+perhaps then no wonder that such a quantity does not show up in a
+mechanical derivation of the gas properties.</para>
+<para id="id2341896">On the other hand, the temperature does appear
+prominently in the <term>Ideal Gas Law</term>. Therefore, there must be a
+greater significance (and less arbitrariness) to the temperature
+than might have been expected. To discern this significance, we
+rewrite the last equation above in the form:</para>
+
+      <equation id="id2563445">
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>P</m:ci>
+	      <m:ci>V</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>2</m:cn>
+		<m:cn>3</m:cn>
+	      </m:apply>
+	      <m:ci>N</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:apply>
+		  <m:divide/>
+		  <m:cn>1</m:cn>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:ci>m</m:ci>
+		<m:apply>
+		  <m:power/>
+		  <m:ci>v</m:ci>
+		  <m:cn>2</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+<para id="id2444992">The last quantity in parenthesis can be
+recognized as the kinetic energy of an individual gas particle, and
+	<m:math>
+	  <m:apply>
+	    <m:times/>
+	    <m:ci>N</m:ci>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>1</m:cn>
+		<m:cn>2</m:cn>
+	      </m:apply>
+	      <m:ci>m</m:ci>
+	      <m:apply>
+		<m:power/>
+		<m:ci>v</m:ci>
+		<m:cn>2</m:cn>
+	      </m:apply>
+	    </m:apply>
+	  </m:apply>
+	</m:math> must be the total kinetic energy (<m:math><m:ci>KE</m:ci></m:math>) of the gas.
+Therefore</para>
+<equation id="id2586363">
+	<m:math>
+	  <m:apply>
+	    <m:eq/>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>P</m:ci>
+	      <m:ci>V</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:apply>
+		<m:divide/>
+		<m:cn>2</m:cn>
+		<m:cn>3</m:cn>
+	      </m:apply>
+	      <m:ci>KE</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+</equation>
+<para id="id2586369">Now we insert the <term>Ideal Gas Law</term> for
+<m:math><m:apply><m:times/><m:ci>P</m:ci><m:ci>V</m:ci></m:apply></m:math> to find
+that</para>
+<equation id="id2582104">
+	  <m:math>
+	    <m:apply>
+	      <m:eq/>
+	      <m:ci>KE</m:ci>
+	      <m:apply>
+		<m:times/>
+		<m:apply>
+		  <m:divide/>
+		  <m:cn>3</m:cn>
+		  <m:cn>2</m:cn>
+		</m:apply>
+		<m:ci>n</m:ci>
+		<m:ci>R</m:ci>
+		<m:ci>T</m:ci>
+	      </m:apply>
+	    </m:apply>
+	  </m:math>
+
+</equation>
+<para id="id2582110">This is an extremely important conclusion, for
+it reveals the answer to the question of what property is measured
+by the temperature. We see now that the temperature is a measure of
+the total kinetic energy of the gas. Thus, when we heat a gas,
+elevating its temperature, we are increasing the average kinetic
+energy of the gas particles, causing then to move, on average, more
+rapidly.</para>
+</section>
+    <section id="id2564254">
+<title>Analysis of Deviations from the Ideal Gas Law</title>
+<para id="id2562600">We are at last in a position to understand the
+observations <link target-id="sec3">above</link> of deviations from the <term>Ideal Gas Law</term>. The
+most important assumption of our model of the behavior of an ideal
+gas is that the gas molecules do not interact. This allowed us to
+calculate the force imparted on the wall of the container due to a
+single particle collision without worrying about where the other
+	particles were. In order for a gas to disobey the <term>Ideal Gas Law</term>,
+the conditions must be such that this assumption is
+violated.</para>
+<para id="id2569555">What do the deviations from ideality tell us
+about the gas particles? Starting with very low density and
+increasing the density as in <link target-id="fig1"/>, 
+	we find that, for many gases,
+the value of 
+	<m:math>
+	  <m:apply>
+	    <m:divide/>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>P</m:ci>
+	      <m:ci>V</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+	      <m:ci>R</m:ci>
+	      <m:ci>T</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math> falls below 1. One way to state this result is
+that, for a given value of <m:math><m:ci>V</m:ci></m:math>, <m:math><m:ci>n</m:ci></m:math>, and <m:math><m:ci>T</m:ci></m:math>, the pressure of the gas is
+less than it would have been for an ideal gas. This must be the
+result of the interactions of the gas particles. In order for the
+pressure to be reduced, the force of the collisions of the
+particles with the walls must be less than is predicted by our
+model of an ideal gas. Therefore, the effect of the interactions is
+to slow the particles as they approach the walls of the container.
+This means that an individual particle approaching a wall must
+experience a force acting to pull it back into the body of the gas.
+Hence, the gas particles must attract one another. Therefore, the
+effect of increasing the density of the gas is that the gas
+particles are confined in closer proximity to one another. At this
+closer range, the attractions of individual particles become
+significant. It should not be surprising that these attractive
+forces depend on what the particles are. We note in <link target-id="fig1"/>
+that deviation from the <term>Ideal Gas Law</term> is greater for ammonia than
+for nitrogen, and greater for nitrogen than for helium. Therefore,
+the attractive interactions of ammonia molecules are greater than
+those of nitrogen molecules, which are in turn greater than those
+of helium atoms. We analyze this conclusion is more detail
+below.</para>
+<para id="id2576627">Continuing to increase the density of the gas,
+we find in <link target-id="fig2"/> that the value of 	
+	<m:math>
+	  <m:apply>
+	    <m:divide/>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>P</m:ci>
+	      <m:ci>V</m:ci>
+	    </m:apply>
+	    <m:apply>
+	      <m:times/>
+	      <m:ci>n</m:ci>
+	      <m:ci>R</m:ci>
+	      <m:ci>T</m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math> begins to rise,
+eventually exceeding 1 and continuing to increase. Under these
+conditions, therefore, the pressure of the gas is greater than we
+would have expected from our model of non-interacting particles.
+What does this tell us? The gas particles are interacting in such a
+way as to increase the force of the collisions of the particles
+with the walls. This requires that the gas particles repel one
+another. As we move to higher density, the particles are forced
+into closer and closer proximity. We can conclude that gas
+particles at very close range experience strong repulsive forces
+away from one another.</para>
+<para id="id2527885">Our model of the behavior of gases can be
+summarized as follows: at low density, the gas particles are
+sufficiently far apart that there are no interactions between them.
+In this case, the pressure of the gas is independent of the nature
+of the gas and agrees with the <term>Ideal Gas Law</term>. At somewhat higher
+densities, the particles are closer together and the interaction
+forces between the particles are attractive. The pressure of the
+gas now depends on the strength of these interactions and is lower
+than the value predicted by the <term>Ideal Gas Law</term>. At still higher
+densities, the particles are excessively close together, resulting
+in repulsive interaction forces. The pressure of the gas under
+these conditions is higher than the value predicted by the <term>Ideal
+Gas Law</term>.</para>
+</section>
+<section id="id2570273">
+<title>Observation 3: Boiling Points of simple hydrides</title>
+<para id="id2457107">The postulates of the <term>Kinetic Molecular
+	  Theory</term>
+
+provide us a way to understand the relationship between molecular
+properties and the physical properties of bulk amounts of
+substance. As a distinct example of such an application, we now
+examine the boiling points of various compounds, focusing on
+hydrides of sixteen elements in the main group (Groups IV through
+VII). These are given <link target-id="table1">here</link>.</para>
+
+      <table id="table1" summary="">
+	<title>Boiling Points of Hydrides of Groups IV to VII</title>
+	<tgroup cols="2">
+	  <thead>
+	    <row>
+	      <entry/>
+	      <entry>Boiling Point (°C)</entry>
+	    </row>
+	  </thead>
+	  <tbody>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>C</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>4</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math>
+	      </entry>
+	      <entry>-164</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>N</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>3</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-33</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>2</m:mn>
+		    </m:msub>
+		    <m:mi>O</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>100</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>H</m:mi>
+		    <m:mi>F</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>20</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>Si</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>4</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-111.8</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>P</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>3</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-87.7</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>2</m:mn>
+		    </m:msub>
+		    <m:mi>S</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-60.7</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>H</m:mi>
+		    <m:mi>Cl</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-85</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>Ge</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>4</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-88.5</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>As</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>3</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-55</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>2</m:mn>
+		    </m:msub>
+		    <m:mi>Se</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-41.5</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+	      <m:mrow>
+	      <m:mi>H</m:mi>
+	      <m:mi>Br</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-67</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>Sn</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>4</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-52</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:mi>Sb</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>3</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-17.1</entry>
+	    </row>
+	    <row>
+	      <entry><m:math>
+		  <m:mrow>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>2</m:mn>
+		    </m:msub>
+		    <m:mi>Te</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-2.2</entry>
+	    </row>
+	    <row>
+	      <entry>
+		<m:math>
+		  <m:mrow>
+		    <m:mi>H</m:mi>
+		    <m:mi>I</m:mi>
+		  </m:mrow>
+		</m:math></entry>
+	      <entry>-35</entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+<para id="id2593524">In tabular form, there are no obvious trends
+here, and therefore no obvious connection to the structure or
+bonding in the molecules. The data in <link target-id="table1">the
+	  table</link>
+ are displayed in a
+suggestive form, however, in <link target-id="fig4"/>, the boiling point of each
+hydride is plotted according to which period (row) of the periodic
+table the main group element belongs. For example, the Period 2
+	hydrides (<m:math>
+	  <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>,
+	<m:math>
+	  <m:mrow>
+	    <m:mi>N</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>3</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>,
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math>, and
+	<m:math>
+ 	  <m:mrow>
+	    <m:mi>H</m:mi>
+	    <m:mi>F</m:mi>
+	  </m:mrow>
+	</m:math>) are grouped in a column to the
+	left of the figure, followed by a column for the Period 3 hydrides
+	(<m:math>
+		  <m:mrow>
+		    <m:mi>Si</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>4</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math>,
+	<m:math>
+		  <m:mrow>
+		    <m:mi>P</m:mi>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>3</m:mn>
+		    </m:msub>
+		  </m:mrow>
+		</m:math>, <m:math>
+		  <m:mrow>
+		    <m:msub>
+		      <m:mi>H</m:mi>
+		      <m:mn>2</m:mn>
+		    </m:msub>
+		    <m:mi>S</m:mi>
+		  </m:mrow>
+		</m:math>, <m:math>
+		  <m:mrow>
+		    <m:mi>H</m:mi>
+		    <m:mi>Cl</m:mi>
+		  </m:mrow>
+		</m:math>), etc.</para>
+<para id="id2599395">Now a few trends are more apparent. First, the
+lowest boiling points in each period are associated with the Group
+	IV hydrides (<m:math>
+	  <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, <m:math>
+	  <m:mrow>
+	    <m:mi>Si</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, <m:math>
+	  <m:mrow>
+	    <m:mi>Ge</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, <m:math>
+	  <m:mrow>
+	    <m:mi>Sn</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>), and the highest boiling points
+in each period belong to the Group VI hydrides (<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math>,
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>S</m:mi>
+	  </m:mrow>
+	</m:math>,
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>Se</m:mi>
+	  </m:mrow>
+	</m:math>,
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>Te</m:mi>
+	  </m:mrow>
+	</m:math>). For this reason, the hydrides belonging to a single group
+have been connected in <link target-id="fig4"/>.</para>
+
+      <figure id="fig4">
+	<title>Boiling Points of Main Group Hydrides</title>
+	<media id="idm10300496" alt=""><image src="../../media/fig4-3997.png" mime-type="image/png"/><image for="pdf" src="../../media/fig4-b7f8.eps" mime-type="application/postscript"/></media>
+      </figure>
+
+<para id="id2598970">Second, we notice that, with the exceptions of
+	<m:math>
+	  <m:mrow>
+	    <m:mi>N</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>3</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, 
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math>, and <m:math>
+	  <m:mrow>
+	    <m:mi>H</m:mi>
+	    <m:mi>F</m:mi></m:mrow></m:math>, 
+	the boiling points of the hydrides always
+increase in a single group as we go down the periodic table: for
+example, in Group IV, the boiling points increase in the order 
+	<m:math>
+	  <m:apply>
+	    <m:lt/>
+	    <m:ci>
+	      <m:mrow>
+		<m:mi>C</m:mi>
+		<m:msub>
+		  <m:mi>H</m:mi>
+		  <m:mn>4</m:mn>
+		</m:msub>
+	      </m:mrow>
+	    </m:ci>
+	    <m:ci>
+	      <m:mrow>
+		<m:mi>Si</m:mi>
+		<m:msub>
+		  <m:mi>H</m:mi>
+		  <m:mn>4</m:mn>
+		</m:msub>
+	      </m:mrow>
+	    </m:ci>
+	    <m:ci>
+	      <m:mrow>
+		<m:mi>Ge</m:mi>
+		<m:msub>
+		  <m:mi>H</m:mi>
+		  <m:mn>4</m:mn>
+		</m:msub>
+	      </m:mrow>
+	    </m:ci>
+	    <m:ci>
+	      <m:mrow>
+		<m:mi>Sn</m:mi>
+		<m:msub>
+		  <m:mi>H</m:mi>
+		  <m:mn>4</m:mn>
+		</m:msub>
+	      </m:mrow>
+	    </m:ci>
+	  </m:apply>
+	</m:math>. Third, we can also say that the
+hydrides from Period 2 appear to have unusually high boiling points
+	<emphasis>except</emphasis> for <m:math>
+	  <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, which as noted has the lowest boiling point of
+all.</para>
+<para id="id2617622">We begin our analysis of these trends by
+assuming that there is a relationship between the boiling points of
+these compounds and the structure and bonding in their molecules.
+Recalling our kinetic molecular model of gases and liquids, we
+recognize that a primary difference between these two phases is
+that the strength of the interaction between the molecules in the
+liquid is much greater than that in the gas, due to the proximity
+of the molecules in the liquid. In order for a molecule to leave
+the liquid phase and enter into the gas phase, it must possess
+sufficient energy to overcome the interactions it has with other
+molecules in the liquid. Also recalling the kinetic molecular
+description, we recognize that, on average, the energies of
+molecules increase with increasing temperature. We can conclude
+from these two statements that a high boiling point implies that
+significant energy is required to overcome intermolecular
+interactions. Conversely, a substance with a low boiling point must
+have weak intermolecular interactions, surmountable even at low
+temperature.</para>
+<para id="id2618113">In light of these conclusions, we can now look
+at <link target-id="fig4"/> as directly (though qualitatively) revealing the
+comparative strengths of intermolecular interactions of the various
+hydrides. For example, we can conclude that, amongst the hydrides
+considered here, the intermolecular interactions are greatest
+between <m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math> molecules and weakest between <m:math>
+	  <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math> molecules. We examine
+the three trends in this figure, described above, in light of the
+strength of intermolecular forces.</para>
+<para id="id2617895">First, the most dominant trend in the boiling
+points is that, within a single group, the boiling points of the
+hydrides increase as we move <emphasis>down</emphasis> the periodic
+	table. 
+This is true
+in all four groups in <link target-id="fig4"/>; the only exceptions to this trend
+are <m:math>
+	  <m:mrow>
+	    <m:mi>N</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>3</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, 
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math>, and <m:math>
+	  <m:mrow>
+	    <m:mi>H</m:mi>
+	    <m:mi>F</m:mi></m:mrow></m:math>. 
+We can conclude that, with notable
+exceptions, intermolecular interactions increase with increasing
+atomic number of the central atom in the molecule. This is true
+whether the molecules of the group considered have dipole moments
+(as in Groups V, VI, and VII) or not (as in Group IV). We can infer
+that the large intermolecular attractions for molecules with large
+central atoms arises from the large number of charged particles in
+these molecules.</para>
+<para id="id2617689">This type of interaction arises from forces
+referred to as <term>London forces</term> or <term>dispersion
+	    forces</term>. 
+These forces
+are believed to arise from the instantaneous interactions of the
+charged particles from one molecule with the charged particles in
+an adjacent molecule. Although these molecules may not be polar
+individually, the nuclei in one molecule may attract the electrons
+in a second molecule, thus inducing an instantaneous dipole in the
+second molecule. In turn, the second molecule induces a dipole in
+the first. Thus, two non-polar molecules can interact as if there
+were dipole-dipole attractions between them, with positive and
+negative charges interacting and attracting. The tendency of a
+molecule to have an induced dipole is called the <term>polarizability</term>
+of the molecule. The more charged particles there are in a
+molecule, the more <term>polarizable</term> a molecule is and the greater the
+attractions arising from dispersion forces will be.</para>
+<para id="id2617729">Second, we note that, without exception, the
+Group IV hydrides must have the weakest intermolecular interactions
+in each period. As noted above, these are the only hydrides that
+have no dipole moment. Consequently, in general, molecules without
+dipole moments have weaker interactions than molecules which are
+polar. We must qualify this carefully, however, by noting that the
+nonpolar <m:math>
+	  <m:mrow>
+	    <m:mi>Sn</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math> has a higher boiling point than the polar <m:math>
+	  <m:mrow>
+	    <m:mi>P</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>3</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math> and
+	<m:math>
+	  <m:mrow>
+	    <m:mi>H</m:mi>
+	    <m:mi>Cl</m:mi>
+	  </m:mrow>
+	</m:math>. We can conclude from these comparisons that the increased
+polarizability of molecules with heavier atoms can offset the lack
+of a molecular dipole.</para>
+<para id="id2617417">Third, and most importantly, we note that the
+intermolecular attractions involving <m:math>
+	  <m:mrow>
+	    <m:mi>N</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>3</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>, 
+	<m:math>
+	  <m:mrow>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>2</m:mn>
+	    </m:msub>
+	    <m:mi>O</m:mi>
+	  </m:mrow>
+	</m:math>, and <m:math>
+	  <m:mrow>
+	    <m:mi>H</m:mi>
+	    <m:mi>F</m:mi></m:mrow></m:math> must be
+uniquely and unexpectedly large, since their boiling points are
+markedly out of line with those of the rest of their groups. The
+common feature of these molecules is that they contain small atomic
+number atoms which are strongly electronegative, which have lone
+pairs, and which are bonded to hydrogen atoms. Molecules without
+these features do not have unexpectedly high boiling points. We can
+deduce from these observations that the hydrogen atoms in each
+molecule are unusually strongly attracted to the lone pair
+electrons on the strongly electronegative atoms with the same
+properties in other molecules. This intermolecular attraction of a
+hydrogen atom to an electronegative atom is referred to as
+<term>hydrogen bonding</term>. It is clear from our boiling point data that
+hydrogen bonding interactions are much stronger than either
+dispersion forces or dipole-dipole attractions.</para>
+</section>
+<section id="id2596436">
+<title>Review and Discussion Questions</title>
+<exercise id="ex1"><problem id="idm1642528"><para id="id2596447">Explain 
+	    the significance to the development
+	    of the kinetic molecular model of the observation that the ideal
+	    gas law works well only at low pressure.</para>
+</problem></exercise>
+<exercise id="ex2"><problem id="idp317344"><para id="id2594765">Explain the significance to the development
+of the kinetic molecular model of the observation that the pressure
+predicted by the ideal gas law is independent of the type of
+gas.</para></problem></exercise>
+<exercise id="ex3"><problem id="idm3098544"><para id="id2594781">Sketch the value of 
+	    <m:math>
+	      <m:apply>
+		<m:divide/>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>P</m:ci>
+		  <m:ci>V</m:ci>
+		</m:apply>
+		<m:apply>
+		  <m:times/>
+		  <m:ci>n</m:ci>
+		  <m:ci>R</m:ci>
+		  <m:ci>T</m:ci>
+		</m:apply>
+	      </m:apply>
+	    </m:math>
+ as a function of
+density for two gases, one with strong intermolecular attractions
+and one with weak intermolecular attractions but strong
+repulsions.</para></problem></exercise>
+<exercise id="ex4"><problem id="idm9015456"><para id="id2594797">Give a brief molecular explanation for the
+observation that the pressure of a gas at fixed temperature
+increases proportionally with the density of the gas.</para></problem></exercise>
+<exercise id="ex5"><problem id="idp1184512"><para id="id2594811">Give a brief molecular explanation for the
+observation that the pressure of a gas confined to a fixed volume
+increases proportionally with the temperature of the gas.</para></problem></exercise>
+<exercise id="ex6"><problem id="idm1167904"><para id="id2502604">Give a brief molecular explanation for the
+observation that the volume of a balloon increases roughly
+proportionally with the temperature of the gas inside the
+balloon.</para></problem></exercise>
+<exercise id="ex7"><problem id="idp481648"><para id="id2502618">Explain why there is a correlation between
+high boiling point and strong deviation from the <term>Ideal Gas
+Law</term>.</para></problem></exercise>
+<exercise id="ex8"><problem id="idm9721808"><para id="id2502634">Referring to
+	    <link target-id="fig4"/>, explain why the
+hydride of the Group 4 element always has the lowest boiling point
+in each period.</para></problem></exercise>
+<exercise id="ex9"><problem id="idm927776"><para id="id2502648">Explain why the Period 2 hydrides except  <m:math>
+	  <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math>
+all have high boiling points, and explain why  <m:math>
+	      <m:mrow>
+	    <m:mi>C</m:mi>
+	    <m:msub>
+	      <m:mi>H</m:mi>
+	      <m:mn>4</m:mn>
+	    </m:msub>
+	  </m:mrow>
+	</m:math> is an
+exception.</para></problem></exercise>
+</section>
+</content>
+</document>

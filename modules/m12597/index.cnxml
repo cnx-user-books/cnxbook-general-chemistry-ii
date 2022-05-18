@@ -1,0 +1,1055 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Reaction Equilibrium in the Gas Phase</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>83800814-73e3-4160-9cdb-f6c3d277b70c</md:uuid>
+</metadata>
+
+  <content>
+<section id="id5175811">
+<title>Foundation</title>
+<para id="id5175819">In beginning our study of the reactions of
+gases, we will assume a knowledge of the physical properties of
+gases as described by the <term>Ideal Gas Law</term>
+and an understanding of these properties as given by the postulates
+and conclusions of the <term>Kinetic Molecular
+Theory</term>. We assume that we have developed a dynamic
+model of phase equilibrium in terms of competing rates. We will
+also assume an understanding of the bonding, structure, and
+properties of individual molecules.</para>
+</section>
+<section id="sec2">
+<title>Goals</title>
+<para id="id5175852">In performing stoichiometric calculations, we
+assume that we can calculate the amount of product of a reaction
+from the amount of the reactants we start with. For example, if we
+burn methane gas,
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>,
+in excess oxygen, the reaction</para>
+
+<equation id="eqn1">
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5175934">occurs, and the number of moles of
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+produced is assumed to equal the number of moles of
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+we start with.</para>
+<para id="id5175953">From our study of phase transitions we have
+learned the concept of equilibrium. We observed that, in the
+transition from one phase to another for a substance, under certain
+conditions both phases are found to coexist, and we refer to this
+as phase equilibrium. It should not surprise us that these same
+concepts of equilibrium apply to chemical reactions as well. In the
+<link target-id="eqn1">reaction</link>,
+therefore, we should examine whether the reaction actually produces
+exactly one mole of
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+for every mole of
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+we start with or whether we wind up with an equilibrium mixture
+containing both
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+and
+<m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+We will find that different reactions provide us with varying
+answers. In many cases, virtually all reactants are consumed,
+producing the stoichiometric amount of product. However, in many
+other cases, substantial amounts of reactant are still present when
+the reaction achieves equilibrium, and in other cases, almost no
+product is produced at equilibrium. Our goal will be to understand,
+describe and predict the reaction equilibrium.</para>
+<para id="id5176013">An important corollary to this goal is to
+attempt to control the equilibrium. We will find that varying the
+conditions under which the reaction occurs can vary the amounts of
+reactants and products present at equilibrium. We will develop a
+general principle for predicting how the reaction conditions affect
+the amount of product produced at equilibrium.</para>
+</section>
+<section id="id5176031">
+<title>Observation 1: Reaction equilibrium</title>
+<para id="id5176042">We begin by analyzing a significant industrial
+chemical process, the synthesis of ammonia gas,
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>,
+from nitrogen and hydrogen:</para>
+
+<equation id="eqn2">
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5176112">If we start with 1 mole of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and 3 moles of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>,
+the balanced equation predicts that we will produce 2 moles of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>.
+In fact, if we carry out this reaction starting with these
+quantities of nitrogen and hydrogen at 298K in a 100.0L reaction
+vessel, we observe that the number of moles of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+produced is 1.91 mol. This "yield" is less than
+predicted by the balanced equation, but the difference is not due
+to a limiting reagent factor. Recall that, in stoichiometry, the
+limiting reagent is the one that is present in less than the ratio
+of moles given by the balanced equation. In this case, neither
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+nor
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+is limiting because they are present initially in a 1:3 ratio,
+exactly matching the stoichiometry. Note also that this seeming
+deficit in the yield is not due to any experimental error or
+imperfection, nor is it due to poor measurements or preparation.
+Rather, the observation that, at 298K, 1.91 moles rather than 2
+moles are produced is completely reproducible: every measurement of
+this reaction at this temperature in this volume starting with 1
+mole of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and 3 moles of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+gives this result. We conclude that the <link target-id="eqn2">reaction</link> achieves
+<term>reaction equilibrium</term> in which all three
+gases are present in the gas mixture. We can determine the amounts
+of each gas at equilibrium from the stoichiometry of the reaction.
+When
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:ci><m:apply><m:times/><m:cn>1.91</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>
+are created, the number of moles of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+remaining at equilibrium is
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:apply><m:times/><m:cn>0.045</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>
+and
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:apply><m:times/><m:cn>0.135</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>.</para>
+<para id="id5176217">It is important to note that we can vary the
+relative amount of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+produced by varying the temperature of the reaction, the volume of
+the vessel in which the reaction occurs, or the relative starting
+amounts of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>.
+We shall study and analyze this observation in detail in later
+sections. For now, though, we demonstrate that the concept of
+reaction equilibrium is general to all reactions.</para>
+<para id="id5176250">Consider the reaction</para>
+
+<equation id="eqn3">
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>I</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5176309">If we begin with 1.00 mole of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and 1.00 mole of
+<m:math><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:math>
+at 500K in a reaction vessel of fixed volume, we observe that, at
+equilibrium,
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>H</m:mi><m:mi>I</m:mi></m:mrow></m:msub></m:ci><m:apply><m:times/><m:cn>1.72</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>,
+leaving in the equilibrium mixture
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:apply><m:times/><m:cn>0.14</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>
+and
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:apply><m:times/><m:cn>0.14</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>.</para>
+<para id="id5176370">Similarly, consider the decomposition
+reaction</para>
+
+<equation id="eqn4">
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5176450">At 298K in a 100.0L reaction flask, 1.00 mol
+of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+partially decomposes to produce, at equilibrium,
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:ci><m:apply><m:times/><m:cn>0.64</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>
+and
+<m:math><m:apply><m:eq/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:ci><m:apply><m:times/><m:cn>0.68</m:cn><m:ci>mol</m:ci></m:apply></m:apply></m:math>.</para>
+<para id="id5176502">Some chemical reactions achieve an equilibrium
+that appears to be very nearly complete reaction. For
+example,</para>
+
+<equation id="eqn5">
+<m:math><m:mrow><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>Cl</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>H</m:mi><m:mi>Cl</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5176565">If we begin with 1.00 mole of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+and 1.00 mole of
+<m:math><m:msub><m:mi>Cl</m:mi><m:mn>2</m:mn></m:msub></m:math>
+at 298K in a reaction vessel of fixed volume, we observe that, at
+equilibrium,
+<m:math><m:msub><m:mi>n</m:mi><m:mrow><m:mi>H</m:mi><m:mi>Cl</m:mi></m:mrow></m:msub></m:math>
+is almost exactly 2.00 mol, leaving virtually no
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+or
+<m:math><m:msub><m:mi>Cl</m:mi><m:mn>2</m:mn></m:msub></m:math>.
+This does not mean that the reaction has not come to equilibrium.
+It means instead that, at equilibrium, there are essentially no
+reactants remaining.</para>
+<para id="id5176632">In each of these cases, the amounts of
+reactants and products present at equilibrium vary as the
+conditions are varied but are completely reproducible for fixed
+conditions. Before making further observations that will lead to a
+quantitative description of the reaction equilibrium, we consider a
+qualitative description of equilibrium.</para>
+<para id="id5176650">We begin with a dynamic equilibrium
+description. We know from our studies of phase transitions that
+equilibrium occurs when the rate of the forward process
+(<foreign>e.g.</foreign> evaporation) is matched by the
+rate of reverse process (<foreign>e.g.</foreign>
+condensation). Since we have now observed that gas reactions also
+come to equilibrium, we postulate that at equilibrium the forward
+reaction rate is equal to the reverse reaction rate. For example,
+in the reaction <link target-id="eqn4">here</link>, the rate of
+decomposition of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+molecules at equilibrium must be exactly matched by the rate of
+recombination (or <term>dimerization</term>) of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+molecules.</para>
+<para id="id5176695">To show that the forward and reverse reactions
+continue to happen at equilibrium, we start with the
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+and
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+mixture at equilibrium and we vary the volume of the flask
+containing the mixture. We observe that, if we increase the volume
+and the reaction is allowed to come to equilibrium, the amount of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+at equilibrium is larger at the expense of a smaller amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+We can certainly conclude that the amounts of the gases at
+equilibrium depend on the reaction conditions. However, if the
+forward and reverse reactions stop once the equilibrium amounts of
+material are achieved, the molecules would not "know"
+that the volume of the container had increased. Since the reaction
+equilibrium can and does respond to a change in volume, it must be
+that the change in volume affects the rates of both the forward and
+reverse processes. This means that both reactions must be occurring
+at equilibrium, and that their rates must exactly match at
+equilibrium.</para>
+<para id="id5176752">This reasoning reveals that the amounts of
+reactant and product present at equilibrium are determined by the
+rates of the forward and reverse reactions. If the rate of the
+forward reaction (<foreign>e.g.</foreign> decomposition
+of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>)
+is faster than the rate of the reverse reaction, then at
+equilibrium we have more product than reactant. If that difference
+in rates is very large, at equilibrium there will be much more
+product than reactant. Of course, the converse of these conclusions
+is also true. It must also be the case that the rates of these
+processes depends on, amongst other factors, the volume of the
+reaction flask, since the amounts of each gas present at
+equilibrium change when the volume is changed.</para>
+</section>
+<section id="id5176788">
+<title>Observation 2: Equilibrium constants</title>
+<para id="id5176797">It was noted above that the equilibrium
+partial pressures of the gases in a reaction vary depending upon a
+variety of conditions. These include changes in the initial numbers
+of moles of reactants and products, changes in the volume of the
+reaction flask, and changes in the temperature. We now study these
+variations quantitatively.</para>
+
+<para id="id5176824">Consider first the reaction <link target-id="eqn4">here</link>. Following on our previous study of this
+reaction, we inject an initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+into a 100L reaction flask at 298K. Now, however, we vary the
+initial number of moles of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+in the flask and measure the equilibrium pressures of both the
+reactant and product gases. The results of a number of such studies
+are given <link target-id="table1">here</link>.</para>
+
+<table id="table1" summary="">
+<title>Equilibrium Partial Pressures in Decomposition
+Reaction</title>
+<tgroup cols="3">
+<thead>
+<row>
+<entry>Initial
+<m:math><m:msub><m:mi>n</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math>
+(atm)</entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:math>
+(atm)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0.1</entry>
+<entry>0.00764</entry>
+<entry>0.033627</entry>
+</row>
+<row>
+<entry>0.5</entry>
+<entry>0.071011</entry>
+<entry>0.102517</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>0.166136</entry>
+<entry>0.156806</entry>
+</row>
+<row>
+<entry>1.5</entry>
+<entry>0.26735</entry>
+<entry>0.198917</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>0.371791</entry>
+<entry>0.234574</entry>
+</row>
+<row>
+<entry>2.5</entry>
+<entry>0.478315</entry>
+<entry>0.266065</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>0.586327</entry>
+<entry>0.294578</entry>
+</row>
+<row>
+<entry>3.5</entry>
+<entry>0.695472</entry>
+<entry>0.320827</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>0.805517</entry>
+<entry>0.345277</entry>
+</row>
+<row>
+<entry>4.5</entry>
+<entry>0.916297</entry>
+<entry>0.368255</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>1.027695</entry>
+<entry>0.389998</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="id5177456">We might have expected that the amount of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+produced at equilibrium would increase in direct proportion to
+increases in the amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+we begin with. <link target-id="table1"/> shows that
+this is not the case. Note that when we increase the initial amount
+of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+by a factor of 10 from 0.5 moles to 5.0 moles, the pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+at equilibrium increases by a factor of less than 4.</para>
+<para id="id5177506">The relationship between the pressures at
+equilibrium and the initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+is perhaps more easily seen in a graph of the data in <link target-id="table1"/>, as shown in <link target-id="fig1"/>. There are some interesting features
+here. Note that, when the initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+is less than 1 mol, the equilibrium pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+is greater than that of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+These relative pressures reverse as the initial amount increases,
+as the
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+equilibrium pressure keeps track with the initial amount but the
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+pressure falls short. Clearly, the equilibrium pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+does not increase proportionally with the initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+In fact, the increase is slower than proportionality, suggesting
+perhaps a square root relationship between the pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+and the initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.</para>
+
+<figure id="fig1">
+    <title>Equilibrium Partial Pressures in Decomposition Reaction</title>
+    <media id="idp2085360" alt=""><image src="../../media/fig1-72cb.png" mime-type="image/png"/><image for="pdf" src="../../media/fig1-5c04.eps" mime-type="application/postscript"/></media>
+ </figure>
+
+<para id="id5177648">We test this in <link target-id="fig2"/> by plotting
+<m:math><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:math>
+at equilibrium versus the square root of the initial number of
+moles of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+<link target-id="fig2"/> makes it clear that this is
+not a simple proportional relationship, but it is closer. Note in
+<link target-id="fig1"/> that the equilibrium
+pressure
+<m:math><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math>
+increases close to proportionally with the initial amount of
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>.
+This suggests plotting
+<m:math><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:math>
+versus the square root of
+<m:math><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math>.
+This is done in <link target-id="fig3"/>, where we
+discover that there is a very simple proportional relationship
+between the variables plotted in this way. We have thus observed
+that</para>
+
+<equation id="eqn6">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:ci>
+<m:apply><m:times/><m:ci>c</m:ci>
+<m:apply><m:root/><m:degree><m:cn>2</m:cn></m:degree><m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:ci>
+</m:apply></m:apply></m:apply>
+</m:math>
+</equation>
+
+<para id="id5177768">where <m:math><m:ci>c</m:ci></m:math> is the
+slope of the graph. <link target-id="eqn6"/> can be
+rewritten in a standard form</para>
+
+<equation id="eqn7">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci>
+<m:apply><m:divide/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:ci>
+</m:apply></m:apply>
+</m:math>
+</equation>
+
+<para id="id5177822">To test the accuracy of this equation and to
+find the value of
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>,
+we return to <link target-id="table1"/> and add
+another column in which we calculate the value of
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+for each of the data points. <link target-id="table2"/> makes it clear that the
+"constant" in <link target-id="eqn7"/>
+truly is independent of both the initial conditions and the
+equilibrium partial pressure of either one of the reactant or
+product. We thus refer to the constant
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+in <link target-id="eqn7"/> as the
+<term>reaction equilibrium constant</term>.</para>
+
+<figure id="fig2">
+    <title>Relationship of Pressure of Product to Initial Amount of Reactant</title>
+    <media id="idp2106464" alt=""><image src="../../media/fig2-7f15.png" mime-type="image/png"/><image for="pdf" src="../../media/fig2-037a.eps" mime-type="application/postscript"/></media>
+ </figure>
+
+<figure id="fig3">
+    <title>Equilibrium Partial Pressures</title>
+    <media id="idm147888" alt=""><image src="../../media/fig3-d34f.png" mime-type="image/png"/><image for="pdf" src="../../media/fig3-4ffd.eps" mime-type="application/postscript"/></media>
+ </figure>
+
+<table id="table2" summary="">
+<title>Equilibrium Partial Pressures in Decomposition
+Reaction</title>
+<tgroup cols="4">
+<thead>
+<row>
+<entry>Initial
+<m:math><m:msub><m:mi>n</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math></entry>
+<entry>
+<m:math><m:msub><m:mi>P</m:mi><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:msub></m:math>
+(atm)</entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msub></m:math>
+(atm)</entry>
+<entry><m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>0.1</entry>
+<entry>0.00764</entry>
+<entry>0.0336</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>0.5</entry>
+<entry>0.0710</entry>
+<entry>0.102</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>1</entry>
+<entry>0.166</entry>
+<entry>0.156</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>1.5</entry>
+<entry>0.267</entry>
+<entry>0.198</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>0.371</entry>
+<entry>0.234</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>2.5</entry>
+<entry>0.478</entry>
+<entry>0.266</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>0.586</entry>
+<entry>0.294</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>3.5</entry>
+<entry>0.695</entry>
+<entry>0.320</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>0.805</entry>
+<entry>0.345</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>4.5</entry>
+<entry>0.916</entry>
+<entry>0.368</entry>
+<entry>0.148</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>1.027</entry>
+<entry>0.389</entry>
+<entry>0.148</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para id="id5178702">It is very interesting to note the functional
+form of the equilibrium constant. The product
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+pressure appears in the numerator, and the exponent 2 on the
+pressure is the stoichiometric coefficient on
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+in the balanced chemical equation. The reactant
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+pressure appears in the denominator, and the exponent 1 on the
+pressure is the stoichiometric coefficient on
+<m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>O</m:mi><m:mn>4</m:mn></m:msub></m:mrow></m:math>
+in the chemical equation.</para>
+<para id="id5178745">We now investigate whether other reactions
+have equilibrium constants and whether the form of this equilibrium
+constant is a happy coincidence or a general observation. We return
+to the reaction for the <link target-id="eqn2">synthesis of
+ammonia</link>.</para>
+<para id="id5178759">In a <link target-id="sec2">previous section</link>, we
+considered only the equilibrium produced when 1 mole of
+<m:math><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:math>
+is reacted with 3 moles of
+<m:math><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>.
+We now consider a range of possible initial values of these
+amounts, with the resultant equilibrium partial pressures given in
+<link target-id="table3"/>. In addition,
+anticipating the possibility of an equilibrium constant, we have
+calculated the ratio of partial pressures given by:</para>
+
+<equation id="eqn8">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci>
+<m:apply><m:divide/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>P</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+<m:apply><m:power/><m:ci><m:msub><m:mi>P</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:cn>3</m:cn></m:apply>
+</m:apply></m:apply></m:apply>
+</m:math>
+</equation>
+
+<para id="id5178824">In <link target-id="table3"/>,
+the equilibrium partial pressures of the gases are in a very wide
+variety, including whether the final pressures are greater for
+reactants or products. However, from the data in <link target-id="table3"/>, it is clear that, despite these
+variations,
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+in <link target-id="eqn8"/> is essentially a
+constant for all of the initial conditions examined and is thus the
+<term>reaction equilibrium constant</term> for <link target-id="eqn2">this reaction</link>.</para>
+
+<table id="table3" summary="">
+<title>Equilibrium Partial Pressures of the Synthesis
+of Ammonia</title>
+<tgroup cols="7">
+<thead>
+<row>
+<entry>V (L)</entry>
+<entry><m:math><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>P</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:math></entry>
+<entry><m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>10</entry>
+<entry>1</entry>
+<entry>3</entry>
+<entry>0.0342</entry>
+<entry>0.1027</entry>
+<entry>4.82</entry>
+<entry><m:math><m:cn type="e-notation">6.2<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>10</entry>
+<entry>0.1</entry>
+<entry>0.3</entry>
+<entry>0.0107</entry>
+<entry>0.0322</entry>
+<entry>0.467</entry>
+<entry><m:math><m:cn type="e-notation">6.0<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>100</entry>
+<entry>0.1</entry>
+<entry>0.3</entry>
+<entry>0.00323</entry>
+<entry>0.00968</entry>
+<entry>0.0425</entry>
+<entry><m:math><m:cn type="e-notation">6.1<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>100</entry>
+<entry>3</entry>
+<entry>3</entry>
+<entry>0.492</entry>
+<entry>0.00880</entry>
+<entry>0.483</entry>
+<entry><m:math><m:cn type="e-notation">6.1<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>100</entry>
+<entry>1</entry>
+<entry>3</entry>
+<entry>0.0107</entry>
+<entry>0.0322</entry>
+<entry>0.467</entry>
+<entry><m:math><m:cn type="e-notation">6.0<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>1000</entry>
+<entry>1.5</entry>
+<entry>1.5</entry>
+<entry>0.0255</entry>
+<entry>0.00315</entry>
+<entry>0.0223</entry>
+<entry><m:math><m:cn type="e-notation">6.2<m:sep/>5</m:cn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="id5179638">Studies of many chemical reactions of gases
+result in the same observations. Each reaction equilibrium can be
+described by an equilibrium constant in which the partial pressures
+of the products, each raised to their corresponding stoichiometric
+coefficient, are multiplied together in the numerator, and the
+partial pressures of the reactants, each raised to their
+corresponding stoichiometric coefficient, are multiplied together
+in the denominator. For historical reasons, this general
+observation is sometimes referred to as the <term>Law of Mass
+Action</term>.</para>
+</section>
+<section id="id5179660">
+<title>Observation 3: Temperature Dependence of the Reaction
+Equilibrium</title>
+<para id="id5179668">We have previously observed that phase
+equilibrium, and in particular vapor pressure, depend on the
+temperature, but we have not yet studied the variation of reaction
+equilibrium with temperature. We focus our initial study on
+<link target-id="eqn3">this reaction</link>
+and we measure the equilibrium partial pressures at a variety of
+temperatures. From these measurements, we can compile the data
+showing the temperature dependence of the equilibrium constant
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+for this reaction in <link target-id="table4"/>.</para>
+
+<table id="table4" summary="">
+<title>Equilibrium Constant for the Synthesis of
+HI</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>T (K)</entry>
+<entry><m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>500</entry>
+<entry><m:math><m:cn type="e-notation">6.25<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>550</entry>
+<entry><m:math><m:cn type="e-notation">8.81<m:sep/>-3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>650</entry>
+<entry><m:math><m:cn type="e-notation">1.49<m:sep/>-2</m:cn></m:math></entry>
+</row>
+<row>
+<entry>700</entry>
+<entry><m:math><m:cn type="e-notation">1.84<m:sep/>-2</m:cn></m:math></entry>
+</row>
+<row>
+<entry>720</entry>
+<entry><m:math><m:cn type="e-notation">1.98<m:sep/>-2</m:cn></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="id5179952">Note that the equilibrium constant increases
+dramatically with temperature. As a result, at equilibrium, the
+pressure of
+<m:math><m:mrow><m:mi>H</m:mi><m:mi>I</m:mi></m:mrow></m:math>
+must also increase dramatically as the temperature is
+increased.</para>
+<para id="id5179965">These data
+do not seem to have a simple relationship between
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+and temperature. We must appeal to arguments based on
+Thermodynamics, from which it is possible to show that the
+equilibrium constant should vary with temperature according to the
+following equation:</para>
+
+<equation id="eqn9">
+<m:math><m:apply><m:eq/>
+<m:apply><m:ln/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci></m:apply>
+<m:apply><m:plus/>
+<m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply></m:apply></m:apply>
+<m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:ci>R</m:ci></m:apply>
+</m:apply></m:apply></m:math>
+</equation>
+
+<para id="id5180039">If
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+and
+<m:math><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>S</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply></m:math>
+do not depend strongly on the temperature, then this equation would
+predict a simple straight line relationship between
+<m:math><m:apply><m:ln/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci></m:apply></m:math>
+and
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>.
+In addition, the slope of this line should be
+<m:math><m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:ci>R</m:ci></m:apply></m:apply></m:math>.
+We test this possibility with the graph in <link target-id="fig4"/>.</para>
+
+<figure id="fig4">
+    <title>Inverse of Temperature vs. Natural Log of Equilibrium Constant</title>
+    <media id="idm7049984" alt=""><image src="../../media/fig4-948c.png" mime-type="image/png"/><image for="pdf" src="../../media/fig4-b650.eps" mime-type="application/postscript"/></media>
+ </figure>
+
+<para id="id5180118">In fact, we do observe a straight line through
+the data. In this case, the line has a negative slope. Note
+carefully that this means that
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+is <emphasis>increasing</emphasis> with temperature.
+The negative slope via <link target-id="eqn9"/>
+means that
+<m:math><m:apply><m:minus/><m:apply><m:divide/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:ci>R</m:ci></m:apply></m:apply></m:math>
+must be negative, and indeed for <link target-id="eqn3">this reaction</link> in this
+temperature range,
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>15.6</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:math>.
+This value matches well with the slope of the line in <link target-id="fig4"/>.</para>
+<para id="id5180178">Given the validity of <link target-id="eqn9"/> in describing the temperature
+dependence of the equilibrium constant, we can also predict that an
+exothermic reaction with
+<m:math><m:apply><m:lt/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:cn>0</m:cn></m:apply></m:math>
+should have a positive slope in the graph of
+<m:math><m:apply><m:ln/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci></m:apply></m:math>
+versus
+<m:math><m:apply><m:divide/><m:cn>1</m:cn><m:ci>T</m:ci></m:apply></m:math>,
+and thus the equilibrium constant should
+<emphasis>decrease</emphasis> with increasing
+temperature. A good example of an exothermic reaction is the
+<link target-id="eqn2">synthesis of
+ammonia</link> for which
+<m:math><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>-99.2</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:math>.
+Equilibrium constant data are given in <link target-id="table5"/>. Note that, as predicted, the
+equilibrium constant for this exothermic reaction decreases rapidly
+with increasing temperature. The data from <link target-id="table5"/> is shown in <link target-id="fig5"/>, clearly showing the contrast
+between the endothermic reaction and the exothermic reaction. The
+slope of the graph is positive for the exothermic reaction and
+negative for the endothermic reaction. From <link target-id="eqn9"/>, this is a general result for all
+reactions.</para>
+
+<table id="table5" summary="">
+<title>Equilibrium Constant for the Synthesis of Ammonia</title>
+<tgroup cols="2">
+<thead>
+<row>
+<entry>T (K)</entry>
+<entry><m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>250</entry>
+<entry><m:math><m:cn type="e-notation">7<m:sep/>8</m:cn></m:math></entry>
+</row>
+<row>
+<entry>298</entry>
+<entry><m:math><m:cn type="e-notation">6<m:sep/>5</m:cn></m:math></entry>
+</row>
+<row>
+<entry>350</entry>
+<entry><m:math><m:cn type="e-notation">2<m:sep/>3</m:cn></m:math></entry>
+</row>
+<row>
+<entry>400</entry>
+<entry>36</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<figure id="fig5">
+    <title>Inverse of Temperature vs. Natural Log of Equilibrium Constant</title>
+    <media id="idp1849344" alt=""><image src="../../media/fig5-59e8.png" mime-type="image/png"/><image for="pdf" src="../../media/fig5-dd99.eps" mime-type="application/postscript"/></media>
+ </figure>
+
+</section>
+<section id="id5180516">
+<title>Observation 4: Changes in Equilibrium and Le
+Châtelier's Principle</title>
+<para id="id5180526">One of our goals at the outset was to
+determine whether it is possible to control the equilibrium which
+occurs during a gas reaction. We might want to force a reaction to
+produce as much of the products as possible. In the alternative, if
+there are unwanted by-products of a reaction, we might want
+conditions which minimize the product. We have observed that the
+amount of product varies with the quantities of initial materials
+and with changes in the temperature. Our goal is a systematic
+understanding of these variations.</para>
+<para id="id5180556">A look back at <link target-id="table1"/> and <link target-id="table2"/> shows that the equilibrium
+pressure of the product of the reaction increases with increasing
+the initial quantity of reaction. This seems quite intuitive. Less
+intuitive is the variation of the equilibrium pressure of the
+product of <link target-id="eqn2">this
+reaction</link> with variation in the volume of the
+container, as shown in <link target-id="table3"/>.
+Note that the pressure of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+decreases by more than a factor of ten when the volume is increased
+by a factor of ten. This means that, at equilibrium, there are
+fewer moles of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>
+produced when the reaction occurs in a larger volume.</para>
+<para id="id5180605">To understand this effect, we rewrite the
+equilibrium constant in <link target-id="eqn8"/> to
+explicit show the volume of the container. This is done by applying
+<term>Dalton's Law of Partial Pressures</term>,
+so that each partial pressure is given by the Ideal Gas Law:</para>
+
+<equation id="eqn10">
+<m:math><m:apply><m:eq/>
+<m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci>
+
+<m:apply><m:divide/>
+<m:apply><m:times/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:power/><m:apply><m:divide/><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply><m:ci>V</m:ci></m:apply><m:cn>2</m:cn></m:apply></m:apply>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+<m:apply><m:divide/><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply><m:ci>V</m:ci></m:apply>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:cn>3</m:cn></m:apply>
+<m:apply><m:power/><m:apply><m:divide/><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply><m:ci>V</m:ci></m:apply><m:cn>3</m:cn></m:apply></m:apply>
+</m:apply>
+
+<m:apply><m:divide/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:cn>3</m:cn></m:apply>
+<m:apply><m:power/><m:apply><m:divide/><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply><m:ci>V</m:ci></m:apply><m:cn>2</m:cn></m:apply></m:apply>
+</m:apply>
+
+</m:apply></m:math>
+</equation>
+
+<para id="id5180659">Therefore,</para>
+
+<equation id="eqn11">
+<m:math><m:apply><m:eq/>
+<m:apply><m:times/><m:ci><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:ci>
+<m:apply><m:power/><m:apply><m:divide/><m:apply><m:times/><m:ci>R</m:ci><m:ci>T</m:ci></m:apply><m:ci>V</m:ci></m:apply><m:cn>2</m:cn></m:apply></m:apply>
+
+<m:apply><m:divide/>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:times/>
+<m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci>
+<m:apply><m:power/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:cn>3</m:cn></m:apply></m:apply>
+</m:apply>
+
+</m:apply></m:math>
+</equation>
+
+<para id="id5180708">This form of the equation makes it clear that,
+when the volume increases, the left side of the equation decreases.
+This means that the right side of the equation must decrease also,
+and in turn, <m:math><m:msub><m:mi>n</m:mi><m:mrow><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:msub></m:math> must decrease while <m:math><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math> and <m:math><m:msub><m:mi>n</m:mi><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:math>must
+increase. The equilibrium is thus shifted from products to
+reactants when the volume increases for <link target-id="eqn2">this reaction</link>.</para>
+<para id="id5180776">The effect of changing the volume must be
+considered for each specific reaction, because the effect depends
+on the stoichiometry of the reaction. One way to determine the
+consequence of a change in volume is to rewrite the equilibrium
+constant as we have done in <link target-id="eqn11"/>.</para>
+<para id="id5180799">Finally, we consider changes in temperature.
+We note that
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+increases with
+<m:math><m:ci>T</m:ci></m:math> for
+endothermic reactions and decreases with
+<m:math><m:ci>T</m:ci></m:math> for
+exothermic reactions. As such, the products are increasingly
+favored with increasing temperature when the reaction is
+endothermic, and the reactants are increasingly favored with
+increasing temperature when the reaction is exothermic. On
+reflection, we note that when the reaction is exothermic, the
+reverse reaction is endothermic. Putting these statements together,
+we can say that the reaction equilibrium always shifts in the
+direction of the endothermic reaction when the temperature is
+increased.</para>
+<para id="id5180838">All of these observations can be collected
+into a single unifying concept known as <term>Le
+Châtelier's Principle</term>.</para>
+<rule type="principle" id="lechat"><label>Principle</label><title> Le Châtelier's
+Principle</title>
+<statement id="idm6597024"><para id="id5180874">When a reaction at equilibrium is stressed by
+a change in conditions, the equilibrium will be reestablished in
+such a way as to counter the stress.</para></statement></rule>
+<para id="id5180897">This statement is best understood by
+reflection on the types of "stresses" we have
+considered in this section. When a reactant is added to a system at
+equilibrium, the reaction responds by consuming some of that added
+reactant as it establishes a new equilibrium. This offsets some of
+the stress of the increase in reactant. When the temperature is
+raised for a reaction at equilibrium, this adds thermal energy. The
+system shifts the equilibrium in the endothermic direction, thus
+absorbing some of the added thermal energy, countering the
+stress.</para>
+<para id="id5180928">The most challenging of the three types of
+stress considered in this section is the change in volume. By
+increasing the volume containing a gas phase reaction at
+equilibrium, we reduce the partial pressures of all gases present
+and thus reduce the total pressure. Recall that the response of
+<link target-id="eqn2">this reaction</link> to
+the volume increase was to create more of the reactants at the
+expense of the products. One consequence of this shift is that more
+gas molecules are created, and this increases the total pressure in
+the reaction flask. Thus, the reaction responds to the stress of
+the volume increase by partially offsetting the pressure decrease
+with an increase in the number of moles of gas at
+equilibrium.</para>
+<para id="id5180968">Le Châtelier's principle is a
+useful mnemonic for predicting how we might increase or decrease
+the amount of product at equilibrium by changing the conditions of
+the reaction. From this principle, we can predict whether the
+reaction should occur at high temperature or low temperature, and
+whether it should occur at high pressure or low pressure.</para>
+</section>
+<section id="id5180991">
+<title>Review and Discussion Questions</title>
+<exercise id="ex1"><problem id="idm455488"><para id="id5181000">In the data given for equilibrium of <link target-id="eqn3">this reaction</link>, there is
+no volume given. Show that changing the volume for the reaction
+does not change the number of moles of reactants and products
+present at equilibrium, <foreign>i.e.</foreign>
+changing the volume does not shift the equilibrium.</para></problem></exercise>
+
+<exercise id="ex2"><problem id="idp1300528"><para id="id5181015">For <link target-id="eqn4">this
+reaction</link> the number of moles of
+<m:math><m:mrow><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+at equilibrium increases if we increase the volume in which the
+reaction is contained. Explain why this must be true in terms of
+dynamic equilibrium, give a reason why the rates of the forward and
+reverse reactions might be affected differently by changes in the
+volume.</para></problem></exercise>
+
+<exercise id="ex3"><problem id="idp602832"><para id="id5181036">We could balance <link target-id="eqn2"/> by writing</para>
+
+<equation id="eqn12">
+<m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>6</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>4</m:mn><m:mi>N</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="id5181109">Write the form of the equilibrium constant for
+the reaction balanced as in <link target-id="eqn12"/>. What is the value of the
+equilibrium constant? (Refer to <link target-id="table3"/>.) Of course, the pressures at
+equilibrium do not depend on whether the reaction is balanced as in
+<link target-id="eqn2"/> or as in <link target-id="eqn12"/>. Explain why this is true, even
+though the equilibrium constant can be written differently and have
+a different value.</para></problem></exercise>
+
+<exercise id="ex4"><problem id="idm1244928"><para id="id5181134">Show that the equilibrium constant
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+in <link target-id="eqn8"/> for <link target-id="eqn2">this reaction</link> can be
+written in terms of the concentrations or particle densities,
+<foreign>e.g.</foreign>
+<m:math><m:apply><m:eq/><m:ci><m:mrow><m:mo>[</m:mo><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub><m:mo>]</m:mo></m:mrow></m:ci><m:apply><m:divide/><m:ci><m:msub><m:mi>n</m:mi><m:msub><m:mi>N</m:mi><m:mn>2</m:mn></m:msub></m:msub></m:ci><m:ci>V</m:ci></m:apply></m:apply></m:math>,
+instead of the partial pressures. In this form, we call the
+equilibrium constant
+<m:math><m:msub><m:mi>K</m:mi><m:mi>c</m:mi></m:msub></m:math>.
+Find the relationship between
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+and
+<m:math><m:msub><m:mi>K</m:mi><m:mi>c</m:mi></m:msub></m:math>,
+and calculate the value of
+<m:math><m:msub><m:mi>K</m:mi><m:mi>c</m:mi></m:msub></m:math>.</para></problem></exercise>
+
+<exercise id="ex5"><problem id="idp1434368"><para id="id5181160">For each of these reactions, predict whether
+increases in temperature will shift the reaction equilibrium more
+towards products or more towards reactants.</para>
+
+<section id="ex5a"><para id="p5a">
+<m:math><m:mrow><m:mn>2</m:mn><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>2</m:mn><m:mi>C</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section>
+
+<section id="ex5b"><para id="p5b">
+<m:math><m:mrow><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>N</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mi>N</m:mi><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section>
+
+<section id="ex5c"><para id="p5c">
+<m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>O</m:mi><m:mn>3</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mn>3</m:mn><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math></para></section></problem></exercise>
+
+<exercise id="ex6"><problem id="idp1564304"><para id="id5181315">Plot the data in <link target-id="table4"/> on a graph showing
+<m:math><m:msub><m:mi>K</m:mi><m:mi>p</m:mi></m:msub></m:math>
+on the y-axis and
+<m:math><m:ci>T</m:ci></m:math> on the
+x-axis. The shape of this graph is reminiscent of the graph of
+another physical property as a function of increasing temperature.
+Identify that property, and suggest a reason why the shapes of the
+graphs might be similar.</para></problem></exercise>
+
+<exercise id="ex7"><problem id="idm249248"><para id="id5181332">Using Le Châtelier's principle,
+predict whether the specified "stress" will produce an
+increase or a decrease in the amount of product observed at
+equilibrium for the reaction:</para>
+
+<equation id="eqn13">
+<m:math><m:mrow><m:mn>2</m:mn><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>C</m:mi><m:mi>O</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mi>O</m:mi><m:mi>H</m:mi><m:mo>(</m:mo><m:mi>g</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+</equation>
+
+<para id="newpara">
+<m:math display="block"><m:apply><m:eq/><m:apply><m:ci><m:mo>Δ</m:mo></m:ci><m:ci><m:msup><m:mi>H</m:mi><m:mo>°</m:mo></m:msup></m:ci></m:apply><m:apply><m:times/><m:cn>-91</m:cn><m:apply><m:divide/><m:ci>kJ</m:ci><m:ci>mol</m:ci></m:apply></m:apply></m:apply></m:math></para>
+
+<section id="ex7a"><para id="p7a">Volume of container is increased.</para></section>
+<section id="ex7b"><para id="p7b">Helium is added to container.</para></section>
+<section id="ex7c"><para id="p7c">Temperature of container is raised.</para></section>
+<section id="ex7d"><para id="p7d">Hydrogen is added to container.</para></section>
+<section id="ex7e"><para id="p7e"><m:math><m:mrow><m:mi>C</m:mi><m:msub><m:mi>H</m:mi><m:mn>3</m:mn></m:msub><m:mi>O</m:mi><m:mi>H</m:mi></m:mrow></m:math> is extracted from container as it is formed.</para></section>
+</problem></exercise>
+</section>
+</content>
+</document>
